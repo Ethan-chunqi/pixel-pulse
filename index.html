@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover" />
+  <meta name="theme-color" content="#090909" />
+  <meta name="description" content="UXUY 内容工作台。面向社区、项目方与上市公司，连接共用内容，生成完整方案。" />
+  <title>UXUY · Narrative Studio</title>
+  <link rel="icon" href="./favicon.svg" type="image/svg+xml" />
+  <link rel="preload" href="./UXUY-Sans-SC.woff2" as="font" type="font/woff2" crossorigin />
+  <link rel="stylesheet" href="./styles.css?v=20261029-4" />
+</head>
+<body data-view="canvas">
+<header class="topbar">
+  <a class="brand" href="#" aria-label="UXUY"><img src="./uxuy-logo.svg" alt="UXUY" /><span>NARRATIVE STUDIO</span></a>
+  <nav class="view-tabs" aria-label="Workspace" id="viewTabs"></nav>
+  <div class="header-actions"><div class="language-switch" aria-label="Language"><button data-lang="zh" lang="zh-CN">中</button><span>/</span><button data-lang="en" lang="en">EN</button></div><button class="icon-button" id="settingsButton" aria-label="内容备份与恢复"></button><button class="button primary present-button" id="presentButton"></button></div>
+</header>
+<main>
+  <section class="intro" id="intro"></section>
+  <section class="audience-bar" id="audienceBar"><span class="eyebrow" id="audienceLabel"></span><div class="audience-list" id="audienceList"></div><span class="audience-note" id="audienceNote"></span></section>
+  <section class="workspace" id="canvasView">
+    <div class="graph-column">
+      <div class="panel-heading"><div><span class="section-label" id="graphLabel"></span><span class="connected-stat" id="connectedStat"></span></div><button class="text-button" id="resetRoute"></button></div>
+      <div class="graph-board" id="graphBoard"><div class="graph-pan" id="graphPan"><svg class="graph-connections" id="connections" aria-hidden="true"></svg><div class="graph-origin" id="graphOrigin"></div><div class="graph-node-layer" id="graphNodes"></div></div></div>
+      <div class="route-strip"><span id="graphHint"></span><button class="text-button" data-view="library" id="addContent"></button></div>
+    </div>
+    <aside class="detail-panel" id="detailPanel" aria-label="Content details"></aside>
+  </section>
+  <section class="plan-view hidden" id="planView"></section>
+  <section class="library-view hidden" id="libraryView"></section>
+</main>
+<div class="modal-backdrop hidden" id="editorModal" role="dialog" aria-modal="true" aria-labelledby="editorTitle"></div>
+<div class="modal-backdrop hidden" id="backupModal" role="dialog" aria-modal="true" aria-label="Content backup"></div>
+<div class="presentation hidden" id="presentation" role="dialog" aria-modal="true" aria-label="Presentation"></div>
+<div class="toast" id="toast" role="status" aria-live="polite"></div>
+<div class="sr-only" id="liveStatus" aria-live="polite"></div>
+<script type="module" src="./app.js?v=20261029-4"></script>
+</body>
+</html>

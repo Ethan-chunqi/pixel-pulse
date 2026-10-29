@@ -1,0 +1,2245 @@
+{
+  "version": "0.3",
+  "as_of": "2026-10-29",
+  "purpose": "Maintain reusable content blocks and audience-specific narratives.",
+  "approved_positioning": "UXUY is a 100% stablecoin-denominated on-chain exchange backed by YZi Labs. Users can invest in global assets with USDT, USDC and UUSD.",
+  "editorial_rules": [
+    "Use the current, updated positioning.",
+    "Do not include old wallet, MPC, Lightning Network or inscription narratives in default scripts.",
+    "Maintain one master record per fact; change sequence and explanatory depth for each audience.",
+    "Keep industry principles, project descriptions, current rules and unconfirmed items distinct.",
+    "Maintain background, funding, user data and Trade global assets with U as separate shared blocks. Avoiding distant history does not mean removing background or funding data.",
+    "For Listed Companies (Potential Partners), lead with the value of reaching global on-chain investors before expanding into the process.",
+    "Always list the stablecoins as USDT, USDC and UUSD. Include all three in the first introduction and the Trade global assets with U block."
+  ],
+  "blocks": [
+    {
+      "id": "C01",
+      "group": "Shared",
+      "title": "What is UXUY?",
+      "key_message": "UXUY is a 100% stablecoin-denominated on-chain exchange backed by YZi Labs. Users can invest in global assets with USDT, USDC and UUSD.",
+      "speaker_explanation": "We make stablecoins the starting point for trading. Users bring USDT, USDC and UUSD to UXUY to access the on-chain assets and trading markets currently supported. Our direction is simple: stablecoin-denominated trading, with U as the gateway to global assets.",
+      "audiences": [
+        "Community",
+        "Projects",
+        "Listed Companies (Potential Partners)"
+      ],
+      "evidence_status": "Updated positioning confirmed by the user",
+      "sources": [
+        "U01",
+        "W01"
+      ],
+      "boundary": "“100%” refers to stablecoin denomination. It does not mean 100% decentralization, zero fees or that every global asset is already available.",
+      "pending_confirmation": "",
+      "technical_expansion": "",
+      "source_refs": [
+        {
+          "source_id": "U01",
+          "locator": null
+        },
+        {
+          "source_id": "W01",
+          "locator": null
+        }
+      ],
+      "last_reviewed_at": "2026-10-29",
+      "content_owner": null,
+      "review_status": "user_confirmed_positioning",
+      "presentation": {
+        "title": "What is UXUY?",
+        "kicker": "Brand positioning",
+        "lead": "A 100% stablecoin-denominated on-chain exchange backed by YZi Labs, enabling users to invest in global assets with stablecoins.",
+        "sections": [
+          {
+            "heading": "Start with stablecoins",
+            "points": [
+              "Supports USDT, USDC and UUSD, building on the stablecoins users already know.",
+              "Organizes accounts, asset selection and trade execution around stablecoins."
+            ]
+          },
+          {
+            "heading": "Build access to global assets",
+            "points": [
+              "Connects the crypto assets and stock-related on-chain assets currently supported.",
+              "Develops an in-house Perp DEX to expand stablecoin trading use cases.",
+              "Uses one consistent product approach to reduce the steps needed to access different markets."
+            ]
+          }
+        ],
+        "takeaway": "Turn stablecoins from a tool for holding and transferring value into a starting point for global assets.",
+        "evidence_note": "Updated positioning confirmed by the user; asset coverage depends on the current product.",
+        "speaker_notes": "We make stablecoins the starting point for trading. Users bring USDT, USDC and UUSD to UXUY to access the on-chain assets and trading markets currently supported. Our direction is simple: stablecoin-denominated trading, with U as the gateway to global assets."
+      }
+    },
+    {
+      "id": "C02",
+      "group": "Shared",
+      "title": "Why stablecoin-denominated trading?",
+      "key_message": "Let users move from the stablecoins they already hold to a broader range of assets and trading opportunities.",
+      "speaker_explanation": "Many users already use stablecoins for transfers, settlement and preserving purchasing power. UXUY aims to take the next step: making stablecoins a starting point for investing across assets. Users focus on what to trade and how much, while the system coordinates more of the underlying chains and protocols.",
+      "audiences": [
+        "Community",
+        "Projects",
+        "Listed Companies (Potential Partners)"
+      ],
+      "evidence_status": "Product direction supported by the user and current documentation",
+      "sources": [
+        "U01",
+        "W01",
+        "F01 pp. 3–4"
+      ],
+      "boundary": "Each stablecoin has its own issuance, reserve and price risks. Stablecoin denomination is not a promise of a US-dollar bank deposit.",
+      "pending_confirmation": "",
+      "technical_expansion": "",
+      "source_refs": [
+        {
+          "source_id": "U01",
+          "locator": null
+        },
+        {
+          "source_id": "W01",
+          "locator": null
+        },
+        {
+          "source_id": "F01",
+          "locator": "第3–4页"
+        }
+      ],
+      "last_reviewed_at": "2026-10-29",
+      "content_owner": null,
+      "review_status": "draft_for_content_review",
+      "presentation": {
+        "title": "Why stablecoin-denominated trading?",
+        "kicker": "Product rationale",
+        "lead": "Start with the stablecoins users already hold, and connect their funds to more assets and trading opportunities.",
+        "sections": [
+          {
+            "heading": "Build on existing user habits",
+            "points": [
+              "USDT, USDC and UUSD provide stablecoin entry points for trading.",
+              "Extend the same product approach beyond transfers and settlement to asset participation."
+            ]
+          },
+          {
+            "heading": "Organize the experience around investment goals",
+            "points": [
+              "Users choose what to trade and how much, then confirm the quote and costs.",
+              "The system coordinates accounts, routing and multichain execution to reduce fragmented steps.",
+              "Clear fees and transaction results help users understand each trade."
+            ]
+          }
+        ],
+        "takeaway": "Users focus on assets and trading goals; the system handles more of the underlying coordination.",
+        "evidence_note": "Product direction supported by user confirmation, official documentation and the whitepaper.",
+        "speaker_notes": "Many users already use stablecoins for transfers, settlement and preserving purchasing power. UXUY aims to take the next step: making stablecoins a starting point for investing across assets. Users focus on what to trade and how much, while the system coordinates more of the underlying chains and protocols."
+      }
+    },
+    {
+      "id": "C03",
+      "group": "Shared",
+      "title": "How users actually trade",
+      "key_message": "Hold or deposit a supported stablecoin, choose an asset, review the quote and fees, confirm the trade and check the result.",
+      "speaker_explanation": "Users prepare a supported stablecoin, choose an asset and amount, review the quote, fees and trading restrictions, then confirm the trade. The system finds an executable route. Afterward, users can view the relevant transaction or settlement records. We aim to move fragmented steps into the background so users can see clearly what they are trading and what it costs.",
+      "audiences": [
+        "Community",
+        "Projects"
+      ],
+      "evidence_status": "Described in current official documentation and user-provided materials",
+      "sources": [
+        "W01",
+        "W02",
+        "F01 pp. 7–8",
+        "F02 pp. 6"
+      ],
+      "boundary": "Availability depends on the current network, region, account type and trading interface. Do not promise instant success for every order or that every asset returns directly to a wallet on the same chain.",
+      "pending_confirmation": "",
+      "technical_expansion": "",
+      "source_refs": [
+        {
+          "source_id": "W01",
+          "locator": null
+        },
+        {
+          "source_id": "W02",
+          "locator": null
+        },
+        {
+          "source_id": "F01",
+          "locator": "第7–8页"
+        },
+        {
+          "source_id": "F02",
+          "locator": "第6页"
+        }
+      ],
+      "last_reviewed_at": "2026-10-29",
+      "content_owner": null,
+      "review_status": "draft_for_content_review",
+      "presentation": {
+        "title": "How a trade is completed",
+        "kicker": "User journey",
+        "lead": "Make funding, asset selection, trade confirmation and results a clear sequence.",
+        "sections": [
+          {
+            "heading": "Before trading: know the asset and cost",
+            "points": [
+              "Prepare a currently supported stablecoin: USDT, USDC and UUSD.",
+              "Choose an asset and amount; review the quote, fees and trading restrictions.",
+              "Confirm permissions and trading conditions before submitting the order."
+            ]
+          },
+          {
+            "heading": "During and after trading: see the result",
+            "points": [
+              "The system finds available routes and coordinates execution and settlement.",
+              "Users check trade status, asset receipt and available records.",
+              "The precise process varies by network, account type and product rules."
+            ]
+          }
+        ],
+        "takeaway": "Let the system handle complex execution, while users see their choices, costs and results.",
+        "evidence_note": "Based on current official documentation; the live interface and available scope take precedence.",
+        "speaker_notes": "Users prepare a supported stablecoin, choose an asset and amount, review the quote, fees and trading restrictions, then confirm the trade. The system finds an executable route. Afterward, users can view the relevant transaction or settlement records. We aim to move fragmented steps into the background so users can see clearly what they are trading and what it costs."
+      }
+    },
+    {
+      "id": "C04",
+      "group": "Shared",
+      "title": "The current product map",
+      "key_message": "Bring crypto trading, stock-related trading and an in-house Perp DEX together around stablecoins.",
+      "speaker_explanation": "UXUY connects several markets through stablecoins: crypto assets, stock-related on-chain assets and an in-house perpetuals market. Accounts, cross-chain execution and routing support these markets. Smart execution and Trade Agent operate at different levels; their specific uses and current availability need to be explained separately.",
+      "audiences": [
+        "Community",
+        "Projects",
+        "Listed Companies (Potential Partners)"
+      ],
+      "evidence_status": "Product categories are supported by materials; availability is maintained separately",
+      "sources": [
+        "W01",
+        "W03",
+        "F01 pp. 5"
+      ],
+      "boundary": "The whitepaper lists Trade Agent and Ucard as in development, and stock and commodity perpetuals as later phases. Appearance in an older README or diagram does not establish full current availability.",
+      "pending_confirmation": "Add a current list of available assets, regions, networks and products. Confirm whether Trade Agent has moved from development to launch.",
+      "technical_expansion": "",
+      "source_refs": [
+        {
+          "source_id": "W01",
+          "locator": null
+        },
+        {
+          "source_id": "W03",
+          "locator": null
+        },
+        {
+          "source_id": "F01",
+          "locator": "第5页"
+        }
+      ],
+      "last_reviewed_at": "2026-10-29",
+      "content_owner": null,
+      "review_status": "draft_for_content_review",
+      "presentation": {
+        "title": "One stablecoin approach, multiple markets",
+        "kicker": "Product map",
+        "lead": "Organize asset access, in-house markets and underlying execution around stablecoins.",
+        "sections": [
+          {
+            "heading": "Trading use cases for users",
+            "points": [
+              "Crypto assets: connect currently supported on-chain assets and liquidity.",
+              "Stock-related on-chain assets: extend participation in real-world assets.",
+              "In-house Perp DEX: develop a perpetuals trading market."
+            ]
+          },
+          {
+            "heading": "Shared infrastructure across use cases",
+            "points": [
+              "uAccount handles accounts and permissions; routing organizes execution paths.",
+              "Gas handling and multichain execution reduce fragmented user actions.",
+              "Planned capabilities such as Trade Agent become available according to actual progress."
+            ]
+          }
+        ],
+        "takeaway": "Asset access can keep expanding, with stablecoins and execution capabilities as the shared foundation.",
+        "evidence_note": "Whitepaper and official documentation; development status of Trade Agent and other planned features needs updating.",
+        "speaker_notes": "UXUY connects several markets through stablecoins: crypto assets, stock-related on-chain assets and an in-house perpetuals market. Accounts, cross-chain execution and routing support these markets. Smart execution and Trade Agent operate at different levels; their specific uses and current availability need to be explained separately."
+      }
+    },
+    {
+      "id": "C05",
+      "group": "Shared",
+      "title": "UXUY background and team",
+      "key_message": "Backed by YZi Labs, with a core team experienced in multichain wallets, on-chain accounts and trading products.",
+      "speaker_explanation": "UXUY is backed by YZi Labs. Its founders and core team have experience building multichain wallet products including BitKeep, covering accounts, asset management, multichain interactions and user experience. Today that experience supports stablecoin-denominated on-chain trading: building the user-facing exchange alongside accounts, execution and an in-house Perp DEX.",
+      "audiences": [
+        "Community",
+        "Projects",
+        "Listed Companies (Potential Partners)"
+      ],
+      "evidence_status": "Investment relationship confirmed by the user; team background from company materials",
+      "sources": [
+        "U01",
+        "U02",
+        "F03 section 9",
+        "F01 pp. 14"
+      ],
+      "boundary": "Keep the introduction focused on relevant experience and current development, without an early-product or acquisition timeline. Avoid unverified absolute claims such as an incident-free asset management record.",
+      "pending_confirmation": "Verify the latest publicly shareable team biographies, roles and institution names.",
+      "technical_expansion": "",
+      "source_refs": [
+        {
+          "source_id": "U01",
+          "locator": null
+        },
+        {
+          "source_id": "U02",
+          "locator": null
+        },
+        {
+          "source_id": "F03",
+          "locator": "第9节"
+        },
+        {
+          "source_id": "F01",
+          "locator": "第14页"
+        }
+      ],
+      "last_reviewed_at": "2026-10-29",
+      "content_owner": null,
+      "review_status": "draft_for_content_review",
+      "presentation": {
+        "title": "UXUY background and team",
+        "kicker": "Team and development foundation",
+        "lead": "YZi Labs backing, combined with multichain wallet and trading product experience, supports ongoing development.",
+        "sections": [
+          {
+            "heading": "Experience relevant to the business today",
+            "points": [
+              "The core team has worked on multichain wallet products including BitKeep.",
+              "Experience spans accounts, asset management, multichain interactions and user experience."
+            ]
+          },
+          {
+            "heading": "Turn experience into current capabilities",
+            "points": [
+              "Build a trading entry point that starts with stablecoins.",
+              "Continue developing accounts, execution and multichain coordination.",
+              "Develop an in-house Perp DEX to expand proprietary market capabilities."
+            ]
+          }
+        ],
+        "takeaway": "Relevant background matters because it supports continued delivery of account, execution and trading products.",
+        "evidence_note": "Investment relationship confirmed by the user; team experience from company materials.",
+        "speaker_notes": "UXUY is backed by YZi Labs. Its founders and core team have experience building multichain wallet products including BitKeep, covering accounts, asset management, multichain interactions and user experience. Today that experience supports stablecoin-denominated on-chain trading: building the user-facing exchange alongside accounts, execution and an in-house Perp DEX."
+      }
+    },
+    {
+      "id": "C06",
+      "group": "Shared",
+      "title": "Vision and decentralization",
+      "key_message": "Make open, transparent and verifiable on-chain trading markets easier for stablecoin users to access.",
+      "speaker_explanation": "We want users to face fewer barriers from chains, Gas and fragmented markets, with clearer control over their accounts and permissions and traceable trading and settlement. Decentralization must be addressed through account permissions, protocol execution, market participation and governance mechanisms. Our immediate focus is reliable products; over time, we aim to increase openness and user control.",
+      "audiences": [
+        "Community",
+        "Projects"
+      ],
+      "evidence_status": "Vision; related designs appear in the whitepaper and official documentation",
+      "sources": [
+        "U01",
+        "W01",
+        "F01 pp. 4, 7, 11–13"
+      ],
+      "boundary": "Do not make a blanket claim of complete end-to-end decentralization. Explain accounts, Perp fund management, matching, oracles, administrator permissions and stock custody separately.",
+      "pending_confirmation": "Clarify permission holders, upgrade processes, fund flows and future openness for each current product.",
+      "technical_expansion": "",
+      "source_refs": [
+        {
+          "source_id": "U01",
+          "locator": null
+        },
+        {
+          "source_id": "W01",
+          "locator": null
+        },
+        {
+          "source_id": "F01",
+          "locator": "第4、7、11–13页"
+        }
+      ],
+      "last_reviewed_at": "2026-10-29",
+      "content_owner": null,
+      "review_status": "draft_for_content_review",
+      "presentation": {
+        "title": "Vision: more open on-chain trading",
+        "kicker": "Long-term direction",
+        "lead": "Make open, transparent and verifiable on-chain markets easier for stablecoin users to access.",
+        "sections": [
+          {
+            "heading": "Start with the experience today",
+            "points": [
+              "Reduce friction from chains, Gas and fragmented markets.",
+              "Make account permissions and user authorizations clearer.",
+              "Make trading and settlement recorded and traceable."
+            ]
+          },
+          {
+            "heading": "Make decentralization concrete",
+            "points": [
+              "Assess account control, protocol execution and market participation separately.",
+              "Continue clarifying governance, upgrades and administrator permissions.",
+              "Expand openness and user control on a foundation of reliable operation."
+            ]
+          }
+        ],
+        "takeaway": "Advance decentralization through specific mechanisms that can be verified.",
+        "evidence_note": "Vision and architecture are described in the whitepaper; current permissions need checking at each layer.",
+        "speaker_notes": "We want users to face fewer barriers from chains, Gas and fragmented markets, with clearer control over their accounts and permissions and traceable trading and settlement. Decentralization must be addressed through account permissions, protocol execution, market participation and governance mechanisms. Our immediate focus is reliable products; over time, we aim to increase openness and user control."
+      }
+    },
+    {
+      "id": "C07",
+      "group": "Shared",
+      "title": "How UXUY, uStock and UUSD work together",
+      "key_message": "uStock connects assets and listed companies, UUSD supports related settlement, and UXUY connects trading markets and users.",
+      "speaker_explanation": "uStock, UUSD and UXUY handle distinct parts of the workflow. uStock organizes assets, issuance and onboarding around real shares. UUSD supports subscription, denomination and settlement in the relevant arrangements. UXUY connects stablecoin users with trading markets and develops an in-house Perp DEX. Together they connect assets, capital and trading.",
+      "audiences": [
+        "Projects",
+        "Listed Companies (Potential Partners)"
+      ],
+      "evidence_status": "Roles described in user-provided business materials",
+      "sources": [
+        "F04 section 7",
+        "U01"
+      ],
+      "boundary": "The materials describe separate brands and entities with independent legal and financial arrangements. Do not portray them as one shared fund pool or equate the issuance and reserve mechanisms of USDT/USDC with UUSD.",
+      "pending_confirmation": "Confirm publicly disclosable organizational relationships, each party’s service responsibilities and the current UUSD explanation.",
+      "technical_expansion": "",
+      "source_refs": [
+        {
+          "source_id": "F04",
+          "locator": "第7节"
+        },
+        {
+          "source_id": "U01",
+          "locator": null
+        }
+      ],
+      "last_reviewed_at": "2026-10-29",
+      "content_owner": null,
+      "review_status": "draft_for_content_review",
+      "presentation": {
+        "title": "Connecting assets, capital and trading",
+        "kicker": "Brand collaboration",
+        "lead": "uStock, UUSD and UXUY handle assets, settlement and trading respectively, connecting on-chain capital markets.",
+        "sections": [
+          {
+            "heading": "Each party handles a distinct stage",
+            "points": [
+              "uStock: organizes asset, issuance and onboarding arrangements around real shares.",
+              "UUSD: supports subscription, denomination and settlement in the relevant arrangements.",
+              "UXUY: connects stablecoin users with trading markets and develops an in-house Perp DEX."
+            ]
+          },
+          {
+            "heading": "Interfaces to align in a partnership",
+            "points": [
+              "Clarify how assets and rights move from issuance into trading.",
+              "Clarify who handles subscription funds, settlement and disclosures.",
+              "The parties collaborate under service arrangements between independent entities."
+            ]
+          }
+        ],
+        "takeaway": "uStock connects assets, UUSD supports relevant settlement, and UXUY connects markets and users.",
+        "evidence_note": "Based on the uStock company proposal; relationships and responsibilities depend on the specific arrangements.",
+        "speaker_notes": "uStock, UUSD and UXUY handle distinct parts of the workflow. uStock organizes assets, issuance and onboarding around real shares. UUSD supports subscription, denomination and settlement in the relevant arrangements. UXUY connects stablecoin users with trading markets and develops an in-house Perp DEX. Together they connect assets, capital and trading."
+      }
+    },
+    {
+      "id": "C08",
+      "group": "Shared",
+      "title": "UXUY funding",
+      "key_message": "Backed by YZi Labs; completed a $7 million Pre-A. Company materials from September 2026 report over $11 million in cumulative funding.",
+      "speaker_explanation": "UXUY is backed by YZi Labs and has completed a $7 million Pre-A funding round. Company-provided materials dated September 9, 2026 report cumulative funding of over $11 million. This capital supports continued development of stablecoin trading, on-chain execution and in-house trading markets.",
+      "audiences": [
+        "Community",
+        "Projects",
+        "Listed Companies (Potential Partners)"
+      ],
+      "evidence_status": "Company-reported funding figures; the $7 million Pre-A is also supported by a public announcement",
+      "sources": [
+        "U02",
+        "F03 section 10",
+        "G01",
+        "W09",
+        "W10"
+      ],
+      "boundary": "The cumulative figure includes the relevant rounds: do not add $7 million to $11 million. Attribute the cumulative figure to the September 2026 company materials. Do not infer a current valuation, cash balance or investment-return guarantee.",
+      "pending_confirmation": "The public announcement reported over $10 million cumulatively; later company materials report over $11 million. Preserve the date and attribution of each disclosure, and obtain a funding breakdown and latest publicly shareable investor list.",
+      "technical_expansion": "",
+      "last_reviewed_at": "2026-10-29",
+      "content_owner": null,
+      "review_status": "draft_for_content_review",
+      "metric_ids": [
+        "pre_a_funding",
+        "cumulative_funding"
+      ],
+      "source_refs": [
+        {
+          "source_id": "U02",
+          "locator": null
+        },
+        {
+          "source_id": "F03",
+          "locator": "第10节"
+        },
+        {
+          "source_id": "G01",
+          "locator": null
+        },
+        {
+          "source_id": "W09",
+          "locator": null
+        },
+        {
+          "source_id": "W10",
+          "locator": null
+        }
+      ],
+      "presentation": {
+        "title": "UXUY funding",
+        "kicker": "Capital support",
+        "lead": "September 2026 company materials report over $11 million in cumulative funding, including a completed $7 million Pre-A.",
+        "sections": [
+          {
+            "heading": "Disclosed capital support",
+            "points": [
+              "Backed by YZi Labs to support on-chain trading product development.",
+              "Completed a $7 million Pre-A round, also supported by a public announcement."
+            ]
+          },
+          {
+            "heading": "A foundation for ongoing development",
+            "points": [
+              "September 2026 company materials report over $11 million in cumulative funding.",
+              "Capital supports continued stablecoin trading, on-chain execution and in-house market development.",
+              "The Pre-A is included in the cumulative funding figure."
+            ]
+          }
+        ],
+        "takeaway": "Capital support serves long-term product development and ecosystem expansion.",
+        "evidence_note": "Cumulative figure from company materials dated 2026-09-09; Pre-A supported by a public funding announcement.",
+        "speaker_notes": "UXUY is backed by YZi Labs and has completed a $7 million Pre-A funding round. Company-provided materials dated September 9, 2026 report cumulative funding of over $11 million. This capital supports continued development of stablecoin trading, on-chain execution and in-house trading markets."
+      }
+    },
+    {
+      "id": "C09",
+      "group": "Shared",
+      "title": "UXUY users and trading data",
+      "key_message": "September 2026 company materials report a 10 million+ user base, including earlier wallet users, 800,000+ cumulative traders and approximately $50 million in daily trading volume.",
+      "speaker_explanation": "According to company-provided materials dated September 9, 2026, UXUY has a user base of over 10 million, including users accumulated through its earlier wallet business, over 800,000 cumulative traders and approximately $50 million in daily trading volume. This provides a foundation for identifying real trading and partnership use cases. Each partnership still needs to assess currently reachable users whose needs fit the proposal.",
+      "audiences": [
+        "Community",
+        "Projects",
+        "Listed Companies (Potential Partners)"
+      ],
+      "evidence_status": "Company-reported; metric cut-off dates, deduplication and trading definitions need completion",
+      "sources": [
+        "U02",
+        "F03 section 6.2",
+        "F04 section 7"
+      ],
+      "boundary": "The 10 million user base includes earlier wallet users. It is not the new exchange’s unique user count, MAU or a count of reachable investors. Cumulative traders are not current active traders. Daily volume lacks a specific date, averaging period and market scope; do not call it live data. Maintain the three metrics separately.",
+      "pending_confirmation": "Add each metric’s cut-off date, definition, deduplication and product scope. Separately verify earlier wallet and new exchange user counts and overlap, plus volume dates or averaging periods and actual execution definitions.",
+      "technical_expansion": "",
+      "last_reviewed_at": "2026-10-29",
+      "content_owner": null,
+      "review_status": "draft_for_content_review",
+      "metric_ids": [
+        "users",
+        "cumulative_traders",
+        "daily_trading_volume"
+      ],
+      "source_refs": [
+        {
+          "source_id": "U02",
+          "locator": null
+        },
+        {
+          "source_id": "F03",
+          "locator": "第6.2节"
+        },
+        {
+          "source_id": "F04",
+          "locator": "第7节"
+        }
+      ],
+      "presentation": {
+        "title": "UXUY user and trading foundation",
+        "kicker": "Scale and business experience",
+        "lead": "September 2026 company materials report a 10 million+ user base, 800,000+ cumulative traders and approximately $50 million in daily trading volume.",
+        "sections": [
+          {
+            "heading": "Three distinct user and trading metrics",
+            "points": [
+              "10 million+ user base, including users from the earlier wallet business.",
+              "800,000+ cumulative traders, reflecting historical trading participation.",
+              "Approximately $50 million in daily volume, as reported in company materials."
+            ]
+          },
+          {
+            "heading": "Connect the user foundation to specific partnerships",
+            "points": [
+              "Identify real user needs around assets, trading and distribution.",
+              "Confirm the currently reachable and relevant target users before a pilot.",
+              "Measure results through actual conversion, trading and retention."
+            ]
+          }
+        ],
+        "takeaway": "The user base is a starting point; current demand, reach and execution determine partnership results.",
+        "evidence_note": "Company materials dated 2026-09-09; includes earlier wallet users and is neither live nor active-user data.",
+        "speaker_notes": "According to company-provided materials dated September 9, 2026, UXUY has a user base of over 10 million, including users accumulated through its earlier wallet business, over 800,000 cumulative traders and approximately $50 million in daily trading volume. This provides a foundation for identifying real trading and partnership use cases. Each partnership still needs to assess currently reachable users whose needs fit the proposal."
+      }
+    },
+    {
+      "id": "C10",
+      "group": "Shared",
+      "title": "Trade global assets with U",
+      "key_message": "Start with USDT, USDC and UUSD to connect with more global assets and trading opportunities.",
+      "speaker_explanation": "“Trade global assets with U” is the UXUY value we want users to remember. U refers to three stablecoins: USDT, USDC and UUSD. Starting with familiar stablecoins, users can enter currently supported crypto, stock-related on-chain asset and perpetuals markets. As asset coverage and the ecosystem expand, trading opportunities can grow.",
+      "audiences": [
+        "Community",
+        "Projects",
+        "Listed Companies (Potential Partners)"
+      ],
+      "evidence_status": "Communication theme confirmed by the user; exact coverage follows current products",
+      "sources": [
+        "U01",
+        "U02",
+        "W01",
+        "F03 section 11"
+      ],
+      "boundary": "U does not refer only to UUSD and is not a UXUY platform token. Global assets describes coverage and development direction; it does not mean every stock, region and product is already available.",
+      "pending_confirmation": "",
+      "technical_expansion": "",
+      "last_reviewed_at": "2026-10-29",
+      "content_owner": null,
+      "review_status": "draft_for_content_review",
+      "source_refs": [
+        {
+          "source_id": "U01",
+          "locator": null
+        },
+        {
+          "source_id": "U02",
+          "locator": null
+        },
+        {
+          "source_id": "W01",
+          "locator": null
+        },
+        {
+          "source_id": "F03",
+          "locator": "第11节"
+        }
+      ],
+      "presentation": {
+        "title": "Trade global assets with U",
+        "kicker": "Core message",
+        "lead": "Use USDT, USDC and UUSD to access the global assets and trading opportunities currently supported.",
+        "sections": [
+          {
+            "heading": "U means familiar stablecoins",
+            "points": [
+              "Explicitly includes USDT, USDC and UUSD.",
+              "Stablecoins are the common starting point across different asset use cases."
+            ]
+          },
+          {
+            "heading": "Expand asset participation along one product approach",
+            "points": [
+              "Connect currently supported crypto and stock-related on-chain assets.",
+              "Expand perpetuals use cases through an in-house Perp DEX.",
+              "Continue adding trading opportunities through asset onboarding and ecosystem development."
+            ]
+          }
+        ],
+        "takeaway": "Start with the U you hold, and access more assets and markets.",
+        "evidence_note": "Communication theme confirmed by the user; coverage depends on currently available products.",
+        "speaker_notes": "“Trade global assets with U” is the UXUY value we want users to remember. U refers to three stablecoins: USDT, USDC and UUSD. Starting with familiar stablecoins, users can enter currently supported crypto, stock-related on-chain asset and perpetuals markets. As asset coverage and the ecosystem expand, trading opportunities can grow."
+      }
+    },
+    {
+      "id": "T01",
+      "group": "Technology",
+      "title": "uAccount: accounts and permissions",
+      "key_message": "Simplify the steps while making the scope of user authorization clear.",
+      "speaker_explanation": "Traditional wallets often require users to handle approvals, Gas and multiple actions separately. The whitepaper describes uAccount as using smart-account capabilities for permissions, batch transactions and programmable limits, enabling the execution system to act within user authorization. We aim for fewer steps and clearer permissions; specific account standards and permission designs can be discussed in more depth.",
+      "audiences": [
+        "Community",
+        "Projects"
+      ],
+      "evidence_status": "Architecture from the whitepaper; current documentation confirms smart contract accounts",
+      "sources": [
+        "F01 pp. 7–8",
+        "W01",
+        "K01",
+        "K02"
+      ],
+      "boundary": "The whitepaper references EIP-7702 + AA; do not assume an identical standard across every network. AA, MPC, ERC-4337 and EIP-7702 are not interchangeable terms.",
+      "pending_confirmation": "Confirm per-chain account implementations, signing and recovery, delegated execution permissions, revocation, deployed contracts and corresponding audits.",
+      "technical_expansion": "Industry context: account abstraction (AA) is a broad term for programmable account capabilities. EIP-7702 allows EOAs to delegate code; ERC-4337 defines a system including UserOperations, bundlers and paymasters. These standards alone do not prove that UXUY uses every component.",
+      "source_refs": [
+        {
+          "source_id": "F01",
+          "locator": "第7–8页"
+        },
+        {
+          "source_id": "W01",
+          "locator": null
+        },
+        {
+          "source_id": "K01",
+          "locator": null
+        },
+        {
+          "source_id": "K02",
+          "locator": null
+        }
+      ],
+      "last_reviewed_at": "2026-10-29",
+      "content_owner": null,
+      "review_status": "draft_for_content_review",
+      "presentation": {
+        "title": "uAccount: fewer steps, clearer permissions",
+        "kicker": "Smart accounts",
+        "lead": "Use programmable accounts for permissions and batch actions, with execution kept within user authorization.",
+        "sections": [
+          {
+            "heading": "What the account handles",
+            "points": [
+              "Carries user permissions and programmable transaction limits.",
+              "Groups eligible multistep actions into batch execution.",
+              "Provides account coordination for Gas handling and automated execution."
+            ]
+          },
+          {
+            "heading": "What users gain",
+            "points": [
+              "Less repeated switching and separate confirmation.",
+              "A clearer understanding of who is authorized and what they can do.",
+              "Permissions, revocation and recovery are explained according to the current implementation."
+            ]
+          }
+        ],
+        "takeaway": "Simplify account actions while keeping authorization understandable and manageable.",
+        "evidence_note": "Whitepaper architecture; official documents confirm smart contract accounts. Per-chain implementations need verification.",
+        "speaker_notes": "Traditional wallets often require users to handle approvals, Gas and multiple actions separately. The whitepaper describes uAccount as using smart-account capabilities for permissions, batch transactions and programmable limits, enabling the execution system to act within user authorization. We aim for fewer steps and clearer permissions; specific account standards and permission designs can be discussed in more depth."
+      }
+    },
+    {
+      "id": "T02",
+      "group": "Technology",
+      "title": "GasPool / GasLess: fewer steps to prepare Gas",
+      "key_message": "Reduce the need to acquire native Gas tokens separately for eligible trades.",
+      "speaker_explanation": "On-chain actions consume network resources. UXUY integrates Gas handling into the trading flow. The whitepaper describes paymaster sponsorship, while current rules specify which transactions can have network Gas covered by the platform. Where eligible, users do not first need to acquire each chain’s native Gas token and return to trade; the rules specify who bears the network cost.",
+      "audiences": [
+        "Community",
+        "Projects"
+      ],
+      "evidence_status": "Current GasLess rules are available; the mapping of GasPool to current modules needs confirmation",
+      "sources": [
+        "W02",
+        "F01 pp. 7–8"
+      ],
+      "boundary": "Use “GasLess” or “Gas handling” in the default talk track. Do not equate GasPool with uPool. Current rules exclude US/Hong Kong stock trades and TRON, and impose network, amount and frequency conditions. Solana has separate payment rules.",
+      "pending_confirmation": "Confirm whether GasPool remains the official name and how it relates to paymasters, subsidies and fee settlement. Resolve inconsistencies in the current Solana entries.",
+      "technical_expansion": "Industry context: a sponsor first pays native network fees, then either bears that cost or settles with the user under business rules. The design depends on the account, protocol and payment arrangement. Gasless does not mean every fee is zero.",
+      "source_refs": [
+        {
+          "source_id": "W02",
+          "locator": null
+        },
+        {
+          "source_id": "F01",
+          "locator": "第7–8页"
+        }
+      ],
+      "last_reviewed_at": "2026-10-29",
+      "content_owner": null,
+      "review_status": "draft_for_content_review",
+      "presentation": {
+        "title": "GasLess: less preparation for Gas",
+        "kicker": "Network fees",
+        "lead": "Integrate network Gas handling into the flow of eligible trades.",
+        "sections": [
+          {
+            "heading": "One less preparation step",
+            "points": [
+              "Reduce the need to acquire each chain’s native Gas token before returning to trade.",
+              "Let users organize trading choices around the asset and amount."
+            ]
+          },
+          {
+            "heading": "How network costs are handled",
+            "points": [
+              "The whitepaper describes paymaster sponsorship, with the mechanism paying network costs first.",
+              "Whether the platform covers the cost depends on network, amount, frequency and product rules.",
+              "Check the applicable rules for US/Hong Kong stocks, TRON, Solana and other cases."
+            ]
+          }
+        ],
+        "takeaway": "Reduce Gas preparation so users can complete trades more smoothly.",
+        "evidence_note": "Current GasLess rules are available; GasPool naming and module mapping need confirmation.",
+        "speaker_notes": "On-chain actions consume network resources. UXUY integrates Gas handling into the trading flow. The whitepaper describes paymaster sponsorship, while current rules specify which transactions can have network Gas covered by the platform. Where eligible, users do not first need to acquire each chain’s native Gas token and return to trade; the rules specify who bears the network cost."
+      }
+    },
+    {
+      "id": "T03",
+      "group": "Technology",
+      "title": "Smart routing and AI: from intent to execution",
+      "key_message": "Routing optimizes how a trade executes; it does not predict whether an asset price will rise.",
+      "speaker_explanation": "A trade may have routes across different chains, venues and liquidity sources. The router compares available liquidity, quotes, slippage, network fees and route conditions to form an executable plan. Project materials describe AI-assisted execution optimization. Current public documentation directly confirms automatic routing and the dimensions it compares.",
+      "audiences": [
+        "Community",
+        "Projects"
+      ],
+      "evidence_status": "Automatic routing is documented; AI implementation details need verification",
+      "sources": [
+        "W01",
+        "F01 pp. 7–8",
+        "F02 pp. 6",
+        "K03"
+      ],
+      "boundary": "Do not claim AI guarantees the best price or profits, or that every AI model is developed in-house. Pathfinding does not automatically mean machine learning. Trade Agent is not another name for smart routing.",
+      "pending_confirmation": "Confirm whether AI handles search, ranking, prediction or order splitting; models, inputs and outputs; live execution safeguards, failure fallbacks and performance benchmarks.",
+      "technical_expansion": "Industry context: routes may be compared by expected received value minus total costs, or selected subject to slippage and latency constraints. Splitting an order can reduce price impact but increase Gas. Conditions can change between quote and execution.",
+      "source_refs": [
+        {
+          "source_id": "W01",
+          "locator": null
+        },
+        {
+          "source_id": "F01",
+          "locator": "第7–8页"
+        },
+        {
+          "source_id": "F02",
+          "locator": "第6页"
+        },
+        {
+          "source_id": "K03",
+          "locator": null
+        }
+      ],
+      "last_reviewed_at": "2026-10-29",
+      "content_owner": null,
+      "review_status": "draft_for_content_review",
+      "presentation": {
+        "title": "Smart routing: from intent to execution",
+        "kicker": "Trade execution",
+        "lead": "Compare liquidity, quotes and execution costs to organize an executable route.",
+        "sections": [
+          {
+            "heading": "What a router compares",
+            "points": [
+              "Which chains, markets and liquidity routes can complete the trade.",
+              "Quotes, slippage, network fees and route conditions together.",
+              "Available resources and, where useful, combinations of routes."
+            ]
+          },
+          {
+            "heading": "Where AI fits",
+            "points": [
+              "Project materials describe AI as assisting execution optimization.",
+              "Public documentation confirms automatic routing and its comparison dimensions.",
+              "AI’s specific role and impact need further explanation through implementation details and benchmarks."
+            ]
+          }
+        ],
+        "takeaway": "Smart routing helps execute a trading goal; routes, costs and market conditions determine the outcome.",
+        "evidence_note": "Automatic routing is described in current official documents; AI models and implementation need verification.",
+        "speaker_notes": "A trade may have routes across different chains, venues and liquidity sources. The router compares available liquidity, quotes, slippage, network fees and route conditions to form an executable plan. Project materials describe AI-assisted execution optimization. Current public documentation directly confirms automatic routing and the dimensions it compares."
+      }
+    },
+    {
+      "id": "T04",
+      "group": "Technology",
+      "title": "uPool and multichain execution",
+      "key_message": "Users express a trading goal; the system coordinates stablecoins and execution resources across chains.",
+      "speaker_explanation": "Assets and liquidity are fragmented across chains. In the whitepaper design, uPool coordinates cross-chain stablecoin liquidity, while an execution engine organizes the trading plan, reducing manual bridging and chain switching. uPool handles liquidity and cross-chain coordination; Gas sponsorship handles network fee payments. These are distinct responsibilities.",
+      "audiences": [
+        "Community",
+        "Projects"
+      ],
+      "evidence_status": "Architecture from the whitepaper; current documentation confirms cross-chain routing",
+      "sources": [
+        "F01 pp. 7–8",
+        "W01"
+      ],
+      "boundary": "“No manual bridging” describes the user experience. It does not remove cross-chain dependencies, settlement waits or failure risk. Do not use the whitepaper’s fully Gas-free TRON bridging example as a current product demonstration.",
+      "pending_confirmation": "Confirm supported routes, liquidity sources, bridge or messaging dependencies, finality and refund mechanisms, and rules for using balances across markets.",
+      "technical_expansion": "",
+      "source_refs": [
+        {
+          "source_id": "F01",
+          "locator": "第7–8页"
+        },
+        {
+          "source_id": "W01",
+          "locator": null
+        }
+      ],
+      "last_reviewed_at": "2026-10-29",
+      "content_owner": null,
+      "review_status": "draft_for_content_review",
+      "presentation": {
+        "title": "uPool: coordinating multichain liquidity",
+        "kicker": "Multichain execution",
+        "lead": "Connect stablecoins and execution resources across chains, reducing manual bridging and chain switching.",
+        "sections": [
+          {
+            "heading": "What multichain trading must solve",
+            "points": [
+              "Assets and liquidity are spread across networks and markets.",
+              "A trade may require coordination of funds, messages and settlement order."
+            ]
+          },
+          {
+            "heading": "How uPool and execution work together",
+            "points": [
+              "In the whitepaper design, uPool coordinates stablecoin liquidity across chains.",
+              "The execution engine organizes the trading plan and available on-chain resources.",
+              "Gas handling separately addresses payment of network fees."
+            ]
+          }
+        ],
+        "takeaway": "Let users express the trading goal while the system coordinates across chains.",
+        "evidence_note": "uPool architecture is described in the whitepaper; current documents confirm cross-chain routing. Route details need verification.",
+        "speaker_notes": "Assets and liquidity are fragmented across chains. In the whitepaper design, uPool coordinates cross-chain stablecoin liquidity, while an execution engine organizes the trading plan, reducing manual bridging and chain switching. uPool handles liquidity and cross-chain coordination; Gas sponsorship handles network fee payments. These are distinct responsibilities."
+      }
+    },
+    {
+      "id": "T05",
+      "group": "Technology",
+      "title": "In-house Perp DEX: a stablecoin market",
+      "key_message": "UXUY connects external markets and also develops its own perpetuals trading capabilities.",
+      "speaker_explanation": "Perpetual contracts let users open long or short positions with margin and no fixed expiry. A Perp market must handle orders, execution, margin, prices, settlement and liquidation. UXUY’s in-house Perp DEX builds a proprietary market around stablecoin trading. This is a distinct execution path from routing spot orders to external venues.",
+      "audiences": [
+        "Community",
+        "Projects",
+        "Listed Companies (Potential Partners)"
+      ],
+      "evidence_status": "In-house development is stated in project materials; current Perp rules are documented",
+      "sources": [
+        "F01 pp. 5–8",
+        "F03 section 4.4",
+        "W03",
+        "W04",
+        "W07"
+      ],
+      "boundary": "In-house development does not mean every dependency is proprietary, all matching is on-chain or the entire system is open source. Current contract availability depends on the live market.",
+      "pending_confirmation": "Confirm order-book and matching deployment, order signatures, settlement batches, cancellation, latency and performance, and the relationship between matching, ULP and third-party market makers.",
+      "technical_expansion": "Explanatory flow: submit order → check account and margin → match or execute against an available quote → update position and settle → monitor risk continuously. This is a teaching framework; a current technical diagram must substantiate the implementation of each step.",
+      "source_refs": [
+        {
+          "source_id": "F01",
+          "locator": "第5–8页"
+        },
+        {
+          "source_id": "F03",
+          "locator": "第4.4节"
+        },
+        {
+          "source_id": "W03",
+          "locator": null
+        },
+        {
+          "source_id": "W04",
+          "locator": null
+        },
+        {
+          "source_id": "W07",
+          "locator": null
+        }
+      ],
+      "last_reviewed_at": "2026-10-29",
+      "content_owner": null,
+      "review_status": "draft_for_content_review",
+      "presentation": {
+        "title": "The in-house Perp DEX",
+        "kicker": "Proprietary trading market",
+        "lead": "Alongside connections to external venues, UXUY develops its own perpetuals market.",
+        "sections": [
+          {
+            "heading": "What perpetuals provide",
+            "points": [
+              "Users open long or short positions using margin.",
+              "Contracts have no fixed expiry; positions remain subject to margin requirements.",
+              "Provide additional trading and risk management use cases for stablecoin funds."
+            ]
+          },
+          {
+            "heading": "How a proprietary market operates",
+            "points": [
+              "Check accounts and margin after order submission, then execute under applicable rules.",
+              "Update positions and settlement while continuously assessing risk and liquidation conditions.",
+              "Matching, pricing, liquidity and risk handling work together to support the market."
+            ]
+          }
+        ],
+        "takeaway": "The in-house Perp DEX extends UXUY from a trading gateway to proprietary market development.",
+        "evidence_note": "In-house development from company materials; Perp rules from official documentation. Deployment details need verification.",
+        "speaker_notes": "Perpetual contracts let users open long or short positions with margin and no fixed expiry. A Perp market must handle orders, execution, margin, prices, settlement and liquidation. UXUY’s in-house Perp DEX builds a proprietary market around stablecoin trading. This is a distinct execution path from routing spot orders to external venues."
+      }
+    },
+    {
+      "id": "T06",
+      "group": "Technology",
+      "title": "ULP: where liquidity comes from",
+      "key_message": "The whitepaper describes ULP as providing base liquidity, alongside market making and hedging.",
+      "speaker_explanation": "Trading markets need executable counterparties and depth. The whitepaper describes ULP as a base liquidity pool and counterparty, with third-party market makers adding depth and improving spreads, while hedging participants offset directional exposure in external markets. These roles jointly support the market and create areas for discussion with liquidity partners.",
+      "audiences": [
+        "Projects",
+        "Community"
+      ],
+      "evidence_status": "Whitepaper architecture; actual participation conditions need completion",
+      "sources": [
+        "F01 pp. 6",
+        "F03 section 4.4"
+      ],
+      "boundary": "ULP participants bear market-making gains and losses. The pool may lose when traders profit in aggregate. Do not describe ULP as principal-protected, fixed-yield or currently open to unconditional deposits from everyone.",
+      "pending_confirmation": "Confirm current pool status, assets and share rules, subscriptions/redemptions and restrictions, fee allocation, hedging permissions and return/risk disclosures.",
+      "technical_expansion": "",
+      "source_refs": [
+        {
+          "source_id": "F01",
+          "locator": "第6页"
+        },
+        {
+          "source_id": "F03",
+          "locator": "第4.4节"
+        }
+      ],
+      "last_reviewed_at": "2026-10-29",
+      "content_owner": null,
+      "review_status": "draft_for_content_review",
+      "presentation": {
+        "title": "ULP and market liquidity",
+        "kicker": "Liquidity system",
+        "lead": "The whitepaper describes ULP, third-party market making and external hedging as supporting executable markets.",
+        "sections": [
+          {
+            "heading": "Three roles with different functions",
+            "points": [
+              "ULP: supplies base liquidity and acts as a counterparty.",
+              "Third-party market makers: deepen quotes and improve bid-ask spreads.",
+              "Hedging participants: offset directional exposure in external markets."
+            ]
+          },
+          {
+            "heading": "Collaborate around liquidity quality",
+            "points": [
+              "Clarify funding, shares, subscriptions/redemptions and fee allocation.",
+              "Assess depth, execution costs and risk exposure together.",
+              "ULP participants bear the relevant market-making gains, losses and market risk."
+            ]
+          }
+        ],
+        "takeaway": "Liquidity requires ongoing coordination between capital, quotes and risk management.",
+        "evidence_note": "Whitepaper architecture; actual access, redemption and hedging arrangements need confirmation.",
+        "speaker_notes": "Trading markets need executable counterparties and depth. The whitepaper describes ULP as a base liquidity pool and counterparty, with third-party market makers adding depth and improving spreads, while hedging participants offset directional exposure in external markets. These roles jointly support the market and create areas for discussion with liquidity partners."
+      }
+    },
+    {
+      "id": "T07",
+      "group": "Technology",
+      "title": "Perp pricing and risk management",
+      "key_message": "Explain execution prices, risk prices, funding rates and loss handling separately.",
+      "speaker_explanation": "Trades execute at prices actually available in the market. Mark price is used for unrealized P&L and risk calculations, not as a guaranteed execution price. Index price aggregates valid reference markets. Funding is exchanged between longs and shorts to help keep the contract price near the underlying market. Falling below maintenance margin may trigger liquidation; insurance funds and ADL address subsequent extreme losses.",
+      "audiences": [
+        "Projects",
+        "Community",
+        "Listed Companies (Potential Partners)"
+      ],
+      "evidence_status": "Current official Perp rules",
+      "sources": [
+        "W03",
+        "W04",
+        "W05",
+        "W06"
+      ],
+      "boundary": "Do not replace the current index and mark-price rules with the whitepaper’s “oracle median” wording. An insurance fund is not principal insurance, and ADL can affect profitable positions.",
+      "pending_confirmation": "Confirm reference sources and weights, oracle and mark-price construction, anomaly protection, liquidators, on-chain insurance-fund verification and rule versions.",
+      "technical_expansion": "For technical discussions: price inputs → index/mark prices → tiered margin and position limits → liquidation → insurance fund under the rules → ADL when required. Explain disclosed mechanisms only; do not invent oracle providers or engine implementations.",
+      "source_refs": [
+        {
+          "source_id": "W03",
+          "locator": null
+        },
+        {
+          "source_id": "W04",
+          "locator": null
+        },
+        {
+          "source_id": "W05",
+          "locator": null
+        },
+        {
+          "source_id": "W06",
+          "locator": null
+        }
+      ],
+      "last_reviewed_at": "2026-10-29",
+      "content_owner": null,
+      "review_status": "draft_for_content_review",
+      "presentation": {
+        "title": "Perp pricing and risk management",
+        "kicker": "Market rules",
+        "lead": "Different price measures, margin requirements and loss-handling mechanisms support the perpetuals market.",
+        "sections": [
+          {
+            "heading": "Distinct prices and funding roles",
+            "points": [
+              "Execution price comes from the quotes actually available in the market.",
+              "Index price aggregates reference markets; mark price supports P&L and risk calculations.",
+              "Funding is exchanged between longs and shorts to keep prices closer to the underlying market."
+            ]
+          },
+          {
+            "heading": "How risk is handled in stages",
+            "points": [
+              "Positions are continuously checked against margin requirements; a shortfall may trigger liquidation.",
+              "The insurance fund and ADL address subsequent extreme losses under the rules.",
+              "Price anomalies, liquidation and ADL follow current market rules."
+            ]
+          }
+        ],
+        "takeaway": "Explain execution, valuation and risk separately to make perpetuals markets understandable.",
+        "evidence_note": "Based on current official Perp rules; an insurance fund does not insure user principal.",
+        "speaker_notes": "Trades execute at prices actually available in the market. Mark price is used for unrealized P&L and risk calculations, not as a guaranteed execution price. Index price aggregates valid reference markets. Funding is exchanged between longs and shorts to help keep the contract price near the underlying market. Falling below maintenance margin may trigger liquidation; insurance funds and ADL address subsequent extreme losses."
+      }
+    },
+    {
+      "id": "S01",
+      "group": "uStock",
+      "title": "Why connect with global on-chain investors through uStock?",
+      "key_message": "Help listed companies broaden their investor base, connect with stablecoin capital and build ongoing on-chain participation and trading.",
+      "speaker_explanation": "Through uStock, we aim to help listed companies reach more global on-chain investors. These investors understand stablecoins and on-chain trading but may not yet follow the company through traditional channels. This creates an opportunity to reach new investors and stablecoin capital, helping more people understand the business and its value. Across issuance, trading, liquidity and community engagement, uStock explores long-term on-chain capital-market partnerships.",
+      "audiences": [
+        "Listed Companies (Potential Partners)",
+        "Projects"
+      ],
+      "evidence_status": "uStock business value proposition; actual outcomes depend on execution",
+      "sources": [
+        "U02",
+        "F04 section 2–3、8、11"
+      ],
+      "boundary": "Investor access is a goal and service direction, not a guarantee of investor numbers, funding, trading volume or share-price performance. Reached investors must meet the applicable participation conditions.",
+      "pending_confirmation": "",
+      "technical_expansion": "",
+      "source_refs": [
+        {
+          "source_id": "U02",
+          "locator": null
+        },
+        {
+          "source_id": "F04",
+          "locator": "第2–3、8、11节"
+        }
+      ],
+      "last_reviewed_at": "2026-10-29",
+      "content_owner": null,
+      "review_status": "draft_for_content_review",
+      "benefits": [
+        {
+          "title": "Broaden the investor base",
+          "detail": "Reach investors across regions who hold purchasing power in stablecoins and are familiar with on-chain trading, adding communication and participation opportunities beyond traditional investor coverage."
+        },
+        {
+          "title": "Connect with new sources of capital",
+          "detail": "Connect stablecoin capital through eligible new-share issuance to extend company funding and capital-formation paths. Distinguish the recipients of proceeds from existing-share sales separately."
+        },
+        {
+          "title": "Build subsequent trading and liquidity",
+          "detail": "Include post-issuance spot trading, professional market making, minting/redemption and ongoing operations in the plan to create more trading use cases."
+        },
+        {
+          "title": "Extend on-chain participation windows",
+          "detail": "Where products, rules and liquidity arrangements support it, on-chain assets can offer 24/7 trading and attention, creating participation and price-discovery opportunities while traditional markets are closed."
+        },
+        {
+          "title": "Expand international awareness and ongoing attention",
+          "detail": "Use on-chain communities, trading users and ecosystem communications to keep more investors informed about the business, financial reports and company progress, supporting long-term investor relations."
+        }
+      ],
+      "presentation": {
+        "title": "Connect with global investors through uStock",
+        "kicker": "Listed companies · Partnership value",
+        "lead": "Help listed companies broaden their investor base, connect with stablecoin capital and build ongoing on-chain trading and participation.",
+        "sections": [
+          {
+            "heading": "Connect with new investors and capital",
+            "points": [
+              "Reach global investors who are familiar with stablecoins and on-chain trading.",
+              "Introduce the company’s business and share-related rights to audiences beyond traditional channels.",
+              "Enable stablecoin-funded participation through an appropriate issuance structure."
+            ]
+          },
+          {
+            "heading": "Turn onboarding into long-term market development",
+            "points": [
+              "Plan issuance, trading and professional liquidity arrangements together.",
+              "Maintain communication around business progress, financial reports and corporate actions.",
+              "Explore longer on-chain participation windows and price discovery where service arrangements support them."
+            ]
+          }
+        ],
+        "takeaway": "Help more global on-chain investors understand, follow and, where eligible, participate in company value.",
+        "evidence_note": "uStock value proposition and business proposal; outcomes depend on structure and execution.",
+        "speaker_notes": "Through uStock, we aim to help listed companies reach more global on-chain investors. These investors understand stablecoins and on-chain trading but may not yet follow the company through traditional channels. This creates an opportunity to reach new investors and stablecoin capital, helping more people understand the business and its value. Across issuance, trading, liquidity and community engagement, uStock explores long-term on-chain capital-market partnerships."
+      }
+    },
+    {
+      "id": "S02",
+      "group": "uStock",
+      "title": "Where shares come from and who receives the funds",
+      "key_message": "New-share issuance and the sale of existing shares are different routes.",
+      "speaker_explanation": "If shares come from a new company issuance, proceeds flow to the company under the transaction arrangements. If founders, major shareholders or other holders sell existing shares, proceeds belong to the selling shareholders. We first identify share sources, target size, restrictions and authority, then design the appropriate company-funding or shareholder-sale arrangement.",
+      "audiences": [
+        "Listed Companies (Potential Partners)",
+        "Projects"
+      ],
+      "evidence_status": "The uStock proposal explicitly separates the two routes",
+      "sources": [
+        "F04 section 4"
+      ],
+      "boundary": "The materials do not support a fixed share percentage, fixed discount or unconditional purchase commitment. Eligibility for issuance or sale depends on the specific structure.",
+      "pending_confirmation": "",
+      "technical_expansion": "",
+      "source_refs": [
+        {
+          "source_id": "F04",
+          "locator": "第4节"
+        }
+      ],
+      "last_reviewed_at": "2026-10-29",
+      "content_owner": null,
+      "review_status": "draft_for_content_review",
+      "presentation": {
+        "title": "Clarify share sources and fund recipients",
+        "kicker": "Listed companies · Transaction structure",
+        "lead": "New company shares and existing shareholder shares have different fund flows and partnership goals.",
+        "sections": [
+          {
+            "heading": "Two ways to supply shares",
+            "points": [
+              "New company issuance: proceeds flow to the company under the transaction arrangements.",
+              "Existing shareholder sale: proceeds belong to the selling shareholders."
+            ]
+          },
+          {
+            "heading": "Align on key questions before onboarding",
+            "points": [
+              "Who supplies the shares, and are the required permissions and disposal conditions in place?",
+              "Is the objective company funding or a sale of existing shareholder shares?",
+              "How are size, share restrictions, pricing and closing conditions agreed?"
+            ]
+          }
+        ],
+        "takeaway": "Match shares to fund flows before designing issuance and on-chain participation.",
+        "evidence_note": "The uStock proposal distinguishes new and existing shares; terms depend on the specific project.",
+        "speaker_notes": "If shares come from a new company issuance, proceeds flow to the company under the transaction arrangements. If founders, major shareholders or other holders sell existing shares, proceeds belong to the selling shareholders. We first identify share sources, target size, restrictions and authority, then design the appropriate company-funding or shareholder-sale arrangement."
+      }
+    },
+    {
+      "id": "S03",
+      "group": "uStock",
+      "title": "Custody, uToken rights and backing evidence",
+      "key_message": "The proposal uses real shares to back on-chain economic rights, with clear custody and rights boundaries.",
+      "speaker_explanation": "Under the uStock proposal, real shares are held through designated institutions and legal structures, with uTokens issued for the corresponding economic rights. The materials describe 1 uToken as representing the economic rights of 1 share, including relevant dividends and corporate-action benefits, without voting rights. Backing evidence should show custody and shares, minted and circulating supply, coverage and verification time. Eligible holders redeem under the rules.",
+      "audiences": [
+        "Listed Companies (Potential Partners)",
+        "Projects"
+      ],
+      "evidence_status": "Business proposal; institutions, evidence and legal structures must be implemented",
+      "sources": [
+        "F04 section 4"
+      ],
+      "boundary": "Economic rights do not automatically confer direct registered shareholder status. A 1:1 relationship concerns share quantity and rights coverage, not a guarantee that token price always equals the current stock price. 24/7 trading does not mean unconditional redemption at any time.",
+      "pending_confirmation": "Confirm issuing/shareholding entities, custodians, holder legal rights, bankruptcy remoteness, corporate-action handling, verification and redemption arrangements.",
+      "technical_expansion": "",
+      "source_refs": [
+        {
+          "source_id": "F04",
+          "locator": "第4节"
+        }
+      ],
+      "last_reviewed_at": "2026-10-29",
+      "content_owner": null,
+      "review_status": "draft_for_content_review",
+      "presentation": {
+        "title": "How real shares back on-chain rights",
+        "kicker": "Listed companies · Rights and evidence",
+        "lead": "The uStock proposal uses real shares to back uToken economic rights, supported by custody and coverage evidence.",
+        "sections": [
+          {
+            "heading": "Shares, tokens and holder rights",
+            "points": [
+              "Real shares are held through designated institutions and legal structures.",
+              "The proposed design maps 1 uToken to the economic rights of 1 share.",
+              "Economic rights include relevant dividends and corporate-action benefits, without voting rights."
+            ]
+          },
+          {
+            "heading": "Make the relationship verifiable",
+            "points": [
+              "Disclose shareholding and custody information, plus minted and circulating supply.",
+              "Specify coverage, verification time and corporate-action handling.",
+              "Eligible holders may apply for redemption under the formal rules."
+            ]
+          }
+        ],
+        "takeaway": "Create a verifiable relationship between real shares, on-chain supply and holder economic rights.",
+        "evidence_note": "uStock business proposal; institutions, legal rights and redemption arrangements remain to be implemented.",
+        "speaker_notes": "Under the uStock proposal, real shares are held through designated institutions and legal structures, with uTokens issued for the corresponding economic rights. The materials describe 1 uToken as representing the economic rights of 1 share, including relevant dividends and corporate-action benefits, without voting rights. Backing evidence should show custody and shares, minted and circulating supply, coverage and verification time. Eligible holders redeem under the rules."
+      }
+    },
+    {
+      "id": "S04",
+      "group": "uStock",
+      "title": "Subscription, funds and closing",
+      "key_message": "Design the complete funds-and-shares workflow before organizing subscriptions and minting.",
+      "speaker_explanation": "The proposed sequence is: set issuance terms → eligible investors subscribe under the rules → allocate oversubscription as agreed → return unallocated funds under the rules → close funds and shares in batches → mint and claim uTokens. Subscriptions are denominated in UUSD. Conversion from USDT/USDC, control of funds and release timing must be specified in the formal rules.",
+      "audiences": [
+        "Listed Companies (Potential Partners)",
+        "Projects"
+      ],
+      "evidence_status": "uStock issuance proposal; execution status needs confirmation",
+      "sources": [
+        "F04 section 4–5"
+      ],
+      "boundary": "Lottery allocation and per-account limits in the materials are proposed terms, subject to final issuance documents. Refunds for failed or unallocated subscriptions do not protect against investment losses. Redemption, trading, exchange rates and fees have separate terms.",
+      "pending_confirmation": "Confirm eligible regions and investors, KYC/AML, subscription contracts and fund permissions, closing and refund conditions, and current issuance documents.",
+      "technical_expansion": "",
+      "source_refs": [
+        {
+          "source_id": "F04",
+          "locator": "第4–5节"
+        }
+      ],
+      "last_reviewed_at": "2026-10-29",
+      "content_owner": null,
+      "review_status": "draft_for_content_review",
+      "presentation": {
+        "title": "How subscription funds and shares settle",
+        "kicker": "Listed companies · Issuance workflow",
+        "lead": "Connect subscription, allocation, refunds, share closing and minting into a clear funds-and-assets workflow.",
+        "sections": [
+          {
+            "heading": "Clarify rules and fund control before subscription",
+            "points": [
+              "Set issuance terms, investor eligibility and subscription arrangements.",
+              "The proposal uses UUSD denomination; clarify conversion and settlement paths for USDT, USDC and UUSD.",
+              "Explain who controls funds, when they are released and how unallocated funds are returned."
+            ]
+          },
+          {
+            "heading": "Complete allocation and closing as agreed",
+            "points": [
+              "Allocate under the rules when subscriptions close, with conditional refunds of unallocated funds.",
+              "Complete batch closing and verification of funds and shares.",
+              "Mint and claim the relevant uTokens once closing conditions are met."
+            ]
+          }
+        ],
+        "takeaway": "Give every subscription step a defined fund status, share basis and closing condition.",
+        "evidence_note": "Based on the uStock issuance proposal; formal issuance and subscription documents govern execution.",
+        "speaker_notes": "The proposed sequence is: set issuance terms → eligible investors subscribe under the rules → allocate oversubscription as agreed → return unallocated funds under the rules → close funds and shares in batches → mint and claim uTokens. Subscriptions are denominated in UUSD. Conversion from USDT/USDC, control of funds and release timing must be specified in the formal rules."
+      }
+    },
+    {
+      "id": "S05",
+      "group": "uStock",
+      "title": "After issuance: liquidity and market development",
+      "key_message": "Include post-issuance trading, disclosure and liquidity in the onboarding plan.",
+      "speaker_explanation": "After uToken issuance, the market still needs investor information, trading use cases and sustainable liquidity arrangements. The uStock proposal includes uToken/UUSD spot trading, professional market making and liquidity financing secured by shares or uTokens. Minting, redemption and arbitrage connect on-chain and traditional markets. Related perpetuals can be assessed after the relevant conditions are met.",
+      "audiences": [
+        "Listed Companies (Potential Partners)",
+        "Projects"
+      ],
+      "evidence_status": "Proposed subsequent markets; maintain progress for each stage separately",
+      "sources": [
+        "F04 section 6、10–11"
+      ],
+      "boundary": "Liquidity development is not price support, guaranteed buying or a guaranteed exit. Shares and uTokens may trade at different prices. On-chain availability does not mean traditional settlement operates around the clock. Perpetuals do not launch automatically with issuance.",
+      "pending_confirmation": "",
+      "technical_expansion": "",
+      "source_refs": [
+        {
+          "source_id": "F04",
+          "locator": "第6、10–11节"
+        }
+      ],
+      "last_reviewed_at": "2026-10-29",
+      "content_owner": null,
+      "review_status": "draft_for_content_review",
+      "presentation": {
+        "title": "Keep building the market after issuance",
+        "kicker": "Listed companies · Subsequent markets",
+        "lead": "Include disclosures, trading use cases and liquidity arrangements in onboarding to support ongoing investor participation.",
+        "sections": [
+          {
+            "heading": "Build the market foundation after issuance",
+            "points": [
+              "Assess uToken/UUSD spot trading under the proposal.",
+              "Involve professional market makers with clear quoting, depth and risk responsibilities.",
+              "Maintain disclosures on the company, share coverage and corporate actions."
+            ]
+          },
+          {
+            "heading": "Connect on-chain and traditional markets",
+            "points": [
+              "Create connections through eligible minting, redemption and arbitrage mechanisms.",
+              "Assess liquidity financing secured by shares or uTokens under the specific structure.",
+              "Assess related perpetuals only after the relevant conditions are met."
+            ]
+          }
+        ],
+        "takeaway": "Make post-issuance trading, information and liquidity part of a long-term partnership.",
+        "evidence_note": "Subsequent-market proposal; track spot, financing and perpetuals by their actual implementation status.",
+        "speaker_notes": "After uToken issuance, the market still needs investor information, trading use cases and sustainable liquidity arrangements. The uStock proposal includes uToken/UUSD spot trading, professional market making and liquidity financing secured by shares or uTokens. Minting, redemption and arbitrage connect on-chain and traditional markets. Related perpetuals can be assessed after the relevant conditions are met."
+      }
+    },
+    {
+      "id": "S06",
+      "group": "uStock",
+      "title": "How listed companies can onboard",
+      "key_message": "Assess share and commercial feasibility before progressing to institutions, structure and issuance.",
+      "speaker_explanation": "Onboarding can proceed in seven steps: 1) identify company goals and an authorized contact; 2) establish listing jurisdiction, share sources and restrictions; 3) assess custody, issuance and investor arrangements with institutions and legal advisers; 4) agree size, pricing, fees and liquidity responsibilities; 5) verify shares, funds and system settlement; 6) conduct an eligible pilot issuance; 7) maintain disclosures and operations, then assess expansion.",
+      "audiences": [
+        "Listed Companies (Potential Partners)",
+        "Projects"
+      ],
+      "evidence_status": "Suggested onboarding process derived from the materials, not an already published SOP",
+      "sources": [
+        "F04 section 4–6、10"
+      ],
+      "boundary": "Do not promise a fixed timeline or guaranteed approval. UXUY’s existing third-party stock trading services do not establish that uStock has completed listed-company financing or issuance.",
+      "pending_confirmation": "Confirm the formal onboarding owner, selection criteria, required materials, commercial terms, institutions, completed disclosable cases and service SLA.",
+      "technical_expansion": "",
+      "source_refs": [
+        {
+          "source_id": "F04",
+          "locator": "第4–6、10节"
+        }
+      ],
+      "last_reviewed_at": "2026-10-29",
+      "content_owner": null,
+      "review_status": "draft_for_content_review",
+      "presentation": {
+        "title": "How to start a uStock partnership",
+        "kicker": "Listed companies · Onboarding",
+        "lead": "Start with the company’s capital-market goals, then use feasibility assessment and a limited pilot to advance.",
+        "sections": [
+          {
+            "heading": "Assess commercial and structural feasibility",
+            "points": [
+              "Define the goal: investor reach, company funding or shareholder sales.",
+              "Identify listing jurisdiction, share sources, restrictions and an authorized contact.",
+              "Assess shareholding, issuance and investor arrangements with institutions and legal advisers."
+            ]
+          },
+          {
+            "heading": "Build an executable onboarding plan",
+            "points": [
+              "Agree size, pricing, fees, disclosures and liquidity responsibilities.",
+              "Verify share, fund and system closing; conduct an eligible pilot.",
+              "Use actual participation and operations to guide ongoing service and expansion."
+            ]
+          }
+        ],
+        "takeaway": "Align company goals and share conditions before connecting structure, issuance and long-term markets.",
+        "evidence_note": "Suggested process derived from materials; formal SOP, owners and cases need confirmation.",
+        "speaker_notes": "Onboarding can proceed in seven steps: 1) identify company goals and an authorized contact; 2) establish listing jurisdiction, share sources and restrictions; 3) assess custody, issuance and investor arrangements with institutions and legal advisers; 4) agree size, pricing, fees and liquidity responsibilities; 5) verify shares, funds and system settlement; 6) conduct an eligible pilot issuance; 7) maintain disclosures and operations, then assess expansion."
+      }
+    },
+    {
+      "id": "S07",
+      "group": "uStock",
+      "title": "Who global on-chain investors are",
+      "key_message": "Connect company operations and share-related rights with the needs of investors who hold stablecoins and participate on-chain.",
+      "speaker_explanation": "On-chain investors do not focus only on crypto-native assets. They may also be interested in AI, technology, fintech and other real businesses, and want to use stablecoins to access more assets. uStock aims to connect both sides: companies provide understandable business information and real share-related economic rights; the platform provides investor outreach, participation and subsequent market collaboration, helping potential investors move from awareness to eligible participation.",
+      "audiences": [
+        "Listed Companies (Potential Partners)"
+      ],
+      "evidence_status": "Target investor profile and business proposal, not committed subscribers",
+      "sources": [
+        "U02",
+        "F04 section 2、8、10"
+      ],
+      "boundary": "Do not equate UXUY’s 10 million user base with eligible uStock investors or subscribers. Do not claim that every on-chain user prefers a particular stock category.",
+      "pending_confirmation": "",
+      "technical_expansion": "",
+      "last_reviewed_at": "2026-10-29",
+      "content_owner": null,
+      "review_status": "draft_for_content_review",
+      "source_refs": [
+        {
+          "source_id": "U02",
+          "locator": null
+        },
+        {
+          "source_id": "F04",
+          "locator": "第2、8、10节"
+        }
+      ],
+      "presentation": {
+        "title": "Global on-chain investors and company value",
+        "kicker": "Listed companies · Investor access",
+        "lead": "Connect real businesses, share-related rights and stablecoin investment needs to create new company awareness and participation.",
+        "sections": [
+          {
+            "heading": "Characteristics of potential investors",
+            "points": [
+              "Hold stablecoins and are familiar with on-chain accounts, trading and asset participation.",
+              "May want stablecoin access to real businesses such as technology and AI.",
+              "Need to understand the business, rights, participation conditions and exit arrangements."
+            ]
+          },
+          {
+            "heading": "From company awareness to eligible participation",
+            "points": [
+              "Companies provide clear business explanations and information on real share-related rights.",
+              "uStock coordinates investor outreach, participation and subsequent markets.",
+              "Ongoing disclosure and communication support long-term investor attention."
+            ]
+          }
+        ],
+        "takeaway": "Help potential investors understand company value, then participate under the applicable rules.",
+        "evidence_note": "Target profile and business proposal; historical platform users are not equivalent to eligible subscribers.",
+        "speaker_notes": "On-chain investors do not focus only on crypto-native assets. They may also be interested in AI, technology, fintech and other real businesses, and want to use stablecoins to access more assets. uStock aims to connect both sides: companies provide understandable business information and real share-related economic rights; the platform provides investor outreach, participation and subsequent market collaboration, helping potential investors move from awareness to eligible participation."
+      }
+    },
+    {
+      "id": "P01",
+      "group": "Partnership",
+      "title": "Where projects can collaborate",
+      "key_message": "Find a specific connection across assets, chain ecosystems, trading, liquidity, users or listed-company resources.",
+      "speaker_explanation": "Chains and infrastructure providers can discuss networks and execution use cases. Asset and DeFi projects can assess eligible trading and composability use cases. Market makers can discuss depth and risk capacity; communities and products can discuss user needs. Partners with RWA or listed-company resources can explore asset onboarding through uStock. Match needs first, then confirm what can currently be delivered.",
+      "audiences": [
+        "Projects"
+      ],
+      "evidence_status": "Suggested partnership menu; assess each option separately",
+      "sources": [
+        "W01",
+        "F01 pp. 5–8",
+        "F04 section 6–7"
+      ],
+      "boundary": "An area for discussion does not mean an API/SDK is already open, an agreement is signed, listing is unconditional or a Perp launch is guaranteed.",
+      "pending_confirmation": "",
+      "technical_expansion": "",
+      "source_refs": [
+        {
+          "source_id": "W01",
+          "locator": null
+        },
+        {
+          "source_id": "F01",
+          "locator": "第5–8页"
+        },
+        {
+          "source_id": "F04",
+          "locator": "第6–7节"
+        }
+      ],
+      "last_reviewed_at": "2026-10-29",
+      "content_owner": null,
+      "review_status": "draft_for_content_review",
+      "presentation": {
+        "title": "Find a concrete starting point for partnership",
+        "kicker": "Ecosystem partners · Opportunities",
+        "lead": "Match deliverable capabilities around assets, networks, liquidity and user needs.",
+        "sections": [
+          {
+            "heading": "Trading and technical ecosystem partnerships",
+            "points": [
+              "Chains and infrastructure: discuss network onboarding and execution use cases.",
+              "Asset and DeFi projects: assess trading, composability and asset participation.",
+              "Market makers and liquidity partners: discuss depth, quotes and risk capacity."
+            ]
+          },
+          {
+            "heading": "Users and real-world assets",
+            "points": [
+              "Wallets, channels and communities: identify appropriate trading use cases for existing users.",
+              "Partners with listed-company or RWA resources: assess onboarding through uStock.",
+              "Choose a starting point based on demand, current capabilities and delivery dependencies."
+            ]
+          }
+        ],
+        "takeaway": "Move ecosystem discussions from resource introductions to an executable user or trading use case.",
+        "evidence_note": "Suggested partnership menu; access to capabilities and commercial terms need individual confirmation.",
+        "speaker_notes": "Chains and infrastructure providers can discuss networks and execution use cases. Asset and DeFi projects can assess eligible trading and composability use cases. Market makers can discuss depth and risk capacity; communities and products can discuss user needs. Partners with RWA or listed-company resources can explore asset onboarding through uStock. Match needs first, then confirm what can currently be delivered."
+      }
+    },
+    {
+      "id": "P02",
+      "group": "Partnership",
+      "title": "How to start a deliverable partnership",
+      "key_message": "Start with a clearly scoped pilot that both sides can deliver.",
+      "speaker_explanation": "A one-page partnership brief is enough to begin: goals, target users, networks and assets, resources on both sides, technical and business dependencies, pilot scope, deliverables, metrics and owners. Pilots can test execution success, total cost, qualified-user conversion, actual trading or retention. Agree measurement definitions before deciding how to expand.",
+      "audiences": [
+        "Projects"
+      ],
+      "evidence_status": "Suggested working method",
+      "sources": [
+        "U01"
+      ],
+      "boundary": "Cumulative users are not a count of reachable investors. Do not use guaranteed volume, price or returns as partnership metrics.",
+      "pending_confirmation": "",
+      "technical_expansion": "",
+      "source_refs": [
+        {
+          "source_id": "U01",
+          "locator": null
+        }
+      ],
+      "last_reviewed_at": "2026-10-29",
+      "content_owner": null,
+      "review_status": "draft_for_content_review",
+      "presentation": {
+        "title": "Start a pilot with a one-page brief",
+        "kicker": "Ecosystem partners · Delivery",
+        "lead": "Agree goals, resources, deliverables and evaluation first, so a focused pilot can test partnership value.",
+        "sections": [
+          {
+            "heading": "What the one-page brief covers",
+            "points": [
+              "Target users, use case, networks and assets.",
+              "Resources, technical and business dependencies, pilot scope and deliverables.",
+              "Owners, timeline, evaluation metrics and measurement definitions."
+            ]
+          },
+          {
+            "heading": "Use real results to guide expansion",
+            "points": [
+              "Execution: test success rate, completion time and total cost.",
+              "Users: test qualified conversion, actual trading and retention.",
+              "Revise the plan using pilot data before assessing expansion."
+            ]
+          }
+        ],
+        "takeaway": "Make a focused partnership work, then expand based on the data.",
+        "evidence_note": "Suggested working method; both parties agree the specific metrics and scope.",
+        "speaker_notes": "A one-page partnership brief is enough to begin: goals, target users, networks and assets, resources on both sides, technical and business dependencies, pilot scope, deliverables, metrics and owners. Pilots can test execution success, total cost, qualified-user conversion, actual trading or retention. Agree measurement definitions before deciding how to expand."
+      }
+    },
+    {
+      "id": "P03",
+      "group": "Partnership",
+      "title": "What each party contributes",
+      "key_message": "Turn a strong background into a clear exchange of resources and responsibilities.",
+      "speaker_explanation": "Within the confirmed scope, UXUY can contribute trading use cases, execution capabilities, user connections, collaboration with its in-house Perp market and uStock business introductions. Partners can contribute assets, chain resources, reachable users, technology or market making. Assign onboarding, funds, risk, operations and disclosure responsibilities clearly. Agree fees and revenue sharing separately.",
+      "audiences": [
+        "Projects",
+        "Listed Companies (Potential Partners)"
+      ],
+      "evidence_status": "Suggested partnership design; specific resources need confirmation",
+      "sources": [
+        "U01",
+        "F04 section 7、9"
+      ],
+      "boundary": "Do not assume every resource is free to access. Collaboration across the three brands does not mean shared reserves or mutual principal guarantees.",
+      "pending_confirmation": "",
+      "technical_expansion": "",
+      "source_refs": [
+        {
+          "source_id": "U01",
+          "locator": null
+        },
+        {
+          "source_id": "F04",
+          "locator": "第7、9节"
+        }
+      ],
+      "last_reviewed_at": "2026-10-29",
+      "content_owner": null,
+      "review_status": "draft_for_content_review",
+      "presentation": {
+        "title": "Turn resources into clear responsibilities",
+        "kicker": "Ecosystem partners · Contributions",
+        "lead": "Agree what each party provides and owns, turning background and capabilities into delivery.",
+        "sections": [
+          {
+            "heading": "Resources each party may contribute",
+            "points": [
+              "UXUY: confirmed trading use cases, execution capabilities and user connections.",
+              "UXUY: in-house Perp market collaboration and uStock business introductions.",
+              "Partners: assets, chain resources, reachable users, technology or market making."
+            ]
+          },
+          {
+            "heading": "Align responsibilities and commercial terms",
+            "points": [
+              "Assign owners for onboarding, funds, risk management, operations and disclosures.",
+              "Specify delivery dependencies, acceptance criteria and exception handling.",
+              "Agree service fees, resource commitments and revenue sharing separately."
+            ]
+          }
+        ],
+        "takeaway": "Give each resource a source, each responsibility an owner and each deliverable a standard.",
+        "evidence_note": "Suggested partnership design; resource scope and responsibilities follow the specific agreement.",
+        "speaker_notes": "Within the confirmed scope, UXUY can contribute trading use cases, execution capabilities, user connections, collaboration with its in-house Perp market and uStock business introductions. Partners can contribute assets, chain resources, reachable users, technology or market making. Assign onboarding, funds, risk, operations and disclosure responsibilities clearly. Agree fees and revenue sharing separately."
+      }
+    },
+    {
+      "id": "A01",
+      "group": "Community",
+      "title": "How the community can participate now",
+      "key_message": "Contribute through current product use, education and real feedback.",
+      "speaker_explanation": "The community can help new users understand stablecoin-denominated trading and share real product issues: unclear steps, confusing quotes or costs, failed routes and needed assets or use cases. Organizers can collaborate on tutorials, product feedback and ecosystem activities, connecting the vision to practical improvements.",
+      "audiences": [
+        "Community"
+      ],
+      "evidence_status": "Suggested community participation",
+      "sources": [
+        "U01",
+        "W01"
+      ],
+      "boundary": "Do not assume an airdrop, token reward, fixed revenue share or guaranteed return. Activities and incentives must follow formally published rules.",
+      "pending_confirmation": "",
+      "technical_expansion": "",
+      "source_refs": [
+        {
+          "source_id": "U01",
+          "locator": null
+        },
+        {
+          "source_id": "W01",
+          "locator": null
+        }
+      ],
+      "last_reviewed_at": "2026-10-29",
+      "content_owner": null,
+      "review_status": "draft_for_content_review",
+      "presentation": {
+        "title": "How the community can help build UXUY",
+        "kicker": "Community · Participation",
+        "lead": "Connect community participation to product improvements through experience, stablecoin trading education and real feedback.",
+        "sections": [
+          {
+            "heading": "Help more people understand and use the product",
+            "points": [
+              "Explain stablecoin denomination through practical USDT, USDC and UUSD use cases.",
+              "Create tutorials for current asset selection, quotes and fees.",
+              "Help new users understand permissions, trade status and records."
+            ]
+          },
+          {
+            "heading": "Use real experience to improve the product",
+            "points": [
+              "Report unclear steps, failed routes and hard-to-understand costs.",
+              "Suggest assets, trading use cases and ecosystem collaborations users actually need.",
+              "Join product experience, education and community activities under published arrangements."
+            ]
+          }
+        ],
+        "takeaway": "Clear explanations and real feedback can each help make the product easier to use.",
+        "evidence_note": "Suggested participation; formal published rules govern activities and incentives.",
+        "speaker_notes": "The community can help new users understand stablecoin-denominated trading and share real product issues: unclear steps, confusing quotes or costs, failed routes and needed assets or use cases. Organizers can collaborate on tutorials, product feedback and ecosystem activities, connecting the vision to practical improvements."
+      }
+    }
+  ],
+  "audiences": [
+    {
+      "id": "community",
+      "title": "Community",
+      "goal": "Help the audience understand why UXUY matters, what is available now and where it is heading, and encourage participation.",
+      "roles": [
+        "New stablecoin users: use fewer technical terms and explain how stablecoins become trading capital.",
+        "Existing users and core members: emphasize current development, transparency and feedback.",
+        "Community organizers: emphasize education, collaboration and practical activities."
+      ],
+      "blocks": [
+        "C01",
+        "C10",
+        "C02",
+        "C03",
+        "C04",
+        "C06",
+        "A01"
+      ],
+      "optional_blocks": [
+        "C05",
+        "C08",
+        "C09",
+        "T02",
+        "T03",
+        "T07"
+      ],
+      "opening": "UXUY is a 100% stablecoin-denominated on-chain exchange backed by YZi Labs. Users can invest in global assets with USDT, USDC and UUSD. Our work today is to make “Trade global assets with U” a simpler everyday experience.",
+      "script": [
+        "UXUY is a 100% stablecoin-denominated on-chain exchange backed by YZi Labs. Users can invest in global assets with USDT, USDC and UUSD.",
+        "For the community, this means users can start with familiar stablecoins and access the assets and markets currently supported. We want to reduce switching between chains, Gas tokens and complex steps, so people can focus more on trading itself.",
+        "To do that, we continue developing accounts, multichain execution, Gas handling, smart routing and an in-house Perp DEX. Eligible trades can reduce the need to prepare separate Gas tokens. Users should always review the relevant markets, fees and rules before trading.",
+        "Our longer-term direction is a more open, transparent and verifiable on-chain market, with clearer user control over accounts and permissions. The community can contribute through real product experience, feedback and education, helping advance this stablecoin trading approach together."
+      ],
+      "outline_3min": [
+        "Opening: the updated UXUY definition and stablecoin denomination.",
+        "Problem: why multichain workflows, Gas and fragmented markets still create barriers for stablecoin users.",
+        "Product: explain one currently supported trade, adding GasLess and smart routing where relevant.",
+        "Vision: openness, transparency and user control; distinguish current development from long-term goals.",
+        "Close: offer one available product entry point or a concrete feedback action."
+      ],
+      "faq": [
+        [
+          "What does 100% stablecoin-denominated mean?",
+          "Stablecoins are the starting point for the trading and funding experience. Explain denomination, margin, settlement and conversion for each current market. “100%” does not mean there are no third parties anywhere in the process."
+        ],
+        [
+          "Why can GasLess still involve fees?",
+          "GasLess has eligibility conditions. Trading fees, network costs, slippage and Perp funding are different items. The confirmation screen and applicable rules determine the details."
+        ],
+        [
+          "Can I buy every global asset?",
+          "Global assets describes our development direction. Current trading covers the assets and markets already available. Access also depends on region, account and current product support."
+        ],
+        [
+          "Is UXUY already fully decentralized?",
+          "We are working toward greater openness, transparency and user control. Accounts, execution, permissions and stock custody each have current arrangements. We explain what has been implemented and what may open further."
+        ],
+        [
+          "Can the AI invest automatically for me now?",
+          "Smart routing and an autonomous Trade Agent are separate. Current public materials directly support automatic routing; Trade Agent availability requires separate confirmation."
+        ]
+      ],
+      "next_step": "Try one currently available feature and record feedback on the steps, fees or execution. Organizers can then discuss education and community contributions.",
+      "script_status": "draft_snapshot; recheck or regenerate when referenced blocks change",
+      "priority": "core"
+    },
+    {
+      "id": "projects",
+      "title": "Projects",
+      "goal": "Identify a specific partnership use case, clarify resources on both sides and advance a pilot.",
+      "roles": [
+        "Business and ecosystem: start with partnership use cases and resources.",
+        "Product and engineering: expand on accounts, execution, GasLess, routing and interfaces.",
+        "Liquidity and trading: expand on Perps, ULP, pricing, risk management and depth.",
+        "RWA or listed-company resource partners: focus on uStock and share onboarding."
+      ],
+      "blocks": [
+        "C01",
+        "C10",
+        "P01",
+        "C07",
+        "T05",
+        "C05",
+        "C08",
+        "C09",
+        "P03",
+        "P02"
+      ],
+      "optional_blocks": [
+        "T01",
+        "T02",
+        "T03",
+        "T04",
+        "T06",
+        "T07",
+        "S01",
+        "S06"
+      ],
+      "opening": "UXUY is a 100% stablecoin-denominated on-chain exchange backed by YZi Labs. Users can invest in global assets with USDT, USDC and UUSD. With partners, we start by finding the trading use case where our resources best complement each other.",
+      "script": [
+        "UXUY is a 100% stablecoin-denominated on-chain exchange backed by YZi Labs. Users can invest in global assets with USDT, USDC and UUSD.",
+        "We continue building an on-chain trading ecosystem, including multichain execution, Gas handling, smart routing and an in-house Perp DEX. Projects can find opportunities in asset and chain onboarding, trading use cases, liquidity and user collaboration. Technical interfaces and availability need confirmation against their current status.",
+        "Partners with RWA, listed-company or related technical resources can also explore uStock. uStock connects real shares and issuance; UUSD supports the relevant settlement; UXUY connects trading markets and stablecoin users. Onboarding and issuance progress according to each project’s actual stage.",
+        "We suggest choosing a use case both sides can deliver, with clear resources, responsibilities and metrics. A focused pilot can test the value before we discuss expansion."
+      ],
+      "outline_3min": [
+        "Opening: the updated definition and the partnership issue most relevant to the audience.",
+        "Capabilities: choose one or two relevant blocks, rather than reading the entire product catalog.",
+        "Differentiation: in-house Perp market development, and the uStock listed-company connection where relevant.",
+        "Evidence: team background, YZi Labs backing, funding and attributed user data; expand only what matters to the partnership.",
+        "Close: resources, pilot scope, evaluation metrics and owners."
+      ],
+      "faq": [
+        [
+          "Does onboarding guarantee a spot or Perp listing?",
+          "Each market requires asset, liquidity, technical and risk assessment. Partnership interest is not a listing commitment."
+        ],
+        [
+          "How many users or how much volume can you bring?",
+          "First identify suitable users and real use cases, then agree channels and measurement definitions. A pilot helps both parties assess conversion and trading results; outcomes require actual validation."
+        ],
+        [
+          "Are all APIs and SDKs open now?",
+          "Interface availability depends on current access and your use case. First specify the goal, assets and networks; the technical team can then provide available documents, permissions and integration options."
+        ],
+        [
+          "What underlies the in-house Perp DEX?",
+          "Core areas include orders and margin, liquidity, prices, settlement and risk management. The whitepaper describes ULP as supplying base liquidity, alongside market making and hedging. Specific matching, oracles and deployment should be reviewed using a current technical diagram."
+        ],
+        [
+          "How can AI routing value be measured?",
+          "Assess total execution cost, slippage, success rate and response time. Execution optimization is not a guarantee of returns."
+        ]
+      ],
+      "next_step": "Submit a one-page partnership brief: goal, assets/networks, resources on both sides, dependencies, pilot deliverables, metrics and owners.",
+      "script_status": "draft_snapshot; recheck or regenerate when referenced blocks change",
+      "priority": "core"
+    },
+    {
+      "id": "listed_companies",
+      "title": "Listed Companies (Potential Partners)",
+      "goal": "Help the company understand the business value of connecting with global on-chain investors and assess whether to explore a uStock partnership.",
+      "roles": [
+        "Chair, CEO or CFO: capital goals, investors and transaction structure.",
+        "Investor relations or board secretary: investor participation, disclosure and corporate actions.",
+        "Legal, compliance and custodians: share restrictions, rights, jurisdictions, institutions and responsibilities.",
+        "Technology or digital business leads: issuance, closing, evidence and system integration."
+      ],
+      "blocks": [
+        "S01",
+        "S07",
+        "C01",
+        "C07",
+        "C05",
+        "C08",
+        "C09",
+        "S05",
+        "S06"
+      ],
+      "optional_blocks": [
+        "C10",
+        "S02",
+        "S03",
+        "S04",
+        "T05",
+        "T07",
+        "P03"
+      ],
+      "opening": "Through uStock, we aim to help listed companies connect with global on-chain investors, broaden their investor base, access stablecoin capital and build ongoing on-chain trading and attention.",
+      "script": [
+        "Through uStock, we aim to help listed companies connect with global on-chain investors. These investors understand stablecoins and on-chain trading and may want access to more real businesses and assets. For a company, this offers a new path to broaden its investor base, reach new capital and expand international awareness.",
+        "The value includes introducing the company to more investors across regions, connecting with stablecoin capital through eligible issuance, and planning post-issuance trading and liquidity together. Where service arrangements support it, on-chain markets may also provide a 24/7 participation window, enabling investors to stay engaged while traditional markets are closed.",
+        "uStock aims to connect these opportunities into a long-term partnership: from investor outreach to issuance, then subsequent trading, information and community participation. UXUY’s user foundation and ecosystem support the search for practical participation use cases.",
+        "We can begin with your company’s priority: new investors, funding, global communications or subsequent market activity. From there, we can discuss suitable shares and onboarding arrangements."
+      ],
+      "outline_3min": [
+        "Needs: whom the company wants to reach and which capital or market opportunities it seeks.",
+        "Core value: new investors, stablecoin capital, subsequent trading and liquidity, on-chain participation windows, international awareness and long-term attention.",
+        "Evidence: the roles of uStock, UXUY and UUSD; relevant background, funding and user data with disclosure definitions.",
+        "Partnership: ongoing market development and investor communication after issuance, choosing services that fit the company’s goals.",
+        "Action: schedule a specific needs discussion; explore shares, custody, rights and closing when the company is ready."
+      ],
+      "faq": [
+        [
+          "Why connect with on-chain investors?",
+          "It can help a company reach investors who hold capital in stablecoins and are comfortable participating on-chain, extending existing investor coverage. The proposal is designed around the business, asset rights and participation needs."
+        ],
+        [
+          "What value is there beyond fundraising?",
+          "Global awareness, investor relations, subsequent on-chain trading and liquidity use cases, and a 24/7 participation window where service arrangements support it. Fundraising is one possible goal."
+        ],
+        [
+          "Do we need to become a crypto company first?",
+          "Start with the shares, commercial goals and structural feasibility. The onboarding proposal will specify the company’s technical, financial and disclosure obligations."
+        ],
+        [
+          "Are uToken holders our registered shareholders?",
+          "The materials describe economic rights in custodial shares, not automatic direct registered shareholder status. They explicitly exclude voting rights. The specific legal documents govern."
+        ],
+        [
+          "Who holds the shares and who is responsible for issuance?",
+          "That depends on listing jurisdiction, share source and the proposed structure. Feasibility assessment identifies the custodian, shareholding and issuing entities, and each party’s responsibilities, to be reflected in formal documents."
+        ],
+        [
+          "Can you guarantee fundraising or a higher share price?",
+          "No. Share issuance, subscription closing, liquidity and market pricing must be discussed separately."
+        ],
+        [
+          "Does 24/7 trading mean shares can be redeemed at any time?",
+          "Trading hours are distinct from eligible redemption, custody and traditional-market closing arrangements. Explain each separately."
+        ],
+        [
+          "Which listed-company issuances have already been completed?",
+          "Existing materials describe preparation for the Genesis issuance and discussions with issuers. Any completed and publicly disclosable closing must be confirmed against the latest business progress before being cited."
+        ]
+      ],
+      "next_step": "Identify the company’s priority in new investors, capital, communications or market development, then begin share and onboarding feasibility discussions.",
+      "script_status": "draft_snapshot; recheck or regenerate when referenced blocks change",
+      "priority": "core"
+    }
+  ],
+  "sources": [
+    {
+      "id": "U01",
+      "title": "User-confirmed current positioning and scope",
+      "date": "2026-10-29",
+      "kind": "User confirmation",
+      "locator": "This conversation; use the updated positioning and omit distant history."
+    },
+    {
+      "id": "F01",
+      "title": "UXUY Whitepaper v3.0",
+      "kind": "Project whitepaper supplied by the user",
+      "date": "2026; PDF metadata created 2026-10-20",
+      "locator": "UXUY_Whitepaper_v3.0.pdf; especially pp. 4–8 and 12–13."
+    },
+    {
+      "id": "F02",
+      "title": "UXUY English introduction deck",
+      "kind": "Project introduction supplied by the user",
+      "date": "No explicit version date in the file",
+      "locator": "UXUY_ENpdf.pdf; especially pp. 3 and 6–8. User-confirmed current positioning takes precedence over outdated definitions."
+    },
+    {
+      "id": "F03",
+      "title": "UXUY README",
+      "kind": "Company materials supplied by the user",
+      "date": "2026-09-09",
+      "locator": "README_UXUY_EN.md; sections 1, 3, 4, 6 and 9–11."
+    },
+    {
+      "id": "F04",
+      "title": "UStock README",
+      "kind": "Business proposal supplied by the user",
+      "date": "2026-09-10",
+      "locator": "README_USTOCK_EN.md; sections 1, 4–8 and 10–11."
+    },
+    {
+      "id": "G01",
+      "title": "UXUY Media Highlights and Strengths",
+      "kind": "Media-material index supplied by the user",
+      "date": "Read 2026-10-29; includes material through October 28",
+      "url": "https://docs.google.com/document/d/1dAiZ85lhkROahSTf1bdwxuVT3wkLu1woicv3btRMY3Y/edit",
+      "locator": "Used to locate public evidence. Reposted media is not an independent technical audit. Older content stays out of default scripts."
+    },
+    {
+      "id": "W01",
+      "title": "UXUY official product overview",
+      "kind": "Current official documentation; project description",
+      "date": "Checked 2026-10-29",
+      "url": "https://docs.uxuy.com/"
+    },
+    {
+      "id": "W02",
+      "title": "UXUY GasLess Rules",
+      "kind": "Current official rules",
+      "date": "Checked 2026-10-29",
+      "url": "https://docs.uxuy.com/account-and-assets/gasless-rules/"
+    },
+    {
+      "id": "W03",
+      "title": "UXUY Perpetual Contracts Overview",
+      "kind": "Current official product documentation",
+      "date": "Checked 2026-10-29",
+      "url": "https://docs.uxuy.com/perpetuals/overview/"
+    },
+    {
+      "id": "W04",
+      "title": "UXUY Funding Rate and Pricing Mechanism",
+      "kind": "Current official product documentation",
+      "date": "Checked 2026-10-29",
+      "url": "https://docs.uxuy.com/perpetuals/funding-rate-and-pricing/"
+    },
+    {
+      "id": "W05",
+      "title": "UXUY Margin and Liquidation",
+      "kind": "Current official product documentation",
+      "date": "Checked 2026-10-29",
+      "url": "https://docs.uxuy.com/perpetuals/margin-and-liquidation/"
+    },
+    {
+      "id": "W06",
+      "title": "UXUY Insurance Fund and ADL",
+      "kind": "Current official product documentation",
+      "date": "Checked 2026-10-29",
+      "url": "https://docs.uxuy.com/perpetuals/insurance-fund-and-adl/"
+    },
+    {
+      "id": "W07",
+      "title": "UXUY contracts and infrastructure addresses",
+      "kind": "Current official disclosures",
+      "date": "Checked 2026-10-29",
+      "url": "https://docs.uxuy.com/security/contracts-and-addresses/"
+    },
+    {
+      "id": "W08",
+      "title": "UXUY security audit page",
+      "kind": "Current official disclosures; this draft has not reviewed the scope of every report",
+      "date": "Checked 2026-10-29",
+      "url": "https://docs.uxuy.com/security/audit/"
+    },
+    {
+      "id": "R01",
+      "title": "UXUY official documentation GitHub repository",
+      "kind": "Official documentation source code; used for version cross-checks",
+      "date": "Recently maintained when checked",
+      "url": "https://github.com/uxuycom/uxuy-docsite"
+    },
+    {
+      "id": "K01",
+      "title": "ERC-4337: Account Abstraction",
+      "kind": "Industry standard; used only to explain principles",
+      "url": "https://eips.ethereum.org/EIPS/eip-4337"
+    },
+    {
+      "id": "K02",
+      "title": "EIP-7702: Set Code for EOAs",
+      "kind": "Industry standard; used only to explain principles",
+      "url": "https://eips.ethereum.org/EIPS/eip-7702"
+    },
+    {
+      "id": "K03",
+      "title": "Uniswap Smart Order Router",
+      "kind": "Industry open-source implementation; routing principles reference only",
+      "url": "https://github.com/Uniswap/smart-order-router"
+    },
+    {
+      "id": "K04",
+      "title": "GMX Synthetics",
+      "kind": "Industry open-source implementation; Perp architecture reference only",
+      "url": "https://github.com/gmx-io/gmx-synthetics"
+    },
+    {
+      "id": "U02",
+      "title": "User revisions to content structure",
+      "date": "2026-10-29",
+      "kind": "Explicit user instruction",
+      "locator": "Listed Companies (Potential Partners); lead with the value of reaching global on-chain investors. Shared blocks must include background, funding, user data and Trade global assets with U. The current site has three audience destinations."
+    },
+    {
+      "id": "U03",
+      "title": "Consistent stablecoin naming",
+      "date": "2026-10-29",
+      "kind": "Explicit user instruction",
+      "locator": "Always list all three stablecoins: USDT, USDC and UUSD."
+    },
+    {
+      "id": "W09",
+      "title": "Binance Labs announcement of investment in UXUY",
+      "date": "2024-03-08",
+      "kind": "Official investor announcement; verifies historical investment, without making it the default historical narrative",
+      "url": "https://www.binance.com/en/blog/ecosystem/8000543823227873581"
+    },
+    {
+      "id": "W10",
+      "title": "SWC Global announcement of UXUY Pre-A investment",
+      "date": "Page published 2024-12-10; event in the body dated 2024-05-09",
+      "kind": "Investor announcement; $7 million Pre-A and over $10 million cumulative funding at that time",
+      "url": "https://www.swcglobal.com/post/05-2024-swc-global-invested-in-uxuy-s-pre-series-a-round-1/"
+    }
+  ],
+  "internal_confirmation_items": [
+    {
+      "topic": "Current product scope",
+      "detail": "Complete the current asset, network, region and version list using live products and official rules. The global-assets vision does not mean all assets are available."
+    },
+    {
+      "topic": "GasPool naming and GasLess scope",
+      "detail": "Current materials directly support uPool, paymasters and GasLess. The official mapping of GasPool to those modules needs confirmation. The whitepaper’s fully Gas-free TRON example conflicts with current rules; current Solana tables and special rules also need alignment."
+    },
+    {
+      "topic": "Smart routing and AI",
+      "detail": "Comparison dimensions for automatic routing are confirmed. AI models, roles and performance evidence are undisclosed; do not claim fully autonomous AI decision-making."
+    },
+    {
+      "topic": "Current Perp architecture",
+      "detail": "Materials describe ULP automated market making, order books and multisource prices differently. Confirm the current relationship between orders, matching, ULP, market making, oracles and settlement rather than combining them by assumption."
+    },
+    {
+      "topic": "Account and fund permissions",
+      "detail": "The whitepaper describes user authorization and self-custody; current security documents disclose Hot/Cold Vaults and settlement addresses. Verify fund control and administrative permissions separately for spot, Perps, ULP and stocks."
+    },
+    {
+      "topic": "Trade Agent and stock/commodity perpetuals",
+      "detail": "The README, deck and whitepaper show differing statuses. Keep only currently confirmed products in the main narrative; do not present unapproved features as fully launched."
+    },
+    {
+      "topic": "uStock implementation progress",
+      "detail": "Track announcement, discussions, agreement, custody, first minting, issuance closing, spot and Perps separately. Current materials do not establish that Genesis has closed."
+    },
+    {
+      "topic": "uStock institutions and terms",
+      "detail": "Add custody, shareholding/issuing entities, investor eligibility, redemption and corporate actions, backing evidence, liquidity arrangements and commercial terms."
+    },
+    {
+      "topic": "Security materials and open interfaces",
+      "detail": "Match audits to specific contracts, versions and scopes. Audit links do not establish that all current Perp code is audited. Confirm API/SDK availability separately."
+    },
+    {
+      "topic": "Metric definitions",
+      "detail": "Funding and user data are included in shared blocks and attributed to September 2026 company materials. Add cut-off dates, definitions and a cumulative funding breakdown. Do not treat them as live data. Valuation is not part of the default script."
+    }
+  ],
+  "revision_notes": [
+    "Use Listed Companies (Potential Partners) as the audience title.",
+    "For listed companies, lead with the value of global on-chain investor access, then explain onboarding.",
+    "Maintain independent shared blocks for background, funding, user data and Trade global assets with U.",
+    "The site has three destinations: Community, Projects and Listed Companies (Potential Partners)."
+  ],
+  "metrics": [
+    {
+      "id": "pre_a_funding",
+      "label": "Pre-A funding",
+      "value": 7000000,
+      "currency": "USD",
+      "qualifier": "Completed",
+      "source_id": "F03",
+      "source_locator": "Section 10",
+      "source_date": "2026-09-09",
+      "measurement_end": null
+    },
+    {
+      "id": "cumulative_funding",
+      "label": "Cumulative funding",
+      "value": 11000000,
+      "currency": "USD",
+      "qualifier": ">",
+      "source_id": "F03",
+      "source_locator": "Section 10",
+      "source_date": "2026-09-09",
+      "measurement_end": null,
+      "note": "Company-material figure. A 2024 public announcement reported over $10 million; do not combine the two as one disclosure."
+    },
+    {
+      "id": "users",
+      "label": "User base",
+      "value": 10000000,
+      "unit": "users",
+      "qualifier": ">",
+      "source_id": "F03",
+      "source_locator": "Section 6.2",
+      "source_date": "2026-09-09",
+      "measurement_end": null,
+      "note": "Includes earlier wallet users. Not equivalent to unique users of the new exchange, MAU, eligible investors or currently reachable users."
+    },
+    {
+      "id": "cumulative_traders",
+      "label": "Cumulative traders",
+      "value": 800000,
+      "unit": "users",
+      "qualifier": ">",
+      "source_id": "F03",
+      "source_locator": "Section 6.2",
+      "source_date": "2026-09-09",
+      "measurement_end": null
+    },
+    {
+      "id": "daily_trading_volume",
+      "label": "Daily trading volume",
+      "value": 50000000,
+      "currency": "USD",
+      "qualifier": "Approximately",
+      "source_id": "F03",
+      "source_locator": "Section 6.2",
+      "source_date": "2026-09-09",
+      "measurement_end": null,
+      "note": "No specific measurement date, averaging period or market scope provided. Do not call this live data."
+    }
+  ],
+  "website_content_notes": "Complete presentation-ready points; clear typography first; connect audience destinations to shared blocks."
+}

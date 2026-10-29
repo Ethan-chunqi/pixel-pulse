@@ -1,0 +1,2245 @@
+{
+  "version": "0.3",
+  "as_of": "2026-10-29",
+  "purpose": "先审阅积木与受众话术；本轮不实施网站",
+  "approved_positioning": "UXUY 是由 YZi Labs 投资的 100% 稳定币本位链上交易所，用户可以使用稳定币（USDT、USDC 和 UUSD）投资全球资产。",
+  "editorial_rules": [
+    "采用当前新版定义",
+    "旧钱包、MPC、闪电网络、铭文等历史叙事不进入默认讲稿",
+    "同一事实只维护一个主记录，各受众改变顺序和解释深度",
+    "行业原理、项目描述、当前规则和待确认状态分别保留",
+    "背景、融资、用户数据、用U交易全球资产各有独立共用积木；不把不讲久远历史理解为删除背景与融资数据",
+    "上市公司（uStock 潜在合作伙伴）先讲连接全球链上投资者的价值，再按意愿展开流程",
+    "稳定币币种列举统一为USDT、USDC 和 UUSD；首次介绍与用U交易全球资产积木完整列出三种"
+  ],
+  "blocks": [
+    {
+      "id": "C01",
+      "group": "共用积木",
+      "title": "UXUY 是什么",
+      "key_message": "UXUY 是由 YZi Labs 投资的 100% 稳定币本位链上交易所，用户可以使用稳定币（USDT、USDC 和 UUSD）投资全球资产。",
+      "speaker_explanation": "我们把稳定币作为交易起点。用户拿着USDT、USDC 和 UUSD，进入UXUY，参与当前支持的链上资产和交易市场。我们的方向是“稳定币本位，用U交易全球资产”。",
+      "audiences": [
+        "社区",
+        "项目方",
+        "上市公司（uStock 潜在合作伙伴）"
+      ],
+      "evidence_status": "用户已确认的新版定位",
+      "sources": [
+        "U01",
+        "W01"
+      ],
+      "boundary": "“100%”修饰稳定币本位；不延伸为100%去中心化、零费用或全球所有资产均已上线。",
+      "pending_confirmation": "",
+      "technical_expansion": "",
+      "source_refs": [
+        {
+          "source_id": "U01",
+          "locator": null
+        },
+        {
+          "source_id": "W01",
+          "locator": null
+        }
+      ],
+      "last_reviewed_at": "2026-10-29",
+      "content_owner": null,
+      "review_status": "user_confirmed_positioning",
+      "presentation": {
+        "title": "UXUY 是什么",
+        "kicker": "品牌定位",
+        "lead": "由 YZi Labs 投资的 100% 稳定币本位链上交易所，让用户用稳定币投资全球资产。",
+        "sections": [
+          {
+            "heading": "以稳定币为交易起点",
+            "points": [
+              "支持 USDT、USDC 和 UUSD，承接用户熟悉的稳定币资金。",
+              "围绕稳定币组织账户、资产选择与交易执行。"
+            ]
+          },
+          {
+            "heading": "围绕全球资产建设交易入口",
+            "points": [
+              "连接当前支持的加密资产与股票相关链上资产。",
+              "建设自研 Perp DEX，扩展稳定币交易场景。",
+              "用统一的产品主线，降低进入不同市场的操作门槛。"
+            ]
+          }
+        ],
+        "takeaway": "让稳定币从持有与转账工具，成为参与全球资产的起点。",
+        "evidence_note": "新版定位已由用户确认；资产覆盖以当前产品为准。",
+        "speaker_notes": "我们把稳定币作为交易起点。用户拿着USDT、USDC 和 UUSD，进入UXUY，参与当前支持的链上资产和交易市场。我们的方向是“稳定币本位，用U交易全球资产”。"
+      }
+    },
+    {
+      "id": "C02",
+      "group": "共用积木",
+      "title": "为什么坚持稳定币本位",
+      "key_message": "让用户从已经持有的稳定币，直接走向更丰富的资产与交易机会。",
+      "speaker_explanation": "很多用户已经习惯用稳定币转账、结算和保存购买力。UXUY 要承接的下一步，是让稳定币也能成为投资不同资产的起点。用户关注的是买什么、交易多少，复杂的链和协议尽量由系统在后台协调。",
+      "audiences": [
+        "社区",
+        "项目方",
+        "上市公司（uStock 潜在合作伙伴）"
+      ],
+      "evidence_status": "产品方向；用户与现行文档支持",
+      "sources": [
+        "U01",
+        "W01",
+        "F01第3–4页"
+      ],
+      "boundary": "不同稳定币有各自的发行、储备和价格风险；“稳定币本位”不是美元银行存款承诺。",
+      "pending_confirmation": "",
+      "technical_expansion": "",
+      "source_refs": [
+        {
+          "source_id": "U01",
+          "locator": null
+        },
+        {
+          "source_id": "W01",
+          "locator": null
+        },
+        {
+          "source_id": "F01",
+          "locator": "第3–4页"
+        }
+      ],
+      "last_reviewed_at": "2026-10-29",
+      "content_owner": null,
+      "review_status": "draft_for_content_review",
+      "presentation": {
+        "title": "为什么坚持稳定币本位",
+        "kicker": "产品逻辑",
+        "lead": "从用户已经持有的稳定币出发，把资金连接到更多资产与交易机会。",
+        "sections": [
+          {
+            "heading": "承接用户已有的资金习惯",
+            "points": [
+              "USDT、USDC 和 UUSD 为用户提供稳定币交易入口。",
+              "将转账、结算之外的资产参与需求带入同一条产品主线。"
+            ]
+          },
+          {
+            "heading": "让操作围绕投资目标展开",
+            "points": [
+              "用户先决定交易什么、投入多少，再确认报价和成本。",
+              "系统协调账户、路由与多链执行，减少分散操作。",
+              "通过清楚的费用与交易结果，帮助用户理解每笔交易。"
+            ]
+          }
+        ],
+        "takeaway": "用户关注资产与交易目标，系统承担更多底层协调。",
+        "evidence_note": "产品方向见用户确认、官方文档与白皮书。",
+        "speaker_notes": "很多用户已经习惯用稳定币转账、结算和保存购买力。UXUY 要承接的下一步，是让稳定币也能成为投资不同资产的起点。用户关注的是买什么、交易多少，复杂的链和协议尽量由系统在后台协调。"
+      }
+    },
+    {
+      "id": "C03",
+      "group": "共用积木",
+      "title": "用户实际上怎么用",
+      "key_message": "持有或转入支持的稳定币，选资产、看报价与费用、确认交易、查看结果。",
+      "speaker_explanation": "用户准备支持的稳定币，选择资产和金额，确认报价、费用与交易限制，再完成交易。系统负责寻找可执行路径；交易之后，用户可以查看相应的交易或结算记录。我们希望把分散的操作尽量放到后台，让用户更清楚自己在交易什么、需要付出多少成本。",
+      "audiences": [
+        "社区",
+        "项目方"
+      ],
+      "evidence_status": "现行官方文档与用户材料描述",
+      "sources": [
+        "W01",
+        "W02",
+        "F01第7–8页",
+        "F02第6页"
+      ],
+      "boundary": "以当前网络、地区、账户类型与交易页面为准；不承诺所有订单即时成功或所有资产直接回到相同链的钱包。",
+      "pending_confirmation": "",
+      "technical_expansion": "",
+      "source_refs": [
+        {
+          "source_id": "W01",
+          "locator": null
+        },
+        {
+          "source_id": "W02",
+          "locator": null
+        },
+        {
+          "source_id": "F01",
+          "locator": "第7–8页"
+        },
+        {
+          "source_id": "F02",
+          "locator": "第6页"
+        }
+      ],
+      "last_reviewed_at": "2026-10-29",
+      "content_owner": null,
+      "review_status": "draft_for_content_review",
+      "presentation": {
+        "title": "一笔交易如何完成",
+        "kicker": "用户旅程",
+        "lead": "把准备资金、选择资产、确认交易和查看结果，组织成清楚的使用路径。",
+        "sections": [
+          {
+            "heading": "交易前：知道买什么、花多少",
+            "points": [
+              "准备当前支持的稳定币：USDT、USDC 和 UUSD。",
+              "选择资产与金额，查看报价、费用和交易限制。",
+              "确认授权与交易条件后提交订单。"
+            ]
+          },
+          {
+            "heading": "交易中与交易后：看到执行结果",
+            "points": [
+              "系统寻找可用路径，并协调相应交易与结算。",
+              "用户查看交易状态、到账情况及可查询记录。",
+              "具体流程随网络、账户类型和产品规则调整。"
+            ]
+          }
+        ],
+        "takeaway": "把复杂执行放进系统，把选择、成本与结果呈现给用户。",
+        "evidence_note": "依据现行官方文档；实际页面与开放范围优先。",
+        "speaker_notes": "用户准备支持的稳定币，选择资产和金额，确认报价、费用与交易限制，再完成交易。系统负责寻找可执行路径；交易之后，用户可以查看相应的交易或结算记录。我们希望把分散的操作尽量放到后台，让用户更清楚自己在交易什么、需要付出多少成本。"
+      }
+    },
+    {
+      "id": "C04",
+      "group": "共用积木",
+      "title": "当前产品地图",
+      "key_message": "把加密资产交易、股票相关交易和自研 Perp DEX 放在同一条稳定币主线上。",
+      "speaker_explanation": "UXUY围绕稳定币连接几类市场：加密资产、股票相关链上资产，以及自研的永续合约市场。账户、跨链执行和路由是支撑这些市场的底层。智能执行与Trade Agent属于不同层次的能力，我们会分别说明具体用途和当前开放状态。",
+      "audiences": [
+        "社区",
+        "项目方",
+        "上市公司（uStock 潜在合作伙伴）"
+      ],
+      "evidence_status": "产品类别有材料支持；具体开放范围动态维护",
+      "sources": [
+        "W01",
+        "W03",
+        "F01第5页"
+      ],
+      "boundary": "白皮书将 Trade Agent、Ucard列为开发中；股票和商品Perp列为后续阶段。不因旧README或介绍图出现，就改成当前全面上线。",
+      "pending_confirmation": "补一张当期已开放资产、地区、网络和产品清单；Trade Agent是否已由开发中转为上线。",
+      "technical_expansion": "",
+      "source_refs": [
+        {
+          "source_id": "W01",
+          "locator": null
+        },
+        {
+          "source_id": "W03",
+          "locator": null
+        },
+        {
+          "source_id": "F01",
+          "locator": "第5页"
+        }
+      ],
+      "last_reviewed_at": "2026-10-29",
+      "content_owner": null,
+      "review_status": "draft_for_content_review",
+      "presentation": {
+        "title": "一条稳定币主线，多类交易场景",
+        "kicker": "产品地图",
+        "lead": "围绕稳定币，把资产入口、自研市场和底层执行能力组织起来。",
+        "sections": [
+          {
+            "heading": "面向用户的交易场景",
+            "points": [
+              "加密资产：连接当前支持的链上资产与流动性。",
+              "股票相关链上资产：拓展真实资产参与场景。",
+              "自研 Perp DEX：建设永续合约交易市场。"
+            ]
+          },
+          {
+            "heading": "支撑不同场景的共同底层",
+            "points": [
+              "uAccount 承载账户与授权，路由组织交易路径。",
+              "Gas 处理与多链执行减少前台的分散操作。",
+              "Trade Agent 等规划能力，按实际进度逐项开放。"
+            ]
+          }
+        ],
+        "takeaway": "资产入口可以持续扩展，稳定币与执行能力构成共同底座。",
+        "evidence_note": "白皮书与官方文档；Trade Agent 等开发状态待更新。",
+        "speaker_notes": "UXUY围绕稳定币连接几类市场：加密资产、股票相关链上资产，以及自研的永续合约市场。账户、跨链执行和路由是支撑这些市场的底层。智能执行与Trade Agent属于不同层次的能力，我们会分别说明具体用途和当前开放状态。"
+      }
+    },
+    {
+      "id": "C05",
+      "group": "共用积木",
+      "title": "UXUY 的背景与团队",
+      "key_message": "由YZi Labs投资，核心团队具备多链钱包、链上账户与交易产品建设经验。",
+      "speaker_explanation": "UXUY由YZi Labs投资。创始人与核心团队具有BitKeep等多链钱包产品的建设经验，熟悉账户、资产管理、多链交互和面向用户的产品体验。今天这些经验集中到稳定币本位链上交易：既建设用户使用的交易所，也持续建设账户、执行和自研Perp DEX等底层能力。",
+      "audiences": [
+        "社区",
+        "项目方",
+        "上市公司（uStock 潜在合作伙伴）"
+      ],
+      "evidence_status": "投资关系由用户确认；团队背景来自公司材料",
+      "sources": [
+        "U01",
+        "U02",
+        "F03第9节",
+        "F01第14页"
+      ],
+      "boundary": "简短介绍相关经历与当前建设，不展开早年产品和收购时间线；不采用“管理资产从无事故”等未经核验的绝对说法。",
+      "pending_confirmation": "核对最新可公开团队介绍、职务及机构名称。",
+      "technical_expansion": "",
+      "source_refs": [
+        {
+          "source_id": "U01",
+          "locator": null
+        },
+        {
+          "source_id": "U02",
+          "locator": null
+        },
+        {
+          "source_id": "F03",
+          "locator": "第9节"
+        },
+        {
+          "source_id": "F01",
+          "locator": "第14页"
+        }
+      ],
+      "last_reviewed_at": "2026-10-29",
+      "content_owner": null,
+      "review_status": "draft_for_content_review",
+      "presentation": {
+        "title": "UXUY 的背景与团队",
+        "kicker": "团队与建设基础",
+        "lead": "YZi Labs 投资支持，叠加多链钱包与交易产品经验，支撑持续建设。",
+        "sections": [
+          {
+            "heading": "与当前业务相关的团队经验",
+            "points": [
+              "核心团队具备 BitKeep 等多链钱包产品建设经历。",
+              "积累账户、资产管理、多链交互与用户体验经验。"
+            ]
+          },
+          {
+            "heading": "把经验转化为今天的产品能力",
+            "points": [
+              "建设以稳定币为起点的用户交易入口。",
+              "持续建设账户、执行与多链协作能力。",
+              "自研 Perp DEX，延伸自有交易市场能力。"
+            ]
+          }
+        ],
+        "takeaway": "背景的意义，在于能够持续交付账户、执行与交易产品。",
+        "evidence_note": "投资关系由用户确认；团队经历来自公司材料。",
+        "speaker_notes": "UXUY由YZi Labs投资。创始人与核心团队具有BitKeep等多链钱包产品的建设经验，熟悉账户、资产管理、多链交互和面向用户的产品体验。今天这些经验集中到稳定币本位链上交易：既建设用户使用的交易所，也持续建设账户、执行和自研Perp DEX等底层能力。"
+      }
+    },
+    {
+      "id": "C06",
+      "group": "共用积木",
+      "title": "愿景与去中心化",
+      "key_message": "让稳定币用户更便捷地参与开放、透明、可验证的链上交易市场。",
+      "speaker_explanation": "我们希望用户少被链、Gas 和分散的市场挡住，也希望用户对自己的账户和授权更清楚，交易与结算有据可查。去中心化需要落实到账户权限、协议执行、市场参与和治理机制等具体环节。当前先把产品做得可靠，长期继续扩大开放性和用户控制权。",
+      "audiences": [
+        "社区",
+        "项目方"
+      ],
+      "evidence_status": "愿景；相关设计见白皮书与官方文档",
+      "sources": [
+        "U01",
+        "W01",
+        "F01第4、7、11–13页"
+      ],
+      "boundary": "不笼统宣布全流程完全去中心化。账户、Perp资金管理、撮合、预言机、管理权限和股票托管要分别说明。",
+      "pending_confirmation": "明确当前各产品的权限主体、升级方式、资金流及未来开放范围。",
+      "technical_expansion": "",
+      "source_refs": [
+        {
+          "source_id": "U01",
+          "locator": null
+        },
+        {
+          "source_id": "W01",
+          "locator": null
+        },
+        {
+          "source_id": "F01",
+          "locator": "第4、7、11–13页"
+        }
+      ],
+      "last_reviewed_at": "2026-10-29",
+      "content_owner": null,
+      "review_status": "draft_for_content_review",
+      "presentation": {
+        "title": "愿景：更开放的链上交易",
+        "kicker": "长期方向",
+        "lead": "让稳定币用户更便捷地参与开放、透明、可验证的链上市场。",
+        "sections": [
+          {
+            "heading": "从用户今天的体验做起",
+            "points": [
+              "减少链、Gas 与分散市场带来的操作阻力。",
+              "让账户权限与用户授权更清楚。",
+              "让交易和结算有记录、可查询。"
+            ]
+          },
+          {
+            "heading": "把去中心化落实到具体环节",
+            "points": [
+              "分别审视账户控制、协议执行与市场参与。",
+              "持续明确治理、升级和管理权限。",
+              "在可靠运行的基础上，扩大开放性与用户控制权。"
+            ]
+          }
+        ],
+        "takeaway": "用可验证的具体机制，推动去中心化愿景落地。",
+        "evidence_note": "愿景及架构见白皮书；各环节当前权限需分别核对。",
+        "speaker_notes": "我们希望用户少被链、Gas 和分散的市场挡住，也希望用户对自己的账户和授权更清楚，交易与结算有据可查。去中心化需要落实到账户权限、协议执行、市场参与和治理机制等具体环节。当前先把产品做得可靠，长期继续扩大开放性和用户控制权。"
+      }
+    },
+    {
+      "id": "C07",
+      "group": "共用积木",
+      "title": "UXUY、uStock、UUSD 的关系",
+      "key_message": "uStock 连接资产与上市公司，UUSD 承接相关资金结算，UXUY 连接交易市场与用户。",
+      "speaker_explanation": "uStock、UUSD和UXUY各自承担协作环节：uStock围绕真实股份组织资产、发行和接入；UUSD在相关方案中承担认购、计价与结算；UXUY连接稳定币用户和交易市场，并建设自研Perp DEX。它们一起连接资产、资金与交易。",
+      "audiences": [
+        "项目方",
+        "上市公司（uStock 潜在合作伙伴）"
+      ],
+      "evidence_status": "用户业务材料中的分工方案",
+      "sources": [
+        "F04第7节",
+        "U01"
+      ],
+      "boundary": "材料将三者描述为独立品牌及法律财务独立主体；不写成一个共同资金池，不将USDT/USDC与UUSD的发行或储备机制等同。",
+      "pending_confirmation": "确认对外可披露的组织关系、各方服务责任和当期UUSD说明。",
+      "technical_expansion": "",
+      "source_refs": [
+        {
+          "source_id": "F04",
+          "locator": "第7节"
+        },
+        {
+          "source_id": "U01",
+          "locator": null
+        }
+      ],
+      "last_reviewed_at": "2026-10-29",
+      "content_owner": null,
+      "review_status": "draft_for_content_review",
+      "presentation": {
+        "title": "资产、资金与交易如何连接",
+        "kicker": "品牌协作",
+        "lead": "uStock、UUSD 与 UXUY 分别承接资产、结算和交易，共同连接链上资本市场。",
+        "sections": [
+          {
+            "heading": "三方各自承担的环节",
+            "points": [
+              "uStock：围绕真实股份组织资产、发行与接入方案。",
+              "UUSD：在相关方案中承担认购、计价与结算。",
+              "UXUY：连接稳定币用户与交易市场，建设自研 Perp DEX。"
+            ]
+          },
+          {
+            "heading": "合作时需要对齐的接口",
+            "points": [
+              "明确资产与权益怎样从发行端进入交易场景。",
+              "明确认购资金、结算责任与信息披露由谁承担。",
+              "三方按独立主体的服务安排协作。"
+            ]
+          }
+        ],
+        "takeaway": "uStock 连接资产，UUSD 承接相关结算，UXUY 连接交易与用户。",
+        "evidence_note": "依据 uStock 公司方案；组织关系与责任按具体安排确认。",
+        "speaker_notes": "uStock、UUSD和UXUY各自承担协作环节：uStock围绕真实股份组织资产、发行和接入；UUSD在相关方案中承担认购、计价与结算；UXUY连接稳定币用户和交易市场，并建设自研Perp DEX。它们一起连接资产、资金与交易。"
+      }
+    },
+    {
+      "id": "C08",
+      "group": "共用积木",
+      "title": "UXUY 的融资情况",
+      "key_message": "获得YZi Labs投资，完成700万美元Pre-A；公司2026年9月材料披露累计融资超过1100万美元。",
+      "speaker_explanation": "UXUY获得YZi Labs投资，并已完成700万美元Pre-A轮融资。根据公司提供、日期为2026年9月9日的材料，累计融资超过1100万美元。这些资本支持帮助团队持续建设稳定币交易、链上执行和自研交易市场。",
+      "audiences": [
+        "社区",
+        "项目方",
+        "上市公司（uStock 潜在合作伙伴）"
+      ],
+      "evidence_status": "公司提供的融资口径；700万美元Pre-A另有公开融资公告",
+      "sources": [
+        "U02",
+        "F03第10节",
+        "G01",
+        "W09",
+        "W10"
+      ],
+      "boundary": "累计融资已包含相关轮次，不把700万与1100万再次相加。累计金额采用2026年9月公司材料披露口径；不扩写为最新估值、当前现金余额或投资收益担保。",
+      "pending_confirmation": "公开公告写累计超过1000万美元，公司后续材料写超过1100万美元；保留各自披露日期与归因，补累计融资明细和最新可公开投资机构名单。",
+      "technical_expansion": "",
+      "last_reviewed_at": "2026-10-29",
+      "content_owner": null,
+      "review_status": "draft_for_content_review",
+      "metric_ids": [
+        "pre_a_funding",
+        "cumulative_funding"
+      ],
+      "source_refs": [
+        {
+          "source_id": "U02",
+          "locator": null
+        },
+        {
+          "source_id": "F03",
+          "locator": "第10节"
+        },
+        {
+          "source_id": "G01",
+          "locator": null
+        },
+        {
+          "source_id": "W09",
+          "locator": null
+        },
+        {
+          "source_id": "W10",
+          "locator": null
+        }
+      ],
+      "presentation": {
+        "title": "UXUY 的融资情况",
+        "kicker": "资本支持",
+        "lead": "公司 2026 年 9 月材料披露累计融资超过 1,100 万美元，已完成 700 万美元 Pre-A。",
+        "sections": [
+          {
+            "heading": "已披露的资本支持",
+            "points": [
+              "获得 YZi Labs 投资，支持链上交易产品建设。",
+              "完成 700 万美元 Pre-A 轮融资，另有公开公告支持。"
+            ]
+          },
+          {
+            "heading": "持续建设的资金基础",
+            "points": [
+              "公司 2026 年 9 月材料披露：累计融资超过 1,100 万美元。",
+              "资本支持用于持续建设稳定币交易、链上执行与自研市场。",
+              "Pre-A 已计入累计融资口径。"
+            ]
+          }
+        ],
+        "takeaway": "资本支持服务于长期产品建设与生态拓展。",
+        "evidence_note": "累计金额据公司 2026-09-09 材料；Pre-A 有公开融资公告。",
+        "speaker_notes": "UXUY获得YZi Labs投资，并已完成700万美元Pre-A轮融资。根据公司提供、日期为2026年9月9日的材料，累计融资超过1100万美元。这些资本支持帮助团队持续建设稳定币交易、链上执行和自研交易市场。"
+      }
+    },
+    {
+      "id": "C09",
+      "group": "共用积木",
+      "title": "UXUY 的用户与交易数据",
+      "key_message": "公司2026年9月材料披露：用户基础1000万+（含此前钱包业务积累），累计交易用户80万+，日交易量约5000万美元。",
+      "speaker_explanation": "根据公司提供、日期为2026年9月9日的材料，UXUY用户基础超过1000万，包含此前钱包业务积累；累计交易用户超过80万，日交易量约5000万美元。这些积累为寻找真实交易与合作场景提供基础，具体合作还需要看当期可触达、适配的用户。",
+      "audiences": [
+        "社区",
+        "项目方",
+        "上市公司（uStock 潜在合作伙伴）"
+      ],
+      "evidence_status": "公司材料披露；各指标统计截止日、去重和成交口径待补",
+      "sources": [
+        "U02",
+        "F03第6.2节",
+        "F04第7节"
+      ],
+      "boundary": "1000万用户基础包含此前钱包用户，不等于新版交易所独立用户规模、月活或全部可触达投资者；累计交易用户不等于当前活跃交易用户。日交易量未注明具体日期、均值区间与市场范围，不称实时数据；三项指标分别维护。",
+      "pending_confirmation": "补每项指标的统计截止日、定义、去重与产品范围；分别核对历史钱包和新版交易所用户规模及重叠，以及成交量的日期/平均区间与真实成交口径。",
+      "technical_expansion": "",
+      "last_reviewed_at": "2026-10-29",
+      "content_owner": null,
+      "review_status": "draft_for_content_review",
+      "metric_ids": [
+        "users",
+        "cumulative_traders",
+        "daily_trading_volume"
+      ],
+      "source_refs": [
+        {
+          "source_id": "U02",
+          "locator": null
+        },
+        {
+          "source_id": "F03",
+          "locator": "第6.2节"
+        },
+        {
+          "source_id": "F04",
+          "locator": "第7节"
+        }
+      ],
+      "presentation": {
+        "title": "UXUY 的用户与交易基础",
+        "kicker": "规模与业务积累",
+        "lead": "公司 2026 年 9 月材料披露：1,000 万+用户基础、80 万+累计交易用户、日交易量约 5,000 万美元。",
+        "sections": [
+          {
+            "heading": "用户与交易的三个指标",
+            "points": [
+              "1,000 万+用户基础，包含此前钱包业务积累。",
+              "80 万+累计交易用户，反映历史交易参与积累。",
+              "日交易量约 5,000 万美元，采用公司材料披露值。"
+            ]
+          },
+          {
+            "heading": "将用户积累连接到具体合作",
+            "points": [
+              "围绕资产、交易和渠道寻找真实用户需求。",
+              "试点前确认当期可触达、适配的目标用户。",
+              "按实际转化、交易与留存衡量合作效果。"
+            ]
+          }
+        ],
+        "takeaway": "用户积累提供合作起点，项目效果由当期可触达需求与执行验证。",
+        "evidence_note": "据公司 2026-09-09 材料；含钱包积累，非实时或活跃数据。",
+        "speaker_notes": "根据公司提供、日期为2026年9月9日的材料，UXUY用户基础超过1000万，包含此前钱包业务积累；累计交易用户超过80万，日交易量约5000万美元。这些积累为寻找真实交易与合作场景提供基础，具体合作还需要看当期可触达、适配的用户。"
+      }
+    },
+    {
+      "id": "C10",
+      "group": "共用积木",
+      "title": "用 U 交易全球资产",
+      "key_message": "用USDT、USDC 和 UUSD作为起点，连接更多全球资产与交易机会。",
+      "speaker_explanation": "“用U交易全球资产”，是我们希望用户记住的UXUY价值。这里的U指USDT、USDC 和 UUSD这三种稳定币。用户从熟悉的稳定币出发，进入当前支持的加密资产、股票相关链上资产和永续合约等市场；随着资产和生态扩展，能参与的交易机会也持续丰富。",
+      "audiences": [
+        "社区",
+        "项目方",
+        "上市公司（uStock 潜在合作伙伴）"
+      ],
+      "evidence_status": "用户确认的传播主线；具体覆盖以现行产品为准",
+      "sources": [
+        "U01",
+        "U02",
+        "W01",
+        "F03第11节"
+      ],
+      "boundary": "U并非仅指UUSD，也不是UXUY平台代币；全球资产是覆盖与发展方向，不表示全球所有股票、地区与产品均已开放。",
+      "pending_confirmation": "",
+      "technical_expansion": "",
+      "last_reviewed_at": "2026-10-29",
+      "content_owner": null,
+      "review_status": "draft_for_content_review",
+      "source_refs": [
+        {
+          "source_id": "U01",
+          "locator": null
+        },
+        {
+          "source_id": "U02",
+          "locator": null
+        },
+        {
+          "source_id": "W01",
+          "locator": null
+        },
+        {
+          "source_id": "F03",
+          "locator": "第11节"
+        }
+      ],
+      "presentation": {
+        "title": "用 U 交易全球资产",
+        "kicker": "核心传播主张",
+        "lead": "用 USDT、USDC 和 UUSD，连接当前支持的全球资产与交易机会。",
+        "sections": [
+          {
+            "heading": "U，是用户熟悉的稳定币",
+            "points": [
+              "明确支持 USDT、USDC 和 UUSD 三种稳定币。",
+              "以稳定币作为进入不同资产场景的共同起点。"
+            ]
+          },
+          {
+            "heading": "资产参与，沿一条主线延展",
+            "points": [
+              "连接当前支持的加密资产与股票相关链上资产。",
+              "通过自研 Perp DEX 扩展永续合约交易场景。",
+              "随着资产接入与生态建设，持续丰富交易机会。"
+            ]
+          }
+        ],
+        "takeaway": "从手里的 U 出发，走向更多资产与市场。",
+        "evidence_note": "用户确认的传播主线；覆盖范围按当前产品开放情况。",
+        "speaker_notes": "“用U交易全球资产”，是我们希望用户记住的UXUY价值。这里的U指USDT、USDC 和 UUSD这三种稳定币。用户从熟悉的稳定币出发，进入当前支持的加密资产、股票相关链上资产和永续合约等市场；随着资产和生态扩展，能参与的交易机会也持续丰富。"
+      }
+    },
+    {
+      "id": "T01",
+      "group": "技术积木",
+      "title": "uAccount：账户与授权",
+      "key_message": "把操作简化，同时把用户授权范围讲清楚。",
+      "speaker_explanation": "传统钱包往往要求用户分开处理授权、Gas和多笔操作。按白皮书描述，uAccount用智能账户能力承载权限、批量交易和可编程限制，让执行系统在用户授权范围内完成相应操作。我们希望用户操作更少，同时能看清授权范围；具体账户标准与权限设计可以进一步展开。",
+      "audiences": [
+        "社区",
+        "项目方"
+      ],
+      "evidence_status": "架构来自白皮书；现行文档确认智能合约账户",
+      "sources": [
+        "F01第7–8页",
+        "W01",
+        "K01",
+        "K02"
+      ],
+      "boundary": "白皮书写EIP-7702 + AA，不据此推断全部网络均采用相同标准；AA、MPC、4337、7702不是可互换名词。",
+      "pending_confirmation": "当前各链账户实现、签名与恢复机制、代执行权限、撤销方式、已部署合约及对应审计。",
+      "technical_expansion": "行业解释：AA是可编程账户能力的总称；EIP-7702提供EOA委托代码能力，ERC-4337给出UserOperation、Bundler、Paymaster等体系。行业标准本身不能证明UXUY采用了全部组件。",
+      "source_refs": [
+        {
+          "source_id": "F01",
+          "locator": "第7–8页"
+        },
+        {
+          "source_id": "W01",
+          "locator": null
+        },
+        {
+          "source_id": "K01",
+          "locator": null
+        },
+        {
+          "source_id": "K02",
+          "locator": null
+        }
+      ],
+      "last_reviewed_at": "2026-10-29",
+      "content_owner": null,
+      "review_status": "draft_for_content_review",
+      "presentation": {
+        "title": "uAccount：减少操作，明确授权",
+        "kicker": "智能账户",
+        "lead": "用可编程账户承载权限和批量操作，让执行发生在用户授权范围内。",
+        "sections": [
+          {
+            "heading": "账户承担什么工作",
+            "points": [
+              "承载用户权限与可编程交易限制。",
+              "将符合条件的多步操作组织为批量执行。",
+              "为 Gas 处理和自动执行提供账户协作基础。"
+            ]
+          },
+          {
+            "heading": "用户因此获得什么体验",
+            "points": [
+              "减少反复切换与分别确认的操作负担。",
+              "更清楚地理解授权给谁、允许做什么。",
+              "具体权限、撤销和恢复方式按当前账户实现说明。"
+            ]
+          }
+        ],
+        "takeaway": "简化账户操作的同时，让授权边界可以被理解与管理。",
+        "evidence_note": "白皮书架构；官方文档确认智能合约账户，分链实现待核。",
+        "speaker_notes": "传统钱包往往要求用户分开处理授权、Gas和多笔操作。按白皮书描述，uAccount用智能账户能力承载权限、批量交易和可编程限制，让执行系统在用户授权范围内完成相应操作。我们希望用户操作更少，同时能看清授权范围；具体账户标准与权限设计可以进一步展开。"
+      }
+    },
+    {
+      "id": "T02",
+      "group": "技术积木",
+      "title": "GasPool / GasLess：用户为什么可以少准备 Gas 币",
+      "key_message": "让符合条件的交易减少另备原生 Gas 币的步骤。",
+      "speaker_explanation": "链上操作要消耗网络资源。UXUY把Gas处理放进交易流程：白皮书描述了paymaster代付，现行规则写明哪些交易能由平台承担网络Gas。符合条件时，用户不必先到每条链换好原生Gas币，再回来交易，相关网络成本由规则明确承担。",
+      "audiences": [
+        "社区",
+        "项目方"
+      ],
+      "evidence_status": "现行GasLess规则可查；GasPool名称与当前模块映射待确认",
+      "sources": [
+        "W02",
+        "F01第7–8页"
+      ],
+      "boundary": "默认口播使用“GasLess/Gas处理”。不要把GasPool直接当成uPool。当前规则排除美港股交易及TRON，并对网络、金额、次数等设条件；Solana有单独付费规则。",
+      "pending_confirmation": "GasPool是否仍是新版正式名称；它与paymaster、补贴额度、手续费结算分别是什么关系；当前规则中Solana条目需统一。",
+      "technical_expansion": "行业解释：代付方先付原生网络费用，再按业务规则承担成本或与用户结算；具体选择取决于账户、协议和付费方案。Gasless不等于所有费用为零。",
+      "source_refs": [
+        {
+          "source_id": "W02",
+          "locator": null
+        },
+        {
+          "source_id": "F01",
+          "locator": "第7–8页"
+        }
+      ],
+      "last_reviewed_at": "2026-10-29",
+      "content_owner": null,
+      "review_status": "draft_for_content_review",
+      "presentation": {
+        "title": "GasLess：减少准备 Gas 的步骤",
+        "kicker": "网络费用处理",
+        "lead": "在符合条件的交易中，将网络 Gas 处理融入交易流程。",
+        "sections": [
+          {
+            "heading": "用户少做的一件事",
+            "points": [
+              "减少先获取每条链原生 Gas 币、再回来交易的步骤。",
+              "用户围绕资产与金额完成交易选择。"
+            ]
+          },
+          {
+            "heading": "系统如何承担网络费用",
+            "points": [
+              "白皮书描述 paymaster 代付，由相应机制先支付网络成本。",
+              "平台是否承担费用，按网络、金额、次数与产品规则确定。",
+              "美港股、TRON 及 Solana 等场景须核对对应规则。"
+            ]
+          }
+        ],
+        "takeaway": "减少为 Gas 做准备的操作，让用户更顺畅地完成交易。",
+        "evidence_note": "现行 GasLess 规则可查；GasPool 正式命名与模块映射待确认。",
+        "speaker_notes": "链上操作要消耗网络资源。UXUY把Gas处理放进交易流程：白皮书描述了paymaster代付，现行规则写明哪些交易能由平台承担网络Gas。符合条件时，用户不必先到每条链换好原生Gas币，再回来交易，相关网络成本由规则明确承担。"
+      }
+    },
+    {
+      "id": "T03",
+      "group": "技术积木",
+      "title": "智能路由与 AI：把交易目标变成执行路径",
+      "key_message": "路由优化的是怎么成交，和预测资产会不会上涨是两回事。",
+      "speaker_explanation": "同一笔交易，可能有不同链、交易场所和流动性路径。路由系统比较可用流动性、报价、滑点、网络费用与路径状态，形成可执行方案。材料中AI被用于辅助执行优化；当前公开文档能直接确认的是自动路由及其比较维度。",
+      "audiences": [
+        "社区",
+        "项目方"
+      ],
+      "evidence_status": "自动路由有现行官方文档；AI实现细节待核",
+      "sources": [
+        "W01",
+        "F01第7–8页",
+        "F02第6页",
+        "K03"
+      ],
+      "boundary": "不写AI保证最佳价格、保证赚钱或AI模型完全自研。普通路径搜索算法不自动等于机器学习；Trade Agent也不是智能路由的同义词。",
+      "pending_confirmation": "AI具体参与搜索、排序、预测还是拆单；模型与输入输出、实时执行保护、失败回退和效果基准。",
+      "technical_expansion": "行业解释：可比较“预期到账减去总成本”，或在滑点、时延等约束内选路径。拆单可能减少价格冲击，也可能增加Gas；报价与成交之间仍会变化。",
+      "source_refs": [
+        {
+          "source_id": "W01",
+          "locator": null
+        },
+        {
+          "source_id": "F01",
+          "locator": "第7–8页"
+        },
+        {
+          "source_id": "F02",
+          "locator": "第6页"
+        },
+        {
+          "source_id": "K03",
+          "locator": null
+        }
+      ],
+      "last_reviewed_at": "2026-10-29",
+      "content_owner": null,
+      "review_status": "draft_for_content_review",
+      "presentation": {
+        "title": "智能路由：把目标变成路径",
+        "kicker": "交易执行",
+        "lead": "比较流动性、报价与执行成本，为一笔交易组织可执行路径。",
+        "sections": [
+          {
+            "heading": "路由需要比较什么",
+            "points": [
+              "哪些链、市场与流动性路径能够完成交易。",
+              "综合报价、滑点、网络费用与路径状态。",
+              "根据可用资源组织执行，必要时评估路径组合。"
+            ]
+          },
+          {
+            "heading": "AI 如何进入这条主线",
+            "points": [
+              "项目材料将 AI 用于辅助执行优化。",
+              "公开文档可确认自动路由及其比较维度。",
+              "AI 的具体参与环节与效果，需用实现和基准进一步说明。"
+            ]
+          }
+        ],
+        "takeaway": "智能路由帮助实现交易目标，执行效果由路径、成本与市场共同决定。",
+        "evidence_note": "自动路由见现行官方文档；AI 模型与实现细节待核。",
+        "speaker_notes": "同一笔交易，可能有不同链、交易场所和流动性路径。路由系统比较可用流动性、报价、滑点、网络费用与路径状态，形成可执行方案。材料中AI被用于辅助执行优化；当前公开文档能直接确认的是自动路由及其比较维度。"
+      }
+    },
+    {
+      "id": "T04",
+      "group": "技术积木",
+      "title": "uPool 与多链执行：把跨链协作放到后台",
+      "key_message": "用户表达交易目标，系统协调不同链上的稳定币与执行资源。",
+      "speaker_explanation": "不同链上的资产与流动性天然分散。按白皮书设计，uPool协调链间稳定币流动性，执行引擎组织交易计划，让用户少做手动跨链和切链。uPool解决的是流动性与跨链协作；Gas代付解决的是网络费用支付，二者职责不同。",
+      "audiences": [
+        "社区",
+        "项目方"
+      ],
+      "evidence_status": "架构来自白皮书；现行文档确认跨链路由",
+      "sources": [
+        "F01第7–8页",
+        "W01"
+      ],
+      "boundary": "“不用手动跨链”是用户体验，不代表系统没有跨链依赖、结算等待或失败风险。不使用白皮书TRON跨链全免Gas示例作为当前产品演示。",
+      "pending_confirmation": "当前支持路径、流动性来源、桥或消息依赖、最终性与退款机制、余额能用于各市场的实际规则。",
+      "technical_expansion": "",
+      "source_refs": [
+        {
+          "source_id": "F01",
+          "locator": "第7–8页"
+        },
+        {
+          "source_id": "W01",
+          "locator": null
+        }
+      ],
+      "last_reviewed_at": "2026-10-29",
+      "content_owner": null,
+      "review_status": "draft_for_content_review",
+      "presentation": {
+        "title": "uPool：协调多链稳定币流动性",
+        "kicker": "多链执行",
+        "lead": "把不同链上的稳定币与执行资源连接起来，减少用户手动跨链与切链。",
+        "sections": [
+          {
+            "heading": "多链交易需要解决的问题",
+            "points": [
+              "资产与流动性分散在不同网络和市场。",
+              "一次交易可能需要协调资金、消息与结算顺序。"
+            ]
+          },
+          {
+            "heading": "uPool 与执行引擎如何协作",
+            "points": [
+              "按白皮书设计，uPool 协调链间稳定币流动性。",
+              "执行引擎组织交易计划，协调可用链上资源。",
+              "Gas 处理另行承担网络费用支付的职责。"
+            ]
+          }
+        ],
+        "takeaway": "让用户表达交易目标，由系统协调多链协作。",
+        "evidence_note": "uPool 架构见白皮书；现行文档确认跨链路由，路径细节待核。",
+        "speaker_notes": "不同链上的资产与流动性天然分散。按白皮书设计，uPool协调链间稳定币流动性，执行引擎组织交易计划，让用户少做手动跨链和切链。uPool解决的是流动性与跨链协作；Gas代付解决的是网络费用支付，二者职责不同。"
+      }
+    },
+    {
+      "id": "T05",
+      "group": "技术积木",
+      "title": "自研 Perp DEX：稳定币本位的自有交易市场",
+      "key_message": "UXUY 不只连接外部市场，也建设自己的永续合约交易能力。",
+      "speaker_explanation": "永续合约让用户用保证金建立多头或空头头寸，没有固定到期日。一个Perp市场要处理订单、成交、保证金、价格、结算和清算。UXUY的自研Perp DEX，是稳定币交易主线中的自有市场建设；和把现货订单路由到外部场所，是两种执行路径。",
+      "audiences": [
+        "社区",
+        "项目方",
+        "上市公司（uStock 潜在合作伙伴）"
+      ],
+      "evidence_status": "自研来自项目材料；当前Perp规则有官方文档",
+      "sources": [
+        "F01第5–8页",
+        "F03第4.4节",
+        "W03",
+        "W04",
+        "W07"
+      ],
+      "boundary": "不将自研扩写为每项依赖都自研、全部撮合均上链或已完全开源。当前具体合约品种以实盘为准。",
+      "pending_confirmation": "订单簿/撮合的部署位置，订单签名、结算批次、取消机制、延迟与性能；撮合、ULP和第三方做市的实际配合。",
+      "technical_expansion": "通俗链路：提交订单→检查账户与保证金→撮合或按可用报价成交→更新仓位和结算→持续风控。该链路是讲解框架；各节点当前实现须用技术图补实。",
+      "source_refs": [
+        {
+          "source_id": "F01",
+          "locator": "第5–8页"
+        },
+        {
+          "source_id": "F03",
+          "locator": "第4.4节"
+        },
+        {
+          "source_id": "W03",
+          "locator": null
+        },
+        {
+          "source_id": "W04",
+          "locator": null
+        },
+        {
+          "source_id": "W07",
+          "locator": null
+        }
+      ],
+      "last_reviewed_at": "2026-10-29",
+      "content_owner": null,
+      "review_status": "draft_for_content_review",
+      "presentation": {
+        "title": "自研 Perp DEX 的市场能力",
+        "kicker": "自有交易市场",
+        "lead": "在连接外部交易场所之外，UXUY 建设自己的永续合约市场。",
+        "sections": [
+          {
+            "heading": "永续合约市场提供什么",
+            "points": [
+              "用户以保证金建立多头或空头头寸。",
+              "合约没有固定到期日，仓位持续受保证金规则约束。",
+              "为稳定币资金提供额外的交易与风险管理场景。"
+            ]
+          },
+          {
+            "heading": "一个自有市场如何运行",
+            "points": [
+              "订单提交后检查账户与保证金，再按可用规则成交。",
+              "更新仓位与结算，持续计算风险和清算条件。",
+              "撮合、定价、流动性与风险处理共同支撑市场。"
+            ]
+          }
+        ],
+        "takeaway": "自研 Perp DEX 让 UXUY 从交易入口延伸到自有市场建设。",
+        "evidence_note": "自研依据公司材料；Perp 规则见官方文档，部署细节待核。",
+        "speaker_notes": "永续合约让用户用保证金建立多头或空头头寸，没有固定到期日。一个Perp市场要处理订单、成交、保证金、价格、结算和清算。UXUY的自研Perp DEX，是稳定币交易主线中的自有市场建设；和把现货订单路由到外部场所，是两种执行路径。"
+      }
+    },
+    {
+      "id": "T06",
+      "group": "技术积木",
+      "title": "ULP：流动性从哪里来",
+      "key_message": "按白皮书，ULP提供基础流动性，另有做市与对冲环节协作。",
+      "speaker_explanation": "交易市场需要可成交的对手方和深度。白皮书将ULP描述为基础流动性池和交易对手方，第三方做市增加深度与改善价差，对冲方在外部市场分散方向敞口。这些角色一起支撑市场运行，也为流动性伙伴提供可进一步讨论的协作空间。",
+      "audiences": [
+        "项目方",
+        "社区"
+      ],
+      "evidence_status": "白皮书架构描述；实际开放条件待补",
+      "sources": [
+        "F01第6页",
+        "F03第4.4节"
+      ],
+      "boundary": "ULP参与者承担做市损益。交易者整体盈利时，池子可能受损；不能写成保本理财、固定收益或任何人当前均可无条件存入。",
+      "pending_confirmation": "池子当前状态、资产/份额规则、申赎与限制、费用归属、对冲权限、收益和风险披露。",
+      "technical_expansion": "",
+      "source_refs": [
+        {
+          "source_id": "F01",
+          "locator": "第6页"
+        },
+        {
+          "source_id": "F03",
+          "locator": "第4.4节"
+        }
+      ],
+      "last_reviewed_at": "2026-10-29",
+      "content_owner": null,
+      "review_status": "draft_for_content_review",
+      "presentation": {
+        "title": "ULP 与市场流动性如何协作",
+        "kicker": "流动性体系",
+        "lead": "按白皮书，ULP、第三方做市和外部对冲共同支撑可成交的市场。",
+        "sections": [
+          {
+            "heading": "三类角色提供不同能力",
+            "points": [
+              "ULP：提供基础流动性并承担交易对手方角色。",
+              "第三方做市：增加报价深度、改善买卖价差。",
+              "对冲方：在外部市场分散方向敞口。"
+            ]
+          },
+          {
+            "heading": "合作围绕流动性质量展开",
+            "points": [
+              "明确资金进入、份额、申赎与费用分配规则。",
+              "共同评估深度、成交成本和风险敞口。",
+              "ULP 参与者承担相应做市损益与市场风险。"
+            ]
+          }
+        ],
+        "takeaway": "流动性需要资金、报价与风险管理持续协作。",
+        "evidence_note": "白皮书架构描述；实际开放条件、申赎与对冲安排待确认。",
+        "speaker_notes": "交易市场需要可成交的对手方和深度。白皮书将ULP描述为基础流动性池和交易对手方，第三方做市增加深度与改善价差，对冲方在外部市场分散方向敞口。这些角色一起支撑市场运行，也为流动性伙伴提供可进一步讨论的协作空间。"
+      }
+    },
+    {
+      "id": "T07",
+      "group": "技术积木",
+      "title": "Perp 定价与风控：市场如何运行",
+      "key_message": "把成交价、风控价格、资金费率和损失处理分开说明。",
+      "speaker_explanation": "用户按市场实际可成交价格成交；标记价格用于未实现盈亏和风险计算，不能直接当成成交承诺。指数价格汇总有效参考市场；资金费率在多空之间结算，帮助合约价格贴近基础市场。仓位不满足维持保证金时，可能触发清算；保险基金和ADL是处理极端损失的后续环节。",
+      "audiences": [
+        "项目方",
+        "社区",
+        "上市公司（uStock 潜在合作伙伴）"
+      ],
+      "evidence_status": "现行官方Perp规则",
+      "sources": [
+        "W03",
+        "W04",
+        "W05",
+        "W06"
+      ],
+      "boundary": "不把白皮书的“预言机中位数”直接替代现行指数与标记价格规则；保险基金不是用户本金保险，ADL可能影响盈利仓位。",
+      "pending_confirmation": "参考源和权重、预言机/标记价构造、异常保护、清算执行者、保险基金链上核对方式与规则版本。",
+      "technical_expansion": "与技术伙伴展开：价格输入→指数/标记价→阶梯保证金与仓位限制→清算→按规则使用保险基金→必要时ADL。只讲已披露机制，不代填未知预言机服务商或交易引擎实现。",
+      "source_refs": [
+        {
+          "source_id": "W03",
+          "locator": null
+        },
+        {
+          "source_id": "W04",
+          "locator": null
+        },
+        {
+          "source_id": "W05",
+          "locator": null
+        },
+        {
+          "source_id": "W06",
+          "locator": null
+        }
+      ],
+      "last_reviewed_at": "2026-10-29",
+      "content_owner": null,
+      "review_status": "draft_for_content_review",
+      "presentation": {
+        "title": "Perp 定价与风控如何运行",
+        "kicker": "市场规则",
+        "lead": "以不同价格指标、保证金规则与损失处理机制，维护永续市场运行。",
+        "sections": [
+          {
+            "heading": "三种价格与费用角色",
+            "points": [
+              "成交价由市场实际可成交报价确定。",
+              "指数价格汇总参考市场；标记价格用于盈亏与风险计算。",
+              "资金费率在多空之间结算，帮助合约价格贴近基础市场。"
+            ]
+          },
+          {
+            "heading": "风险如何逐层处理",
+            "points": [
+              "仓位持续接受保证金检查，低于要求可能触发清算。",
+              "保险基金与 ADL 处理规则内的后续极端损失。",
+              "异常价格、清算与 ADL 均按当前规则执行。"
+            ]
+          }
+        ],
+        "takeaway": "理解成交、估值和风控各自的作用，才能讲清 Perp 市场。",
+        "evidence_note": "依据现行官方 Perp 规则；保险基金不等于本金保险。",
+        "speaker_notes": "用户按市场实际可成交价格成交；标记价格用于未实现盈亏和风险计算，不能直接当成成交承诺。指数价格汇总有效参考市场；资金费率在多空之间结算，帮助合约价格贴近基础市场。仓位不满足维持保证金时，可能触发清算；保险基金和ADL是处理极端损失的后续环节。"
+      }
+    },
+    {
+      "id": "S01",
+      "group": "uStock积木",
+      "title": "通过 uStock 连接全球链上投资者，有什么价值",
+      "key_message": "帮助上市公司拓展投资者基础，连接稳定币资本，并建设持续的链上参与与交易场景。",
+      "speaker_explanation": "通过uStock，我们希望帮助上市公司连接更多全球链上投资者：他们熟悉稳定币和链上交易，却未必已通过传统渠道关注这家公司。公司因此有机会接触新投资者与稳定币资本，让企业的业务和价值被更多人理解。围绕发行、交易、流动性和社区沟通，uStock进一步探索长期的链上资本市场合作。",
+      "audiences": [
+        "上市公司（uStock 潜在合作伙伴）",
+        "项目方"
+      ],
+      "evidence_status": "uStock业务价值主张；实际效果取决于项目执行",
+      "sources": [
+        "U02",
+        "F04第2–3、8、11节"
+      ],
+      "boundary": "连接投资者是目标与服务方向，不保证投资人数、融资额、成交量或股价表现；所触达投资者须符合具体参与条件。",
+      "pending_confirmation": "",
+      "technical_expansion": "",
+      "source_refs": [
+        {
+          "source_id": "U02",
+          "locator": null
+        },
+        {
+          "source_id": "F04",
+          "locator": "第2–3、8、11节"
+        }
+      ],
+      "last_reviewed_at": "2026-10-29",
+      "content_owner": null,
+      "review_status": "draft_for_content_review",
+      "benefits": [
+        {
+          "title": "拓展投资者基础",
+          "detail": "接触以稳定币持有购买力、习惯链上交易的跨地区投资者，增加传统投资者覆盖之外的沟通与参与机会。"
+        },
+        {
+          "title": "连接新的资本来源",
+          "detail": "在符合条件的新股发行安排中，对接稳定币资本，为公司拓展融资与资本形成路径；老股出售的资金归属另行区分。"
+        },
+        {
+          "title": "建设后续交易与流动性",
+          "detail": "把发行后的现货、专业做市、铸赎与持续运营纳入方案，形成更多可参与的交易场景。"
+        },
+        {
+          "title": "延长链上参与窗口",
+          "detail": "在产品、规则与流动性安排支持下，链上资产可提供24/7交易与关注窗口，增加传统市场休市期间的参与和价格发现机会。"
+        },
+        {
+          "title": "扩大国际传播与持续关注",
+          "detail": "结合链上社区、交易用户及生态传播，让更多投资者持续了解业务、财报与公司进展，建设长期投资者关系。"
+        }
+      ],
+      "presentation": {
+        "title": "uStock 连接全球链上投资者",
+        "kicker": "上市公司 · 合作价值",
+        "lead": "帮助上市公司拓展投资者基础，连接稳定币资本，建设持续的链上交易与参与场景。",
+        "sections": [
+          {
+            "heading": "拓展新的投资者与资本连接",
+            "points": [
+              "接触习惯稳定币与链上交易的全球投资者。",
+              "让传统渠道之外的人群认识公司业务与股份权益。",
+              "在合适的发行结构下，对接稳定币资金参与。"
+            ]
+          },
+          {
+            "heading": "把一次接入变成长期市场建设",
+            "points": [
+              "将发行、交易与专业流动性安排一起规划。",
+              "围绕业务进展、财报与公司行动持续沟通。",
+              "按服务安排探索更长的链上参与窗口与价格发现。"
+            ]
+          }
+        ],
+        "takeaway": "让公司价值被更多全球链上投资者理解、关注并按条件参与。",
+        "evidence_note": "uStock 价值主张与业务方案；具体效果由结构与执行验证。",
+        "speaker_notes": "通过uStock，我们希望帮助上市公司连接更多全球链上投资者：他们熟悉稳定币和链上交易，却未必已通过传统渠道关注这家公司。公司因此有机会接触新投资者与稳定币资本，让企业的业务和价值被更多人理解。围绕发行、交易、流动性和社区沟通，uStock进一步探索长期的链上资本市场合作。"
+      }
+    },
+    {
+      "id": "S02",
+      "group": "uStock积木",
+      "title": "股份从哪里来，钱归谁",
+      "key_message": "新股发行与老股出售是两种不同路径。",
+      "speaker_explanation": "如果股份来自公司新增发行，符合交易安排的募集资金进入公司；如果来自创始人、大股东或其他股东出售现有股份，出售所得属于相关股东。我们会先确认股份来源、目标规模、限制与授权，再分别设计公司融资或股东出售的方案。",
+      "audiences": [
+        "上市公司（uStock 潜在合作伙伴）",
+        "项目方"
+      ],
+      "evidence_status": "UStock方案明确区分",
+      "sources": [
+        "F04第4节"
+      ],
+      "boundary": "不存在材料支持的固定股份比例、固定折扣或无条件买断承诺；发行与出售的适用条件由具体结构确定。",
+      "pending_confirmation": "",
+      "technical_expansion": "",
+      "source_refs": [
+        {
+          "source_id": "F04",
+          "locator": "第4节"
+        }
+      ],
+      "last_reviewed_at": "2026-10-29",
+      "content_owner": null,
+      "review_status": "draft_for_content_review",
+      "presentation": {
+        "title": "先明确股份来源与资金归属",
+        "kicker": "上市公司 · 交易结构",
+        "lead": "公司新增发行与股东出售现有股份，对应不同的资金流向和合作目标。",
+        "sections": [
+          {
+            "heading": "两条股份接入路径",
+            "points": [
+              "公司新增发行：按交易安排募集资金进入公司。",
+              "股东出售老股：出售所得属于相关出售股东。"
+            ]
+          },
+          {
+            "heading": "接入前先对齐四个问题",
+            "points": [
+              "谁提供股份，是否具备必要授权与处置条件。",
+              "希望完成公司融资，还是股东现有股份出售。",
+              "目标规模、股份限制、定价与交割条件如何约定。"
+            ]
+          }
+        ],
+        "takeaway": "先把股份和资金对应清楚，再设计发行与链上参与方案。",
+        "evidence_note": "uStock 方案明确区分新股与老股；条款按具体项目确定。",
+        "speaker_notes": "如果股份来自公司新增发行，符合交易安排的募集资金进入公司；如果来自创始人、大股东或其他股东出售现有股份，出售所得属于相关股东。我们会先确认股份来源、目标规模、限制与授权，再分别设计公司融资或股东出售的方案。"
+      }
+    },
+    {
+      "id": "S03",
+      "group": "uStock积木",
+      "title": "托管、uToken 权益与底层证明",
+      "key_message": "拟以真实股份支撑对应的链上经济权益，并明确托管与权利边界。",
+      "speaker_explanation": "按uStock方案，真实股份由经确定的机构及法律结构持有，再发行对应经济权益的uToken。材料写明1个uToken对应1股的经济权益，包括相关分红与公司行动利益，并不赋予投票权。底层证明需要展示托管与股份、铸造和流通数量、覆盖率及核验时间；满足条件的持有人按规则赎回。",
+      "audiences": [
+        "上市公司（uStock 潜在合作伙伴）",
+        "项目方"
+      ],
+      "evidence_status": "业务方案；具体机构、证据和法律结构须落地",
+      "sources": [
+        "F04第4节"
+      ],
+      "boundary": "经济权益不自动等于直接登记股东身份。1:1是股份数量与权益覆盖，不能说成代币价格永远等于股票现价；24/7交易不等于随时无条件赎回。",
+      "pending_confirmation": "具体发行/持股主体、托管机构、持有人法律权利、破产隔离、公司行动处理、核验与赎回安排。",
+      "technical_expansion": "",
+      "source_refs": [
+        {
+          "source_id": "F04",
+          "locator": "第4节"
+        }
+      ],
+      "last_reviewed_at": "2026-10-29",
+      "content_owner": null,
+      "review_status": "draft_for_content_review",
+      "presentation": {
+        "title": "真实股份如何支撑链上权益",
+        "kicker": "上市公司 · 权益与证明",
+        "lead": "按 uStock 方案，以真实股份支撑 uToken 经济权益，并提供对应托管与覆盖证明。",
+        "sections": [
+          {
+            "heading": "股份、代币与持有人权益",
+            "points": [
+              "真实股份由确定的机构及法律结构持有。",
+              "材料设计：1 个 uToken 对应 1 股的经济权益。",
+              "经济权益包括相关分红与公司行动利益，不赋予投票权。"
+            ]
+          },
+          {
+            "heading": "让权益关系可以核验",
+            "points": [
+              "披露持股与托管信息，以及铸造和流通数量。",
+              "明确覆盖率、核验时间与公司行动处理方式。",
+              "满足条件的持有人，依正式规则申请赎回。"
+            ]
+          }
+        ],
+        "takeaway": "让真实股份、链上数量与持有人经济权益形成可核验的对应关系。",
+        "evidence_note": "uStock 业务方案；具体机构、法律权利及赎回安排待落地。",
+        "speaker_notes": "按uStock方案，真实股份由经确定的机构及法律结构持有，再发行对应经济权益的uToken。材料写明1个uToken对应1股的经济权益，包括相关分红与公司行动利益，并不赋予投票权。底层证明需要展示托管与股份、铸造和流通数量、覆盖率及核验时间；满足条件的持有人按规则赎回。"
+      }
+    },
+    {
+      "id": "S04",
+      "group": "uStock积木",
+      "title": "认购、资金与交割流程",
+      "key_message": "先把资金与股份的闭环设计清楚，再组织认购和铸造。",
+      "speaker_explanation": "方案中的流程是：确定发行条件→投资者按资格与规则认购→超额认购时按约定分配→未分配资金按规则退还→资金和股份按批次完成交割→铸造并领取uToken。认购以UUSD计价；USDT/USDC如何转换、资金由谁控制、何时释放，都需要在正式规则中明确。",
+      "audiences": [
+        "上市公司（uStock 潜在合作伙伴）",
+        "项目方"
+      ],
+      "evidence_status": "UStock发行方案；执行状态待确认",
+      "sources": [
+        "F04第4–5节"
+      ],
+      "boundary": "材料中的抽签、每账户上限等属于方案描述，以最终发行文件为准。“未分配/失败退款”不是投资不亏；赎回、交易、汇率和费用另看条款。",
+      "pending_confirmation": "适格地区与投资者、KYC/AML、认购合约与资金权限、交割和退款条件、当期发行文件。",
+      "technical_expansion": "",
+      "source_refs": [
+        {
+          "source_id": "F04",
+          "locator": "第4–5节"
+        }
+      ],
+      "last_reviewed_at": "2026-10-29",
+      "content_owner": null,
+      "review_status": "draft_for_content_review",
+      "presentation": {
+        "title": "认购资金与股份怎样交割",
+        "kicker": "上市公司 · 发行闭环",
+        "lead": "把认购、分配、退款、股份交割与铸造组织成清楚的资金和资产闭环。",
+        "sections": [
+          {
+            "heading": "认购前明确规则与资金权限",
+            "points": [
+              "确定发行条件、适格投资者和认购安排。",
+              "方案以 UUSD 计价，明确 USDT、USDC 和 UUSD 的换入与结算路径。",
+              "说明资金由谁控制、何时释放、未分配资金怎样退还。"
+            ]
+          },
+          {
+            "heading": "按约定完成分配与交割",
+            "points": [
+              "认购结束后依规则分配，未分配资金按条件退款。",
+              "资金与股份按批次完成交割与核验。",
+              "交割条件满足后，铸造并领取相应 uToken。"
+            ]
+          }
+        ],
+        "takeaway": "让每一步认购都有对应的资金状态、股份依据与交割条件。",
+        "evidence_note": "依据 uStock 发行方案；执行以正式发行与认购文件为准。",
+        "speaker_notes": "方案中的流程是：确定发行条件→投资者按资格与规则认购→超额认购时按约定分配→未分配资金按规则退还→资金和股份按批次完成交割→铸造并领取uToken。认购以UUSD计价；涉及USDT、USDC 和 UUSD的换入与结算路径、资金由谁控制、何时释放，都需要在正式规则中明确。"
+      }
+    },
+    {
+      "id": "S05",
+      "group": "uStock积木",
+      "title": "发行之后：流动性与市场建设",
+      "key_message": "把发行后的交易、披露与流动性安排纳入接入方案。",
+      "speaker_explanation": "uToken发行以后，还需要投资者信息、交易场景和可持续的流动性安排。uStock方案包括uToken/UUSD现货、专业做市，以及以股份或uToken作抵押的流动性融资；铸造、赎回和套利连接链上市场与传统市场。满足条件后，再评估相关Perp市场。",
+      "audiences": [
+        "上市公司（uStock 潜在合作伙伴）",
+        "项目方"
+      ],
+      "evidence_status": "后续市场方案；每一步按进度维护",
+      "sources": [
+        "F04第6、10–11节"
+      ],
+      "boundary": "流动性建设不等于托价、持续买盘或保证退出；原股票与uToken可能出现价差。链上可交易不代表传统市场结算全天候运转；Perp不自动随发行上线。",
+      "pending_confirmation": "",
+      "technical_expansion": "",
+      "source_refs": [
+        {
+          "source_id": "F04",
+          "locator": "第6、10–11节"
+        }
+      ],
+      "last_reviewed_at": "2026-10-29",
+      "content_owner": null,
+      "review_status": "draft_for_content_review",
+      "presentation": {
+        "title": "发行之后，持续建设交易市场",
+        "kicker": "上市公司 · 后续市场",
+        "lead": "将信息披露、交易场景与流动性安排纳入接入方案，支持持续的投资者参与。",
+        "sections": [
+          {
+            "heading": "建立发行后的市场基础",
+            "points": [
+              "按方案评估 uToken / UUSD 现货交易场景。",
+              "引入专业做市，明确报价、深度和风险责任。",
+              "持续披露公司信息、股份覆盖与公司行动。"
+            ]
+          },
+          {
+            "heading": "连接链上与传统市场",
+            "points": [
+              "通过符合条件的铸造、赎回与套利机制形成连接。",
+              "按具体结构评估股份或 uToken 抵押的流动性融资。",
+              "满足条件后，再评估相应 Perp 市场。"
+            ]
+          }
+        ],
+        "takeaway": "把发行后的交易、信息与流动性，作为长期合作的一部分。",
+        "evidence_note": "后续市场方案；现货、融资与 Perp 分别按落地状态维护。",
+        "speaker_notes": "uToken发行以后，还需要投资者信息、交易场景和可持续的流动性安排。uStock方案包括uToken/UUSD现货、专业做市，以及以股份或uToken作抵押的流动性融资；铸造、赎回和套利连接链上市场与传统市场。满足条件后，再评估相关Perp市场。"
+      }
+    },
+    {
+      "id": "S06",
+      "group": "uStock积木",
+      "title": "上市公司如何接入",
+      "key_message": "先做股份与商业可行性评估，再推进机构、结构和发行。",
+      "speaker_explanation": "接入分七步：①明确公司目标与授权联系人；②识别上市地、股份来源和限制；③与机构、法律顾问评估托管、发行和投资者安排；④谈规模、定价、费用与流动性责任；⑤验证股份、资金和系统交割；⑥开展满足条件的试点发行；⑦持续披露与运营，之后再评估扩展。",
+      "audiences": [
+        "上市公司（uStock 潜在合作伙伴）",
+        "项目方"
+      ],
+      "evidence_status": "依据材料整理的建议接入流程，不是已经发布的SOP",
+      "sources": [
+        "F04第4–6、10节"
+      ],
+      "boundary": "不承诺固定周期或保证获批。UXUY已有第三方股票交易服务，不等于uStock已经完成上市公司融资发行。",
+      "pending_confirmation": "正式接入负责人、筛选标准、资料清单、商业条款、机构名单、已完成且可披露的案例与服务SLA。",
+      "technical_expansion": "",
+      "source_refs": [
+        {
+          "source_id": "F04",
+          "locator": "第4–6、10节"
+        }
+      ],
+      "last_reviewed_at": "2026-10-29",
+      "content_owner": null,
+      "review_status": "draft_for_content_review",
+      "presentation": {
+        "title": "上市公司如何启动 uStock 合作",
+        "kicker": "上市公司 · 接入路径",
+        "lead": "从公司的资本市场目标出发，以可行性评估和小范围试点推进合作。",
+        "sections": [
+          {
+            "heading": "先完成商业与结构评估",
+            "points": [
+              "明确目标：拓展投资者、公司融资或股东出售。",
+              "识别上市地、股份来源、限制及授权联系人。",
+              "与机构和法律顾问评估持股、发行与投资者安排。"
+            ]
+          },
+          {
+            "heading": "再形成可执行的接入方案",
+            "points": [
+              "谈定规模、定价、费用、披露与流动性责任。",
+              "验证股份、资金与系统交割，开展满足条件的试点。",
+              "根据实际参与和运行情况，推进持续运营与扩展。"
+            ]
+          }
+        ],
+        "takeaway": "先对齐公司目标与股份条件，再把结构、发行和长期市场串起来。",
+        "evidence_note": "依据材料整理的建议流程；正式 SOP、负责人及案例待确认。",
+        "speaker_notes": "接入分七步：①明确公司目标与授权联系人；②识别上市地、股份来源和限制；③与机构、法律顾问评估托管、发行和投资者安排；④谈规模、定价、费用与流动性责任；⑤验证股份、资金和系统交割；⑥开展满足条件的试点发行；⑦持续披露与运营，之后再评估扩展。"
+      }
+    },
+    {
+      "id": "S07",
+      "group": "uStock积木",
+      "title": "全球链上投资者是谁，为什么会关注公司",
+      "key_message": "面向持有稳定币、习惯链上参与的投资者，把公司业务、股份权益与投资者需求连接起来。",
+      "speaker_explanation": "链上投资者并不只关注加密原生资产。他们也可能关注AI、科技、金融科技及其他真实业务，希望用稳定币参与更多资产。uStock要做的是连接双方：公司提供可理解的业务与真实股份权益，平台提供投资者触达、参与和后续市场协作的路径，让潜在投资者从认识公司走向符合条件的参与。",
+      "audiences": [
+        "上市公司（uStock 潜在合作伙伴）"
+      ],
+      "evidence_status": "目标投资者画像与业务方案，不是已经承诺认购的人群",
+      "sources": [
+        "U02",
+        "F04第2、8、10节"
+      ],
+      "boundary": "不把UXUY1000万用户直接等同uStock适格投资者或认购人；不声称所有链上用户都偏好某类股票。",
+      "pending_confirmation": "",
+      "technical_expansion": "",
+      "last_reviewed_at": "2026-10-29",
+      "content_owner": null,
+      "review_status": "draft_for_content_review",
+      "source_refs": [
+        {
+          "source_id": "U02",
+          "locator": null
+        },
+        {
+          "source_id": "F04",
+          "locator": "第2、8、10节"
+        }
+      ],
+      "presentation": {
+        "title": "全球链上投资者与公司价值",
+        "kicker": "上市公司 · 投资者连接",
+        "lead": "把真实业务、股份权益与稳定币投资需求连接起来，为公司拓展新的关注与参与。",
+        "sections": [
+          {
+            "heading": "潜在投资者的共同特征",
+            "points": [
+              "持有稳定币，习惯链上账户、交易与资产参与。",
+              "可能希望用稳定币接触科技、AI 等真实业务资产。",
+              "需要理解公司业务、权益、参与条件和退出安排。"
+            ]
+          },
+          {
+            "heading": "从认识公司走向符合条件的参与",
+            "points": [
+              "公司提供易理解的业务逻辑与真实股份权益信息。",
+              "uStock 协作投资者触达、参与流程与后续市场。",
+              "用持续披露和沟通，建立长期投资者关注。"
+            ]
+          }
+        ],
+        "takeaway": "让潜在投资者先理解公司价值，再按规则参与相关资产。",
+        "evidence_note": "目标画像与业务方案；不把平台历史用户等同适格认购人。",
+        "speaker_notes": "链上投资者并不只关注加密原生资产。他们也可能关注AI、科技、金融科技及其他真实业务，希望用稳定币参与更多资产。uStock要做的是连接双方：公司提供可理解的业务与真实股份权益，平台提供投资者触达、参与和后续市场协作的路径，让潜在投资者从认识公司走向符合条件的参与。"
+      }
+    },
+    {
+      "id": "P01",
+      "group": "合作积木",
+      "title": "项目方可以从哪里合作",
+      "key_message": "从资产、链生态、交易、流动性、用户或上市公司资源中，找到具体结合点。",
+      "speaker_explanation": "公链与基础设施方可讨论网络和执行场景；资产与DeFi项目可讨论符合条件的交易和组合场景；做市商可讨论市场深度与风险承接；社区和产品方可讨论用户场景；有RWA或上市公司资源的伙伴，可围绕uStock讨论资产接入路径。先匹配需求，再确定当前可交付的能力。",
+      "audiences": [
+        "项目方"
+      ],
+      "evidence_status": "建议合作菜单；逐项评估",
+      "sources": [
+        "W01",
+        "F01第5–8页",
+        "F04第6–7节"
+      ],
+      "boundary": "可讨论不等于已经开放API/SDK、已经签约、无条件上币或保证上线Perp。",
+      "pending_confirmation": "",
+      "technical_expansion": "",
+      "source_refs": [
+        {
+          "source_id": "W01",
+          "locator": null
+        },
+        {
+          "source_id": "F01",
+          "locator": "第5–8页"
+        },
+        {
+          "source_id": "F04",
+          "locator": "第6–7节"
+        }
+      ],
+      "last_reviewed_at": "2026-10-29",
+      "content_owner": null,
+      "review_status": "draft_for_content_review",
+      "presentation": {
+        "title": "从具体场景找到合作切入点",
+        "kicker": "生态伙伴 · 合作方向",
+        "lead": "围绕资产、网络、流动性和用户需求，匹配双方可交付的能力。",
+        "sections": [
+          {
+            "heading": "交易与技术生态合作",
+            "points": [
+              "公链及基础设施方：讨论网络接入与执行场景。",
+              "资产及 DeFi 项目：评估交易、组合与资产参与场景。",
+              "做市与流动性伙伴：讨论市场深度、报价和风险承接。"
+            ]
+          },
+          {
+            "heading": "用户与真实资产合作",
+            "points": [
+              "钱包、渠道和社区：为既有用户寻找合适交易场景。",
+              "具备上市公司或 RWA 资源的伙伴：围绕 uStock 评估接入。",
+              "依据需求、当前能力和交付依赖，选定一个切入点。"
+            ]
+          }
+        ],
+        "takeaway": "把生态合作从资源介绍，推进到一个可执行的用户或交易场景。",
+        "evidence_note": "建议合作菜单；能力开放与商业条款须逐项确认。",
+        "speaker_notes": "公链与基础设施方可讨论网络和执行场景；资产与DeFi项目可讨论符合条件的交易和组合场景；做市商可讨论市场深度与风险承接；社区和产品方可讨论用户场景；有RWA或上市公司资源的伙伴，可围绕uStock讨论资产接入路径。先匹配需求，再确定当前可交付的能力。"
+      }
+    },
+    {
+      "id": "P02",
+      "group": "合作积木",
+      "title": "怎样启动一个可落地的合作",
+      "key_message": "用一个范围清楚、双方可交付的试点开始。",
+      "speaker_explanation": "一页合作卡就够启动：合作目标、目标用户、网络与资产、双方资源、技术及业务依赖、试点范围、交付物、指标与负责人。试点可以验证交易成功率、总执行成本、合格用户转化、真实交易或留存；先约定统计口径，再决定如何扩展。",
+      "audiences": [
+        "项目方"
+      ],
+      "evidence_status": "建议工作方法",
+      "sources": [
+        "U01"
+      ],
+      "boundary": "累计用户不能直接当成可触达投资者；不要用保成交量、保价格、保收益当合作指标。",
+      "pending_confirmation": "",
+      "technical_expansion": "",
+      "source_refs": [
+        {
+          "source_id": "U01",
+          "locator": null
+        }
+      ],
+      "last_reviewed_at": "2026-10-29",
+      "content_owner": null,
+      "review_status": "draft_for_content_review",
+      "presentation": {
+        "title": "用一页合作卡启动试点",
+        "kicker": "生态伙伴 · 合作落地",
+        "lead": "先约定目标、资源、交付与评价方式，让一个小范围试点验证合作价值。",
+        "sections": [
+          {
+            "heading": "一页合作卡要写清什么",
+            "points": [
+              "目标用户、目标场景，以及涉及的网络与资产。",
+              "双方资源、技术与业务依赖、试点范围和交付物。",
+              "负责人、时间安排、评价指标与统计口径。"
+            ]
+          },
+          {
+            "heading": "用真实结果决定怎样扩展",
+            "points": [
+              "执行层：验证成功率、完成时间与总执行成本。",
+              "用户层：验证合格用户转化、真实交易与留存。",
+              "根据试点数据修正方案，再评估扩大范围。"
+            ]
+          }
+        ],
+        "takeaway": "先把小范围合作做实，再根据数据扩大合作。",
+        "evidence_note": "建议工作方法；具体指标与范围由双方约定。",
+        "speaker_notes": "一页合作卡就够启动：合作目标、目标用户、网络与资产、双方资源、技术及业务依赖、试点范围、交付物、指标与负责人。试点可以验证交易成功率、总执行成本、合格用户转化、真实交易或留存；先约定统计口径，再决定如何扩展。"
+      }
+    },
+    {
+      "id": "P03",
+      "group": "合作积木",
+      "title": "双方各提供什么",
+      "key_message": "把“我们背景很强”变成清楚的资源与责任交换。",
+      "speaker_explanation": "UXUY侧可以根据确认范围提供交易场景、执行能力、用户连接、自研Perp市场协作，以及uStock相关业务对接。伙伴侧可以提供资产、公链资源、可触达用户、技术或做市能力。共同明确谁负责接入、资金、风控、运营和披露，商业费用与收益分配单独约定。",
+      "audiences": [
+        "项目方",
+        "上市公司（uStock 潜在合作伙伴）"
+      ],
+      "evidence_status": "合作设计建议；具体资源须确认",
+      "sources": [
+        "U01",
+        "F04第7、9节"
+      ],
+      "boundary": "不预设任何资源全部免费开放；不把三品牌之间的协作说成共用储备金或相互保本。",
+      "pending_confirmation": "",
+      "technical_expansion": "",
+      "source_refs": [
+        {
+          "source_id": "U01",
+          "locator": null
+        },
+        {
+          "source_id": "F04",
+          "locator": "第7、9节"
+        }
+      ],
+      "last_reviewed_at": "2026-10-29",
+      "content_owner": null,
+      "review_status": "draft_for_content_review",
+      "presentation": {
+        "title": "把双方资源变成明确责任",
+        "kicker": "生态伙伴 · 资源协作",
+        "lead": "清楚约定双方提供什么、承担什么，让背景与能力转化为合作交付。",
+        "sections": [
+          {
+            "heading": "双方可以投入的资源",
+            "points": [
+              "UXUY：经确认的交易场景、执行能力与用户连接。",
+              "UXUY：自研 Perp 市场协作与 uStock 业务对接。",
+              "伙伴：资产、公链、可触达用户、技术或做市能力。"
+            ]
+          },
+          {
+            "heading": "交付前对齐责任与商业安排",
+            "points": [
+              "逐项明确接入、资金、风控、运营和披露负责人。",
+              "写清交付依赖、验收标准与异常处理。",
+              "单独约定服务费用、资源投入与收益分配。"
+            ]
+          }
+        ],
+        "takeaway": "资源各有来源，责任各有主体，交付各有标准。",
+        "evidence_note": "合作设计建议；资源范围与责任以具体协议为准。",
+        "speaker_notes": "UXUY侧可以根据确认范围提供交易场景、执行能力、用户连接、自研Perp市场协作，以及uStock相关业务对接。伙伴侧可以提供资产、公链资源、可触达用户、技术或做市能力。共同明确谁负责接入、资金、风控、运营和披露，商业费用与收益分配单独约定。"
+      }
+    },
+    {
+      "id": "A01",
+      "group": "社区积木",
+      "title": "社区现在可以怎样参与",
+      "key_message": "从当前产品体验、教育与真实反馈参与建设。",
+      "speaker_explanation": "社区可以帮助新用户理解稳定币本位交易，也可以把真实使用中的问题带回来：哪步不清楚、报价与费用是否好理解、路径是否成功、需要哪些资产和场景。组织者可围绕教程、体验反馈和生态活动共建，让愿景和产品改进形成联系。",
+      "audiences": [
+        "社区"
+      ],
+      "evidence_status": "建议社区参与方式",
+      "sources": [
+        "U01",
+        "W01"
+      ],
+      "boundary": "不默认存在空投、代币奖励、固定分成或保收益；具体活动与激励只用正式已发布规则。",
+      "pending_confirmation": "",
+      "technical_expansion": "",
+      "source_refs": [
+        {
+          "source_id": "U01",
+          "locator": null
+        },
+        {
+          "source_id": "W01",
+          "locator": null
+        }
+      ],
+      "last_reviewed_at": "2026-10-29",
+      "content_owner": null,
+      "review_status": "draft_for_content_review",
+      "presentation": {
+        "title": "社区怎样参与 UXUY 建设",
+        "kicker": "社区 · 参与与共建",
+        "lead": "从产品体验、稳定币交易教育和真实反馈出发，把社区参与连接到产品改进。",
+        "sections": [
+          {
+            "heading": "帮助更多人理解和使用产品",
+            "points": [
+              "用 USDT、USDC 和 UUSD 的实际场景讲清稳定币本位。",
+              "围绕当前产品制作资产选择、报价和费用教程。",
+              "帮助新用户理解账户授权、交易状态与记录。"
+            ]
+          },
+          {
+            "heading": "让真实体验推动持续建设",
+            "points": [
+              "反馈操作不清楚、路径失败与成本难理解的问题。",
+              "提出真实需要的资产、交易场景和生态协作方向。",
+              "按正式活动安排参与体验、教育与社区共建。"
+            ]
+          }
+        ],
+        "takeaway": "每一次清楚的讲解和真实的反馈，都能推动产品更好用。",
+        "evidence_note": "建议参与方式；活动与激励以正式发布规则为准。",
+        "speaker_notes": "社区可以帮助新用户理解稳定币本位交易，也可以把真实使用中的问题带回来：哪步不清楚、报价与费用是否好理解、路径是否成功、需要哪些资产和场景。组织者可围绕教程、体验反馈和生态活动共建，让愿景和产品改进形成联系。"
+      }
+    }
+  ],
+  "audiences": [
+    {
+      "id": "community",
+      "title": "面向社区",
+      "goal": "让对方理解为什么需要UXUY、现在能用什么、未来往哪里走，并愿意参与。",
+      "roles": [
+        "稳定币新用户：少讲术语，多讲稳定币如何进入交易。",
+        "已有用户与核心成员：多讲当前建设、透明度与反馈。",
+        "社区组织者：多讲教育、协作与可执行活动。"
+      ],
+      "blocks": [
+        "C01",
+        "C10",
+        "C02",
+        "C03",
+        "C04",
+        "C06",
+        "A01"
+      ],
+      "optional_blocks": [
+        "C05",
+        "C08",
+        "C09",
+        "T02",
+        "T03",
+        "T07"
+      ],
+      "opening": "UXUY 是由 YZi Labs 投资的 100% 稳定币本位链上交易所，用户可以使用稳定币（USDT、USDC 和 UUSD）投资全球资产。 我们现在的努力，就是让“用U交易全球资产”变成更简单的日常体验。",
+      "script": [
+        "UXUY 是由 YZi Labs 投资的 100% 稳定币本位链上交易所，用户可以使用稳定币（USDT、USDC 和 UUSD）投资全球资产。",
+        "对社区来说，这意味着用户可以从自己熟悉的稳定币出发，进入当前支持的资产和交易市场。我们希望减少用户在链、Gas和复杂操作之间来回切换，让大家把注意力更多放在交易本身。",
+        "为此，我们在持续建设账户、多链执行、Gas处理、智能路由和自研Perp DEX。符合条件的交易可以减少另备Gas币的步骤；具体市场、费用和规则，在交易前都需要看清楚。",
+        "更长期的方向，是建设更开放、透明、可验证的链上市场，让用户对账户和授权有更清楚的控制。社区可以从真实体验、产品反馈和教育共建开始，一起推动这条稳定币交易主线向前走。"
+      ],
+      "outline_3min": [
+        "开场：新版UXUY定义与稳定币本位。",
+        "问题：稳定币用户为什么还会被多链、Gas和碎片化市场挡住。",
+        "产品：用一次当前支持的交易说明流程，按需展开GasLess和智能路由。",
+        "愿景：开放、透明、用户控制权；当前建设与长期目标分开。",
+        "收尾：给出一个已可用产品入口或一个可参与的反馈动作。"
+      ],
+      "faq": [
+        [
+          "100%稳定币本位是什么意思？",
+          "稳定币是产品交易与资金体验的起点。当前支持的计价、保证金、结算与转换细节按具体市场解释；不将“100%”延伸为全流程没有任何第三方。"
+        ],
+        [
+          "GasLess为什么还有费用？",
+          "GasLess有适用条件；交易费、网络成本、滑点和Perp资金费率是不同项目，以确认页和相应规则为准。"
+        ],
+        [
+          "全球资产是不是全部可以买？",
+          "全球资产是我们的发展方向。目前先围绕已开放的资产和市场提供交易；具体能交易什么，还要看你所在地区、账户和当期产品支持。"
+        ],
+        [
+          "现在已经完全去中心化了吗？",
+          "我们在向更开放、透明、用户拥有更多控制权的方向建设。账户、执行、权限和股票托管等环节各有当前安排，我们会逐项说明已经做到什么，以及下一步准备开放什么。"
+        ],
+        [
+          "现在的AI可以替我自动投资了吗？",
+          "智能路由与自主Trade Agent要分开；当前公开资料能直接支持自动路由，Trade Agent的可用状态另行核准。"
+        ]
+      ],
+      "next_step": "体验一个当前可用的功能；记录操作、费用或成交反馈；组织者再讨论教育与共建。",
+      "script_status": "draft_snapshot; recheck or regenerate when referenced blocks change",
+      "priority": "core"
+    },
+    {
+      "id": "projects",
+      "title": "面向项目方",
+      "goal": "找到明确的合作场景，讲清双方资源，并推进一个试点。",
+      "roles": [
+        "商务/生态：先讲合作场景与资源。",
+        "产品/技术：展开账户、执行、GasLess、路由和接口。",
+        "流动性/交易：展开Perp、ULP、定价、风控和深度。",
+        "RWA/上市公司资源方：重点连接uStock及股份接入路径。"
+      ],
+      "blocks": [
+        "C01",
+        "C10",
+        "P01",
+        "C07",
+        "T05",
+        "C05",
+        "C08",
+        "C09",
+        "P03",
+        "P02"
+      ],
+      "optional_blocks": [
+        "T01",
+        "T02",
+        "T03",
+        "T04",
+        "T06",
+        "T07",
+        "S01",
+        "S06"
+      ],
+      "opening": "UXUY 是由 YZi Labs 投资的 100% 稳定币本位链上交易所，用户可以使用稳定币（USDT、USDC 和 UUSD）投资全球资产。 面向合作伙伴，我们希望先找到双方资源最能互相补足的交易场景。",
+      "script": [
+        "UXUY 是由 YZi Labs 投资的 100% 稳定币本位链上交易所，用户可以使用稳定币（USDT、USDC 和 UUSD）投资全球资产。",
+        "我们在持续建设链上交易生态，既有多链执行、Gas处理和智能路由，也有自研Perp DEX。对项目方，可以从资产与链生态接入、交易场景、流动性、用户协作等方向找到结合点；技术接口和开放范围再按当前状态确认。",
+        "如果你们有RWA、上市公司或相关技术资源，还可以围绕uStock合作：uStock连接真实股份与发行，UUSD承接相关资金结算，UXUY连接交易市场和稳定币用户。具体接入与发行按项目进度推进。",
+        "接下来我们希望先选一个双方都能交付的场景，把资源、责任和指标说清楚，用小规模试点验证，再讨论扩大合作。"
+      ],
+      "outline_3min": [
+        "开场：新版定义与对方最相关的合作问题。",
+        "能力：选择一到两项相关积木，避免把全部产品目录念一遍。",
+        "差异：自研Perp市场建设；相关时再讲uStock连接上市公司的路径。",
+        "可信依据：团队背景、YZi Labs投资、融资和带来源的用户数据；只展开对合作相关的部分。",
+        "收尾：双方资源、试点范围、评估指标、负责人。"
+      ],
+      "faq": [
+        [
+          "接入就能上线现货或Perp吗？",
+          "不同市场分别做资产、流动性、技术和风险评估；不能把合作意向直接变成上线承诺。"
+        ],
+        [
+          "能带来多少用户或成交量？",
+          "我们希望先找到适配用户和真实使用场景，再约定渠道与统计口径。小规模试点会帮助双方判断转化和交易效果，具体结果需要实际验证。"
+        ],
+        [
+          "API/SDK现在是否全部开放？",
+          "接口范围要结合当前开放状态和你们的场景确认。我们可以先把目标、资产与网络说明白，再由技术同事给出可用文档、权限和接入方案。"
+        ],
+        [
+          "自研Perp的底层是什么？",
+          "核心包括订单与保证金、流动性、价格、结算和风控。按白皮书描述，ULP提供基础流动性，并有做市和对冲环节协作。具体撮合、预言机和部署方式，我们再用当期技术图逐项对接。"
+        ],
+        [
+          "AI路由有什么可衡量价值？",
+          "重点看总执行成本、滑点、成功率和响应等；不能把执行优化解释成收益保证。"
+        ]
+      ],
+      "next_step": "提交一页合作卡：目标、资产/网络、双方资源、依赖、试点交付物、指标和负责人。",
+      "script_status": "draft_snapshot; recheck or regenerate when referenced blocks change",
+      "priority": "core"
+    },
+    {
+      "id": "listed_companies",
+      "title": "面向上市公司（潜在合作伙伴）",
+      "goal": "让公司理解连接全球链上投资者的商业价值，并判断是否值得进一步探讨uStock合作。",
+      "roles": [
+        "董事长/CEO/CFO：资本目标、投资者和交易结构。",
+        "IR/董秘：投资者参与、披露与公司行动。",
+        "法务/合规/托管机构：股份限制、权益、地区、机构与责任。",
+        "技术或数字业务负责人：发行、交割、证明与系统对接。"
+      ],
+      "blocks": [
+        "S01",
+        "S07",
+        "C01",
+        "C07",
+        "C05",
+        "C08",
+        "C09",
+        "S05",
+        "S06"
+      ],
+      "optional_blocks": [
+        "C10",
+        "S02",
+        "S03",
+        "S04",
+        "T05",
+        "T07",
+        "P03"
+      ],
+      "opening": "通过uStock，我们希望帮助上市公司连接全球链上投资者，拓展投资者基础、接触稳定币资本，并建设持续的链上交易与关注。",
+      "script": [
+        "通过uStock，我们希望帮助上市公司连接全球链上投资者。这些投资者熟悉稳定币和链上交易，也有需求参与更多真实业务与资产。对公司来说，这是拓展投资者基础、接触新资本和扩大国际影响力的一条新路径。",
+        "具体价值包括：让更多跨地区投资者认识公司；在符合条件的发行中连接稳定币资本；把发行后的交易和流动性安排一起建设。在服务安排支持下，链上市场还可以提供24/7的参与窗口，让投资者在传统市场休市时也有机会继续了解和参与。",
+        "uStock希望把这些机会连接成长期合作：从投资者触达到发行，再到后续交易、信息沟通与社区参与。UXUY的交易用户基础与生态，为寻找实际参与场景提供支持。",
+        "我们可以先从贵公司最关心的目标出发：是新投资者、融资、全球传播，还是后续市场活跃度，再讨论适合的股份与接入方案。"
+      ],
+      "outline_3min": [
+        "需求：公司希望吸引谁、拓展什么资本或市场机会。",
+        "核心价值：新增投资者、稳定币资本、后续交易与流动性、链上参与窗口、国际传播与长期关注。",
+        "可信依据：uStock、UXUY与UUSD分工；相关背景、融资和用户数据附披露口径。",
+        "合作场景：发行后继续建设市场和投资者沟通；按对方目标选择相关服务。",
+        "行动：约定一次具体需求沟通；对方愿意深入后再展开股份、托管、权益和交割。"
+      ],
+      "faq": [
+        [
+          "为什么要连接链上投资者？",
+          "这可以帮助公司接触以稳定币持有资金、习惯链上参与的投资者，扩展既有投资者覆盖。实际合作会围绕公司业务、资产权益和投资者参与需求来设计。"
+        ],
+        [
+          "除了融资，还有什么价值？",
+          "还有全球传播、投资者关系、后续链上交易与流动性场景，以及服务安排支持下的24/7参与窗口。融资只是可能的合作目标之一。"
+        ],
+        [
+          "我们必须先成为加密公司吗？",
+          "可以先从股份、商业目标和结构可行性谈起；公司需要承担的技术、财务与披露义务由接入方案明确。"
+        ],
+        [
+          "uToken持有人就是我们的登记股东吗？",
+          "材料描述的是托管股份的经济权益，不自动等于直接登记股东，材料明确不含投票权；以具体法律文件为准。"
+        ],
+        [
+          "谁托管股票、谁承担发行责任？",
+          "要根据上市地、股份来源和拟议结构确定。我们会在可行性评估中明确托管、持股和发行主体，以及各方责任，相关安排会体现在正式文件里。"
+        ],
+        [
+          "能保证融到钱或提高股价吗？",
+          "不能保证。股份发行、认购交割、流动性与市场价格要分别谈。"
+        ],
+        [
+          "24/7交易是否意味着随时可以赎回股票？",
+          "交易时段与合格赎回、托管和传统市场交割安排不同，需要分别说明。"
+        ],
+        [
+          "已经完成了哪些上市公司的发行？",
+          "现有材料所记录的阶段是Genesis首发筹备和发行方沟通。是否已有完成交割、可以公开的项目，我们需要按最新业务进度核准后提供。"
+        ]
+      ],
+      "next_step": "先明确公司最看重的新投资者、资本、传播或市场目标，再进入股份与接入可行性沟通。",
+      "script_status": "draft_snapshot; recheck or regenerate when referenced blocks change",
+      "priority": "core"
+    }
+  ],
+  "sources": [
+    {
+      "id": "U01",
+      "title": "用户最新确认的新版本定位与范围",
+      "date": "2026-10-29",
+      "kind": "用户确认",
+      "locator": "本次对话；采用新定位；很久的内容不讲"
+    },
+    {
+      "id": "F01",
+      "title": "UXUY Whitepaper v3.0",
+      "kind": "用户提供的项目白皮书",
+      "date": "2026；PDF元数据创建于2026-10-20",
+      "locator": "UXUY_Whitepaper_v3.0.pdf；重点第4–8、12–13页"
+    },
+    {
+      "id": "F02",
+      "title": "UXUY 英文介绍 Deck",
+      "kind": "用户提供的项目介绍",
+      "date": "文件未明确标注版本日期",
+      "locator": "UXUY_ENpdf.pdf；重点第3、6–8页；旧定位与用户最新口径冲突时采用用户口径"
+    },
+    {
+      "id": "F03",
+      "title": "UXUY README",
+      "kind": "用户提供的公司材料",
+      "date": "2026-09-09",
+      "locator": "README_UXUY_EN.md；第1、3、4、6、9–11节"
+    },
+    {
+      "id": "F04",
+      "title": "UStock README",
+      "kind": "用户提供的业务方案",
+      "date": "2026-09-10",
+      "locator": "README_USTOCK_EN.md；第1、4–8、10–11节"
+    },
+    {
+      "id": "G01",
+      "title": "UXUY Media Highlights and Strengths",
+      "kind": "用户提供的媒体素材索引",
+      "date": "读取于2026-10-29；含截至10月28日素材",
+      "url": "https://docs.google.com/document/d/1dAiZ85lhkROahSTf1bdwxuVT3wkLu1woicv3btRMY3Y/edit",
+      "locator": "用于定位公开证据，不把转载媒体视为独立技术审计；旧内容不进默认讲稿"
+    },
+    {
+      "id": "W01",
+      "title": "UXUY 官方产品概览",
+      "kind": "现行官方文档；项目自述",
+      "date": "核对于2026-10-29",
+      "url": "https://docs.uxuy.com/"
+    },
+    {
+      "id": "W02",
+      "title": "UXUY GasLess Rules",
+      "kind": "现行官方规则",
+      "date": "核对于2026-10-29",
+      "url": "https://docs.uxuy.com/account-and-assets/gasless-rules/"
+    },
+    {
+      "id": "W03",
+      "title": "UXUY Perpetual Contracts Overview",
+      "kind": "现行官方产品说明",
+      "date": "核对于2026-10-29",
+      "url": "https://docs.uxuy.com/perpetuals/overview/"
+    },
+    {
+      "id": "W04",
+      "title": "UXUY Funding Rate and Pricing Mechanism",
+      "kind": "现行官方产品说明",
+      "date": "核对于2026-10-29",
+      "url": "https://docs.uxuy.com/perpetuals/funding-rate-and-pricing/"
+    },
+    {
+      "id": "W05",
+      "title": "UXUY Margin and Liquidation",
+      "kind": "现行官方产品说明",
+      "date": "核对于2026-10-29",
+      "url": "https://docs.uxuy.com/perpetuals/margin-and-liquidation/"
+    },
+    {
+      "id": "W06",
+      "title": "UXUY Insurance Fund and ADL",
+      "kind": "现行官方产品说明",
+      "date": "核对于2026-10-29",
+      "url": "https://docs.uxuy.com/perpetuals/insurance-fund-and-adl/"
+    },
+    {
+      "id": "W07",
+      "title": "UXUY 合约与基础设施地址",
+      "kind": "现行官方披露",
+      "date": "核对于2026-10-29",
+      "url": "https://docs.uxuy.com/security/contracts-and-addresses/"
+    },
+    {
+      "id": "W08",
+      "title": "UXUY 安全审计页面",
+      "kind": "现行官方披露；本稿未审查全部报告覆盖范围",
+      "date": "核对于2026-10-29",
+      "url": "https://docs.uxuy.com/security/audit/"
+    },
+    {
+      "id": "R01",
+      "title": "UXUY 官方文档 GitHub 仓库",
+      "kind": "官方文档源代码；用于版本交叉核对",
+      "date": "检查时近期仍维护",
+      "url": "https://github.com/uxuycom/uxuy-docsite"
+    },
+    {
+      "id": "K01",
+      "title": "ERC-4337: Account Abstraction",
+      "kind": "行业标准，仅用于原理解释",
+      "url": "https://eips.ethereum.org/EIPS/eip-4337"
+    },
+    {
+      "id": "K02",
+      "title": "EIP-7702: Set Code for EOAs",
+      "kind": "行业标准，仅用于原理解释",
+      "url": "https://eips.ethereum.org/EIPS/eip-7702"
+    },
+    {
+      "id": "K03",
+      "title": "Uniswap Smart Order Router",
+      "kind": "行业开源实现，仅用于路由原理参考",
+      "url": "https://github.com/Uniswap/smart-order-router"
+    },
+    {
+      "id": "K04",
+      "title": "GMX Synthetics",
+      "kind": "行业开源实现，仅用于Perp架构参考",
+      "url": "https://github.com/gmx-io/gmx-synthetics"
+    },
+    {
+      "id": "U02",
+      "title": "用户本轮内容结构修订",
+      "date": "2026-10-29",
+      "kind": "用户明确要求",
+      "locator": "上市公司（uStock 潜在合作伙伴）；扩充受众；先讲连接全球链上投资者的好处；共用积木包含背景、融资、用户数据、用U交易全球资产"
+    },
+    {
+      "id": "U03",
+      "title": "稳定币币种统一写法",
+      "date": "2026-10-29",
+      "kind": "用户明确要求",
+      "locator": "稳定币币种列举统一写作USDT、USDC 和 UUSD，三种全部写明"
+    },
+    {
+      "id": "W09",
+      "title": "Binance Labs 投资UXUY公告",
+      "date": "2024-03-08",
+      "kind": "投资机构官方公告；核验历史投资事实，不作默认历史叙事",
+      "url": "https://www.binance.com/en/blog/ecosystem/8000543823227873581"
+    },
+    {
+      "id": "W10",
+      "title": "SWC Global 投资UXUY Pre-A公告",
+      "date": "页面发布2024-12-10；正文事件2024-05-09",
+      "kind": "投资机构公告；700万美元Pre-A，当时累计超过1000万美元",
+      "url": "https://www.swcglobal.com/post/05-2024-swc-global-invested-in-uxuy-s-pre-series-a-round-1/"
+    }
+  ],
+  "internal_confirmation_items": [
+    {
+      "topic": "当前产品范围",
+      "detail": "以当期产品和官方规则补齐资产、网络、地区与版本清单；不将全球资产愿景当成全资产已开放。"
+    },
+    {
+      "topic": "GasPool名称与GasLess范围",
+      "detail": "新版材料直接支持uPool、paymaster和GasLess；GasPool与这些模块的正式映射需确认。白皮书TRON全免Gas例子与现行规则冲突；现行Solana表格和特殊规则亦需统一。"
+    },
+    {
+      "topic": "智能路由与AI",
+      "detail": "自动路由的比较维度可确认；AI具体模型、角色与效果证据未披露，不扩写完全AI自动决策。"
+    },
+    {
+      "topic": "Perp当前架构",
+      "detail": "材料对ULP自动做市、订单簿和多源价格的表述不同；确认订单、撮合、ULP、做市、预言机、结算的当期关系，不强行拼接。"
+    },
+    {
+      "topic": "账户与资金权限",
+      "detail": "白皮书写用户授权与自托管；现行安全文档披露Hot/Cold Vault与结算地址。需按现货、Perp、ULP和股票分别核对谁控制什么资金及管理权限。"
+    },
+    {
+      "topic": "Trade Agent与股票/商品Perp",
+      "detail": "README、Deck和白皮书状态不一致。主稿保留当前可确认产品；未核准功能不写成全面上线。"
+    },
+    {
+      "topic": "uStock落地进度",
+      "detail": "分别记录发布、洽谈、签约、托管、首次铸造、发行交割、现货与Perp；目前材料不足以证明Genesis已交割。"
+    },
+    {
+      "topic": "uStock机构与条款",
+      "detail": "补托管、持股/发行主体、投资者资格、赎回与公司行动、底层证明、流动性安排及商业条款。"
+    },
+    {
+      "topic": "安全材料与开放接口",
+      "detail": "审计要对应具体合约、版本和范围；现有审计链接不等于当前全部Perp代码均已审计。API/SDK开放范围单独确认。"
+    },
+    {
+      "topic": "数字口径",
+      "detail": "融资与用户数据已按用户要求纳入共用积木，并归因公司2026年9月材料；补各项统计截止日、口径和累计融资明细，不当作实时数字。估值不在默认讲稿中。"
+    }
+  ],
+  "revision_notes": [
+    "受众名称改为上市公司（uStock 潜在合作伙伴）",
+    "上市公司主线改为通过uStock连接全球链上投资者的价值，再展开接入",
+    "共用积木独立补齐背景、融资、用户数据、用U交易全球资产",
+    "受众扩展为9类，原有3类保留为优先主线，其余6类按场景展开"
+  ],
+  "metrics": [
+    {
+      "id": "pre_a_funding",
+      "label": "Pre-A融资",
+      "value": 7000000,
+      "currency": "USD",
+      "qualifier": "已完成",
+      "source_id": "F03",
+      "source_locator": "第10节",
+      "source_date": "2026-09-09",
+      "measurement_end": null
+    },
+    {
+      "id": "cumulative_funding",
+      "label": "累计融资",
+      "value": 11000000,
+      "currency": "USD",
+      "qualifier": ">",
+      "source_id": "F03",
+      "source_locator": "第10节",
+      "source_date": "2026-09-09",
+      "measurement_end": null,
+      "note": "公司材料口径；2024年公开公告为超过1000万美元，勿混成同次披露"
+    },
+    {
+      "id": "users",
+      "label": "用户基础",
+      "value": 10000000,
+      "unit": "用户",
+      "qualifier": ">",
+      "source_id": "F03",
+      "source_locator": "第6.2节",
+      "source_date": "2026-09-09",
+      "measurement_end": null,
+      "note": "含此前钱包业务积累，不等于新版交易所独立用户规模、MAU、适格投资者或当前可触达用户"
+    },
+    {
+      "id": "cumulative_traders",
+      "label": "累计交易用户",
+      "value": 800000,
+      "unit": "用户",
+      "qualifier": ">",
+      "source_id": "F03",
+      "source_locator": "第6.2节",
+      "source_date": "2026-09-09",
+      "measurement_end": null
+    },
+    {
+      "id": "daily_trading_volume",
+      "label": "日交易量",
+      "value": 50000000,
+      "currency": "USD",
+      "qualifier": "约",
+      "source_id": "F03",
+      "source_locator": "第6.2节",
+      "source_date": "2026-09-09",
+      "measurement_end": null,
+      "note": "未给统计日、均值区间或市场范围；不称实时"
+    }
+  ],
+  "website_content_notes": "完整要点方案；文字清晰优先；受众连接共用积木"
+}
